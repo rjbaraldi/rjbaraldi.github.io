@@ -87,7 +87,7 @@ analytics:
   google:
     tracking_id          :
 
-
+future: true
 # Site Author
 author:
   name             : "Bobby Baraldi"
