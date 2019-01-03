@@ -1,19 +1,15 @@
 # main links links
 main:
-  - title: "About"
-    url: /aboutme/
-  - title: "Posts"
-    url: /year-archive/
-  - title: "Collections"
+  - title: "CV"
+    url: /cv/
+  - title: "Research"
+    url: /research/
+  - title: "Recent Papers"
     url: /collection-archive/
+  - title: "Misc"
+    url: /
   - title: "Sitemap"
     url: /sitemap/
-  - title: "Extra Menu Item 1"
-    url: /
-  - title: "Extra Menu Item 2"
-    url: /
-  - title: "Extra Menu Item Long Title"
-    url: /
 
 # sidebar navigation list sample
 sidebar-sample:

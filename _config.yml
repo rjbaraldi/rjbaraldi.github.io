@@ -6,11 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 theme                    : "minimal-mistakes-jekyll"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Some guy's website of things he does"
+title                    : "Bobby Baraldi's Homepage"
 title_separator          : "-"
 name                     : "Bobby Baraldi"
 description              : "A site that has most of the stuff I'm interested in"
@@ -92,7 +92,7 @@ analytics:
 author:
   name             : "Bobby Baraldi"
   avatar           : "/assets/images/baraldi2017.jpg"
-  bio              : "PhD Student, UW Dept. of Applied Math"
+  bio              : "PhD Student, UW Applied Math"
   location         : "Seattle, WA"
   # email            : "rbaraldi@uw.edu"
   links:
@@ -111,9 +111,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rjbaraldi"
-    # - label: "Instagram"
+    - label: "ResearchGate"
       # icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.researchgate.net/profile/Robert_Baraldi"
 
 
 # Site Footer
@@ -268,12 +268,12 @@ compress_html:
 
 # Collections
 collections:
-  recipes:
+  Splitting:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
+  # portfolio:
+  #   output: true
+  #   permalink: /:collection/:path/
 
 
 # Defaults
@@ -295,18 +295,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _recipes
+  # _Splitting
   - scope:
       path: ""
-      type: recipes
-    values:
-      layout: single
-      author_profile: true
-      share: trues
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
+      type: Splitting
     values:
       layout: single
       author_profile: false
