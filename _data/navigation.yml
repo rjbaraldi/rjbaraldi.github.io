@@ -4,10 +4,10 @@ main:
     url: /cv/
   - title: "Research"
     url: /research/
-  - title: "Recent Papers"
-    url: /collection-archive/
+  - title: "Course Material"
+    url: /coursework/
   - title: "Misc"
-    url: /
+    url: /misc/
   - title: "Sitemap"
     url: /sitemap/
 

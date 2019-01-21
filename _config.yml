@@ -269,7 +269,7 @@ compress_html:
 
 # Collections
 collections:
-  Splitting:
+  Posts:
     output: true
     permalink: /:collection/:path/
   # portfolio:
@@ -296,11 +296,11 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _Splitting
-  - scope:
-      path: ""
-      type: Splitting
-    values:
-      layout: single
-      author_profile: false
-      share: true
+  # # _Splitting
+  # - scope:
+  #     path: "_splitting"
+  #     type: Splitting
+  #   values:
+  #     layout: single
+  #     author_profile: false
+  #     share: true

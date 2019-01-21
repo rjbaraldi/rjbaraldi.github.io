@@ -27,8 +27,13 @@ Here is a short list of projects I've been involved with in the past or am curre
 * 2013
 	1. [Mathematical Modeling of HCV Viral Kinetics](http://www.ncsu.edu/crsc/reports/ftp/pdf/crsc-tr13-07.pdf)
 * Work-in-Progress
-    1. ordered item
-    2. ordered item
+    1. Combining Reduced Order Models with Implicit Sampling (to be presented at SIAM CSE, February 2019)
+    2. FWI with SMART
+    3. Fast Solutions to PDE constrained optimization
+
+
+Here is an unordered bibliograph of work I've submitted/published/reported/talked. A more complete/detailed version is located in my CV. 
+<iframe src="https://drive.google.com/file/d/1YQtysu8fCMKaIWzEDTQFiZnu16VP_yGl/preview" width="640" height="480"></iframe>
 
 
 <!-- ### Ordered -- Unordered -- Unordered -->
