@@ -7,7 +7,7 @@
 
 # theme                    : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes@4.14.1"
-minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -55,12 +55,12 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
-search_provider          : "algolia"
-algolia:
-  application_id         : "QB6HVGBSBA"
-  index_name             : "dev_minimal-mistakes"
-  search_only_api_key    : "9d5014e5bbc77372547bce778dfa5663"
-  powered_by             : true
+search_provider          : "lunr" #"algolia"
+# algolia:
+#   application_id         : "QB6HVGBSBA"
+#   index_name             : "dev_minimal-mistakes"
+#   search_only_api_key    : "9d5014e5bbc77372547bce778dfa5663"
+#   powered_by             : true
 
 # SEO Related
 google_site_verification :
