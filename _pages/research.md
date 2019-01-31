@@ -7,7 +7,7 @@ tags: [PDE, inverse problems, nonsmooth, nonconvex, uncertainty quantification]
 ---
 
 
-Here is a short list of projects I've been involved with in the past or am currently working on. Note that complete publication history (with detailed citations) is located in my CV. Overall, much of my work is currently directed towards solving PDE-constrained optimization problems, especially with regards to solving nonsmooth and nonconvex problems. In the past, I've also worked on uncertainty quantification for biological models. 
+Here is a short list of projects I've been involved with in the past or am currently working on. Note that complete publication history (with detailed citations) is located in my [CV]({{ rjbaraldi.github.io }}/assets/websitefiles/Personal/website_tex/resume/cv.pdf). Overall, much of my work is currently directed towards solving PDE-constrained optimization problems, especially with regards to solving nonsmooth and nonconvex problems. In the past, I've also worked on uncertainty quantification for biological models. 
 
 
 <!-- ### Ordered -- Unordered -- Ordered -->
@@ -32,8 +32,8 @@ Here is a short list of projects I've been involved with in the past or am curre
     3. Fast Solutions to PDE constrained optimization
 
 
-Here is an unordered bibliograph of work I've submitted/published/reported/talked. A more complete/detailed version is located in my CV. 
-<iframe src="https://drive.google.com/file/d/1YQtysu8fCMKaIWzEDTQFiZnu16VP_yGl/preview" width="640" height="480"></iframe>
+[Here]({{ rjbaraldi.github.io }}/assets/websitefiles/Personal/website_tex/bibliography/biblio.pdf) is an unordered bibliography of work I've submitted/published/reported/talked. A more complete/detailed version is located in my [CV]({{ rjbaraldi.github.io }}/assets/websitefiles/Personal/website_tex/resume/cv.pdf). 
+<!-- <iframe src="https://drive.google.com/file/d/1YQtysu8fCMKaIWzEDTQFiZnu16VP_yGl/preview" width="640" height="480"></iframe> -->
 
 
 <!-- ### Ordered -- Unordered -- Unordered -->

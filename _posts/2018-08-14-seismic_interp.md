@@ -6,7 +6,7 @@ header:
   teaser: assets/images/helen/msthelen.jpg
 sidebar:
   - title: "Journal:"
-    image: /assets/images/helen/doe.png
+    image: /assets/images/doe.png
     image_alt: "logo"
     text: "Inverse Problems"
 gallery:
@@ -33,7 +33,7 @@ gallery:
     alt: "Objective Value Decay"
 tags: [low-rank, nonsmooth, nonconvex, relaxation, interpolation, travel time tomography]
 ---
-This was a project that we developed while working with [Kenneth Creager](https://www.ess.washington.edu/people/profile.php?pid=creager--ken), [Carl Ulberg](https://www.ess.washington.edu/people/profile.php?pid=ulberg--carl), and [Rajiv Kumar](https://ca.linkedin.com/in/rajiv-kumar-63031a9). It was submitted to Inverse problems in August of 2018 and accepted in December 2018. You can find the ArXiv preprint [here](https://arxiv.org/pdf/1808.04515.pdf).
+This was a project that we developed while working with [Kenneth Creager](https://www.ess.washington.edu/people/profile.php?pid=creager--ken), [Carl Ulberg](https://www.ess.washington.edu/people/profile.php?pid=ulberg--carl), and [Rajiv Kumar](https://ca.linkedin.com/in/rajiv-kumar-63031a9). It was submitted to Inverse problems in August of 2018 and accepted in December 2018. [Here](https://arxiv.org/pdf/1808.04515.pdf) is the ArXiv preprint.
 
 
 Travel time tomography is used to infer the underlying three-dimensional
@@ -50,5 +50,4 @@ observed data using both smoothness and low rank structure in the presence of da
 fitting constraints.
 
 {% include gallery caption="Here are some of the fitting results with our algorithm, and some other competing methods." %}
-Poster presentation from the DOE CSGF Annual Conference in Arlington, Virginia: 
-<iframe src="https://drive.google.com/file/d/1jxGqbSEpEKQ-_hV96lo78kDnfuS-qDi5/preview" width="640" height="480"></iframe>
+[Poster presentation from the DOE CSGF Annual Conference in Arlington, Virginia]({{ rjbaraldi.github.io }}/assets/websitefiles/poster2018.pdf)
