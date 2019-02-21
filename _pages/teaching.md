@@ -34,11 +34,11 @@ Here is a short list of courses that I have taught. There is not too much here y
 ### Relevant Coursework
 * University of Washington
 	* CSE 521 - Algorithms
-	* CSE 546 - Machine learning
+	* CSE 546 - Machine Learning
 	* AMATH 515/6 - Fundamentals and Numerical Optimization
-	* AMATH 568/9 - Advanced Methods for ordinary/partial differential equations
+	* AMATH 568/9 - Advanced Methods for Ordinary/Partial Differential Equations
 	* AMATH 584 - Linear Algebra
-	* AMATH 585/6 - Numerical solutions for ODEs/PDEs
+	* AMATH 585/6 - Numerical Solutions for ODEs/PDEs
 	* ESS 511/2 - Seismology and Geophysical Continuum Mechanics
 	* ESS 564 - Theoretical Seismology
 	* AMATH 583 - High Performance Scientific Computing
