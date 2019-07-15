@@ -12,8 +12,8 @@ Here is a short list of projects I've been involved with in the past or am curre
 
 <!-- ### Ordered -- Unordered -- Ordered -->
 * 2018 
-	1. Relaxation algorithms for matrix completion, with applications to seismic travel-time data interpolation (submitted August 2018; accepted w/ revisions December 2018).
-	2. Basis Pursuit Denoise with Nonsmooth Constraints (submitted November 2018)
+	1. Relaxation algorithms for matrix completion, with applications to seismic travel-time data interpolation (to appear in Inverse Problems sometime in 2019).
+	2. Basis Pursuit Denoise with Nonsmooth Constraints (accepted with revisions 2019)
 * 2016
 	1. [Validation of a Mathematical Model for Green Algae (Raphidocelis subcapitata) Growth and Implications for a Coupled DynamicalSystem with Daphnia Magna.](http://www.mdpi.com/2076-3417/6/5/155/htm)
 	2. [Parameter Estimation Using Unidentified Individual Data in Individual Based Models](https://www.ncsu.edu/crsc/reports/ftp/pdf/crsc-tr16-04.pdf)
@@ -30,6 +30,8 @@ Here is a short list of projects I've been involved with in the past or am curre
     1. Combining Reduced Order Models with Implicit Sampling (to be presented at SIAM CSE, February 2019)
     2. FWI with SMART
     3. Fast Solutions to PDE constrained optimization
+    4. Nonsmooth Trust Region methods
+    5. Exact Relaxation - trying to find the correct hyperparameters for our work in BPDN and other relaxation algorithms. 
 
 
 [Here]({{ rjbaraldi.github.io }}/assets/websitefiles/Personal/website_tex/bibliography/biblio.pdf) is an unordered bibliography of work I've submitted/published/reported/talked. A more complete/detailed version is located in my [CV]({{ rjbaraldi.github.io }}/assets/websitefiles/Personal/website_tex/resume/cv.pdf). 

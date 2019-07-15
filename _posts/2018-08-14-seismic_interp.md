@@ -33,7 +33,7 @@ gallery:
     alt: "Objective Value Decay"
 tags: [low-rank, nonsmooth, nonconvex, relaxation, interpolation, travel time tomography]
 ---
-This was a project that we developed while working with [Kenneth Creager](https://www.ess.washington.edu/people/profile.php?pid=creager--ken), [Carl Ulberg](https://www.ess.washington.edu/people/profile.php?pid=ulberg--carl), and [Rajiv Kumar](https://ca.linkedin.com/in/rajiv-kumar-63031a9). It was submitted to Inverse problems in August of 2018 and accepted in December 2018. [Here](https://arxiv.org/pdf/1808.04515.pdf) is the ArXiv preprint.
+This was a project that we developed while working with [Kenneth Creager](https://www.ess.washington.edu/people/profile.php?pid=creager--ken), [Carl Ulberg](https://www.ess.washington.edu/people/profile.php?pid=ulberg--carl), and [Rajiv Kumar](https://ca.linkedin.com/in/rajiv-kumar-63031a9). It was submitted to Inverse problems in August of 2018 and accepted in December 2018 - to appear in late 2019. [Here](https://arxiv.org/pdf/1808.04515.pdf) is the ArXiv preprint.
 
 
 Travel time tomography is used to infer the underlying three-dimensional
