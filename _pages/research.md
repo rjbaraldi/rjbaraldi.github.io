@@ -11,9 +11,9 @@ Here is a short list of projects I've been involved with in the past or am curre
 
 
 <!-- ### Ordered -- Unordered -- Ordered -->
-* 2018 
-	1. Relaxation algorithms for matrix completion, with applications to seismic travel-time data interpolation (to appear in Inverse Problems sometime in 2019).
-	2. Basis Pursuit Denoise with Nonsmooth Constraints (accepted with revisions 2019)
+* 2019
+  1. [Basis Pursuit Denoise with Nonsmooth Constraints]({{ rjbaraldi.github.io }}/assets/websitefiles/bpdn.pdf). The IEEE Transactions on Signal Processing version can be found [here](https://ieeexplore.ieee.org/document/8861392). 
+	2. [Relaxation algorithms for matrix completion, with applications to seismic travel-time data interpolation]({{ rjbaraldi.github.io }}/assets/websitefiles/interpolation.pdf). The Inverse Problems version can be found [here](https://iopscience.iop.org/article/10.1088/1361-6420/ab3204).
 * 2016
 	1. [Validation of a Mathematical Model for Green Algae (Raphidocelis subcapitata) Growth and Implications for a Coupled DynamicalSystem with Daphnia Magna.](http://www.mdpi.com/2076-3417/6/5/155/htm)
 	2. [Parameter Estimation Using Unidentified Individual Data in Individual Based Models](https://www.ncsu.edu/crsc/reports/ftp/pdf/crsc-tr16-04.pdf)
@@ -27,7 +27,7 @@ Here is a short list of projects I've been involved with in the past or am curre
 * 2013
 	1. [Mathematical Modeling of HCV Viral Kinetics](http://www.ncsu.edu/crsc/reports/ftp/pdf/crsc-tr13-07.pdf)
 * Work-in-Progress
-    1. Combining Reduced Order Models with Implicit Sampling (to be presented at SIAM CSE, February 2019)
+    1. Combining Reduced Order Models with Implicit Sampling (presented at SIAM CSE, February 2019 by Matthew Zahr)
     2. FWI with SMART
     3. Fast Solutions to PDE constrained optimization
     4. Nonsmooth Trust Region methods

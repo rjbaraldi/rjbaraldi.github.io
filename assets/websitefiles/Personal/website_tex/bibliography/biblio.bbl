@@ -3,13 +3,15 @@
 \bibitem{bpndnonsmooth2018}
 Robert Baraldi, Rajiv Kumar, and Aleksandr Aravkin.
 \newblock Basis pursuit denoise with nonsmooth constraints.
-\newblock {\em IEEE Signal Processing}, (Submitted), 2018.
+\newblock {\em IEEE Transactions on Signal Processing}, 67(22):5811--5823,
+  2019.
 
-\bibitem{imuchinterp2018}
-Robert Baraldi, Rajiv Kumar, and Aleksandr Aravkin.
+\bibitem{interpmatcomp2019}
+Robert Baraldi, Carl Ulberg, Rajiv Kumar, Kenneth Creager, and Aleksandr
+  Aravkin.
 \newblock Relaxation algorithms for matrix completion, with applications to
   seismic travel-time data interpolation.
-\newblock {\em Inverse Problems}, (Accepted with Revisions), 2018.
+\newblock {\em Inverse Problems}, 35(10):105009, sep 2019.
 
 \bibitem{paramest2016}
 Harvey~Thomas Banks, Robert Baraldi, Jared Catenacci, and Nicholas Myers.
