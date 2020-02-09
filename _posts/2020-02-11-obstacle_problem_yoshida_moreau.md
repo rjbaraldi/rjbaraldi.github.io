@@ -3,7 +3,7 @@ title: "Moreau-Yoshida Regularization and First Order Methods with Firedrake"
 excerpt: "A run-through of regularization and first order methods for solving the obstacle problem in Firedrake. "
 tags: [PDE, nonsmooth, obstacle problem, Firedrake, UFL]
 ---
-Below, we present several different ways to regularize nonsmooth problems in PDE solutions. This is done with the UFL language Firedrake utilized in Python3. Note that this code comes with it no guarantee of any kind, and primarily serves as a way to combine PDE optimization with proximal-gradient methods.  
+Below, we present several different ways to regularize nonsmooth problems in PDE solutions. This is done with the UFL language Firedrake utilized in Python3. Note that this code comes with it no guarantee of any kind, and primarily serves as a way to combine PDE optimization with proximal-gradient methods. [Here]({{ rjbaraldi.github.io }}/assets/websitefiles/fdconf.pdf) are the slides for the talk.
 ```python
 %matplotlib notebook
 %load_ext autoreload
@@ -862,30 +862,3 @@ print(firedrake.assemble(δf * dx) / firedrake.assemble(g * dx))
 
 
     0.0
-
-
-## What does the descent look like?
-
-
-```python
-%matplotlib inline
-plt.plot(range(0, len(his_pg)),his_pg, label='PG')
-plt.plot(range(0, len(his_f)),his_f, label='FISTA')
-plt.legend(('PG', 'FISTA'))
-```
-
-
-
-
-    <matplotlib.legend.Legend at 0x7f79c38cf978>
-
-
-
-
-![png](output_51_1.png)
-
-
-
-```python
-
-```
