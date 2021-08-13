@@ -9,7 +9,7 @@ permalink: /misc/
 <!-- # Header one -->
 
 ## Running
-I spend a lot of time moving around in straight or slightly curved lines, or on the street in perhaps too-short shorts. I'm an active member of [Club Northwest](https://www.clubnorthwest.org/). As a member, I help out with local races and occasionally travel places to race for them around the country (and occasionally in Canada). 
+I spend a lot of time moving around in straight or slightly curved lines, or on the street in perhaps too-short shorts. I'm an active member of [Club Northwest](https://www.clubnorthwest.org/). As a member, I help out with local races and occasionally travel places to race for them around the country (and occasionally in Canada).
 
 <!-- ### Header three -->
 
@@ -36,13 +36,12 @@ Multi line blockquote with a cite reference:
 
 | Races I'm Proud of    | Date    | Distance | Time  | Place |
 | --------------------- | ------- | -------- | ----- | ----- |
-| USATF Club Nats       | 12/8/18 | 10000m   | 31:59 | 102   |
-| Beat the Bridge       | 5/25/18 | 8000m    | 25:12 | 3     |
+| USATF Club Nats       | 12/14/19| 10000m   | 32:27 | 58    |
+| USATF Regionals       | 11/24/18| 8000m    | 24:23 | 4     |
 | Vancouver Sun Run     | 4/22/18 | 10000m   | 31:13 | 20    |
-| UW Dempsey Indoor     | 2/22/18 | 3000m    | 8:32  | 3     |
+| Seattle vs Portland   | 5/24/21 | 3000m    | 8:28  | 2     |
 | UW Dempsey Indoor     | 2/8/18  | 1600m    | 4:19  | 1     |
-| Seattle Half Marathon | 11/23/16| 13.1 mi  | 71:49 | 3     |
-
+| Labor Day Half        | 9/2/19  | 13.1 mi  | 70:57 | 34    |
 
 <!-- ## Definition Lists -->
 
@@ -59,9 +58,9 @@ Multi line blockquote with a cite reference:
 <!-- :   I'll let Bill O'Reilly [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one. -->
 
 ## Music
-I spend a lot of time listening to music, playing guitar, and going to concerts, so I figured I should include some stuff about that here. 
-  * Currently, I DJ for the UW student radio station, [Rainy Dawg Radio](https://rainydawg.org/). I have a 9am Tuesday show about metal, where I basically play absurdly technical screaming for [Weston Barger](http://students.washington.edu/wdbarger/). You can check out past playlists [here](https://spinitron.com/radio/playlist.php?station=rainydawg&sv=l&showid=1551). 
-  * I play a lot of guitar when I can, and I'm nowhere near as good as I should be considering how long I've played. Regardless, here's some of the gear I use (for those interested). These items are currently scattered all over the country. 
+I spend a lot of time listening to music, playing guitar, and going to concerts, so I figured I should include some stuff about that here.
+  * I used to DJ for the UW student radio station, [Rainy Dawg Radio](https://rainydawg.org/).
+  * I play a lot of guitar when I can, and I'm nowhere near as good as I should be considering how long I've played. Regardless, here's some of the gear I use (for those interested). These items are currently scattered all over the country.
       * Taylor SB2-S double cutaway solid body
       * Gretsch Nashville G6121 solid body
       * Line 6 Pre-amp
