@@ -12,8 +12,8 @@ Here is a short list of projects I've been involved with in the past or am curre
 
 <!-- ### Ordered -- Unordered -- Ordered -->
 * 2021
-  1.[A Proximal Quasi-Newton Trust-Region Method for Nonsmooth Regularized Optimization]({{ rjbaraldi.github.io }}/assets/websitefiles/tr-nonsmooth.pdf). In review at SIAM Optimization.
-  2.[Comparison of Machine Learning Approaches for TsunamiForecasting from Sparse Observations]({{ rjbaraldi.github.io }}/assets/websitefiles/mlsjdf_eartharxiv.pdf). To appear in Pure and Applied Geophysics.
+  1. [A Proximal Quasi-Newton Trust-Region Method for Nonsmooth Regularized Optimization]({{ rjbaraldi.github.io }}/assets/websitefiles/tr-nonsmooth.pdf). In review at SIAM Optimization.
+  2. [Comparison of Machine Learning Approaches for TsunamiForecasting from Sparse Observations]({{ rjbaraldi.github.io }}/assets/websitefiles/mlsjdf_eartharxiv.pdf). To appear in Pure and Applied Geophysics.
 * 2019
   1. [Basis Pursuit Denoise with Nonsmooth Constraints]({{ rjbaraldi.github.io }}/assets/websitefiles/bpdn.pdf). The IEEE Transactions on Signal Processing version can be found [here](https://ieeexplore.ieee.org/document/8861392).
 	2. [Relaxation algorithms for matrix completion, with applications to seismic travel-time data interpolation]({{ rjbaraldi.github.io }}/assets/websitefiles/interpolation.pdf). The Inverse Problems version can be found [here](https://iopscience.iop.org/article/10.1088/1361-6420/ab3204).
