@@ -93,8 +93,8 @@ future: true
 author:
   name             : "Bobby Baraldi"
   avatar           : "/assets/images/baraldi2017.jpg"
-  bio              : "PhD Student, UW Applied Math"
-  location         : "Seattle, WA"
+  bio              : "JvN Fellow, Sandia National Laboratories"
+  location         : "Albuquerque, NM"
   # email            : "rbaraldi@uw.edu"
   links:
     - label: "Email"

@@ -1,5 +1,5 @@
 ---
-title: "Things I'm interested in besides convergence speed and good fits. "
+title: "Things I'm interested in besides convergence speed and nonsmoothness. "
 layout: archive
 permalink: /misc/
 ---
@@ -9,7 +9,7 @@ permalink: /misc/
 <!-- # Header one -->
 
 ## Running
-I spend a lot of time moving around in straight or slightly curved lines, or on the street in perhaps too-short shorts. I'm an active member of [Club Northwest](https://www.clubnorthwest.org/). As a member, I help out with local races and occasionally travel places to race for them around the country (and occasionally in Canada).
+I spend a lot of time moving around in straight or slightly curved lines, or on the street in perhaps too-short courses. I'm an active member of [Club Northwest](https://www.clubnorthwest.org/). As a member, I help out with local races and occasionally travel places to race for them around the country (and occasionally in Canada).
 
 <!-- ### Header three -->
 
@@ -41,7 +41,7 @@ Multi line blockquote with a cite reference:
 | Vancouver Sun Run     | 4/22/18 | 10000m   | 31:13 | 20    |
 | Seattle vs Portland   | 5/24/21 | 3000m    | 8:28  | 2     |
 | UW Dempsey Indoor     | 2/8/18  | 1600m    | 4:19  | 1     |
-| Labor Day Half        | 9/2/19  | 13.1 mi  | 70:57 | 34    |
+| Duke City Half        | 10/17/21| 13.1 mi  | 68:29 | 1     |
 
 <!-- ## Definition Lists -->
 
@@ -67,7 +67,7 @@ I spend a lot of time listening to music, playing guitar, and going to concerts,
       * Whammy! pedal
       * Boss SYB-5 bass synthesizer (when I pretend to be Thundercat)
       * Kustom Defender V5
-      * Fender Frontman (because everyone has one of these guys)
+      * Fender Frontman (because everyone has one of these)
 
 
 <!-- ## Buttons -->
