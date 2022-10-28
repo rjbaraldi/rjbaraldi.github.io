@@ -1,5 +1,5 @@
 ---
-title: "Lectures"
+title: "Lecture Materials"
 permalink: /coursework/
 layout: archive
 author_profile: true
@@ -45,7 +45,7 @@ polation”, DOE CSGF Annual Program Review, Arlington, VA; July 15-19.
 * “Systems Modeling and Data Assimilation in Drug Development”, SIAM Annual Life Sciences Con-
 ference, Boston, MA; July 11-15.
 
-### Teaching Experience
+### Teaching
 Here is a short list of courses that I have taught.
 * UW
 	* Teaching Assistant, 2016 - Calculus 3: Math 126.

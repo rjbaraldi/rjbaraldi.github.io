@@ -2,7 +2,7 @@
 main:
   - title: "Research"
     url: /research/
-  - title: "Course Material"
+  - title: "Lecture Materials"
     url: /coursework/
   - title: "Misc"
     url: /misc/
