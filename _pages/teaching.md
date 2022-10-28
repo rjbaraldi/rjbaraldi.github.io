@@ -1,5 +1,5 @@
 ---
-title: "Courses"
+title: "Lectures"
 permalink: /coursework/
 layout: archive
 author_profile: true
@@ -26,9 +26,9 @@ tags: [calculus, courses, computer science, math]
 
 ### Seminars
 * Upcoming - SIAM CSE Minisymposium ``Algorithms for Nonconvex, Nonsmooth Optimization''
-* Robert Baraldi, Drew P. Kouri (2022), “An Inexact Trust-Region Algorithm for Nonsmooth Non- convex Regularized Problems”, Centre de recherches mathématiques Seminar at McGill, October 24, Quebec.
-* Robert Baraldi, Drew P. Kouri (2022), “An Inexact Trust-Region Algorithm for Nonsmooth Non- convex Regularized Problems”, GERAD Seminar, October 20, Polytechnique Montréal, Quebec.
-* Robert Baraldi, Drew P. Kouri (2022), “An Inexact Trust-Region Algorithm for Nonsmooth Non- convex Regularized Problems”, Center for Mathematics and Artificial Intelligence Colloquium, September 30 (Virtual).
+* Robert Baraldi, Drew P. Kouri (2022), “An Inexact Trust-Region Algorithm for Nonsmooth Nonconvex Regularized Problems”, Centre de recherches mathématiques Seminar at McGill, October 24, Quebec.
+* Robert Baraldi, Drew P. Kouri (2022), “An Inexact Trust-Region Algorithm for Nonsmooth Nonconvex Regularized Problems”, GERAD Seminar, October 20, Polytechnique Montréal, Quebec.
+* Robert Baraldi, Drew P. Kouri (2022), “An Inexact Trust-Region Algorithm for Nonsmooth Nonconvex Regularized Problems”, Center for Mathematics and Artificial Intelligence Colloquium, September 30 (Virtual).
 * Robert Baraldi, Stefan Wild, Sven Lyeffer (2022), “Using Filter Methods to Guide Convergence for ADMM, with Applications to Nonnegative Matrix Factorization Problems”, ICCOPT/MOPTA 2022, July 25-28. Bethlehem, PA.
 * Robert Baraldi, Aleksandr Aravkin, Dominique Orban (2021), “A Proximal Quasi-Newton Trust- Region Method for Nonsmooth Regularized Optimization”, SIOPT 2021 (virtual), July 22.
 * Robert Baraldi, Stefan Wild, Sven Lyeffer (2020), “Using Filter Methods to Guide Convergence for 3
