@@ -9,7 +9,7 @@ permalink: /misc/
 <!-- # Header one -->
 
 ## Running
-I spend a lot of time moving around in straight or slightly curved lines, or on the street in perhaps too-short courses. I'm an active member of [Club Northwest](https://www.clubnorthwest.org/). As a member, I help out with local races and occasionally travel places to race for them around the country (and occasionally in Canada).
+I spend a lot of time moving around in straight or slightly curved lines, or on the street in perhaps too-short courses. I'm an active member of [Club Northwest](https://www.clubnorthwest.org/) and previously [Duke's Track Club](https://www.dukestrackclub.com). As a member, I help out with local races and occasionally travel places to race for them around the country (and occasionally in Canada).
 
 <!-- ### Header three -->
 

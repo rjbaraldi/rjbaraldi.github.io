@@ -11,9 +11,15 @@ Here is a short list of projects I've been involved with in the past or am curre
 
 
 <!-- ### Ordered -- Unordered -- Ordered -->
+* 2022
+  1. Adaptive Randomized Sketching for Dynamic Nonsmooth Optimization; to appear in Proceedings of the International Model Analysis Conference XLI.
+  2. A Proximal Trust-Region Method for Nonsmooth Optimiza- tion with Inexact Function and Gradient Evaluations; in review for Mathematical Programming.
+  3. A Levenberg-Marquardt Method for Nonsmooth Regularized Least Squares; submitted to the SIAM Journal on Scientific Computing.
+  4. Using Filter Methods to Guide Convergence for ADMM with Applications to Nonnegative Matrix Factorization; submitted to the SIAM Journal on Optimization.
+  5. [Tsunami Early Warning from Global Navigation Satellite System Data using Convolutional Neural Networks](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022GL099511) in Geophysical Review Letters.
 * 2021
-  1. [A Proximal Quasi-Newton Trust-Region Method for Nonsmooth Regularized Optimization]({{ rjbaraldi.github.io }}/assets/websitefiles/tr-nonsmooth.pdf). In review at SIAM Optimization.
-  2. [Comparison of Machine Learning Approaches for TsunamiForecasting from Sparse Observations]({{ rjbaraldi.github.io }}/assets/websitefiles/mlsjdf_eartharxiv.pdf). To appear in Pure and Applied Geophysics.
+  1. [A Proximal Quasi-Newton Trust-Region Method for Nonsmooth Regularized Optimization](https://epubs.siam.org/doi/abs/10.1137/21M1409536), [ArXiv](https://arxiv.org/abs/2103.15993).
+  2. [Comparison of Machine Learning Approaches for TsunamiForecasting from Sparse Observation](https://link.springer.com/article/10.1007/s00024-021-02841-9), [EarthArXiv](https://eartharxiv.org/repository/view/2267/).
 * 2019
   1. [Basis Pursuit Denoise with Nonsmooth Constraints]({{ rjbaraldi.github.io }}/assets/websitefiles/bpdn.pdf). The IEEE Transactions on Signal Processing version can be found [here](https://ieeexplore.ieee.org/document/8861392).
 	2. [Relaxation algorithms for matrix completion, with applications to seismic travel-time data interpolation]({{ rjbaraldi.github.io }}/assets/websitefiles/interpolation.pdf). The Inverse Problems version can be found [here](https://iopscience.iop.org/article/10.1088/1361-6420/ab3204).
