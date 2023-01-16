@@ -14,7 +14,7 @@ locale                   : "en-US"
 title                    : "Bobby Baraldi's Homepage"
 title_separator          : "-"
 name                     : "Bobby Baraldi"
-description              : "A site that has most of the stuff I'm interested in"
+description              : ""
 url                      : "http://rjbaraldi.github.io"
 baseurl                  : ""
 repository               : rjbaraldi/rjbaraldi.github.io
