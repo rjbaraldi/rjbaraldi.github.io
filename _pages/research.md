@@ -13,10 +13,10 @@ Here is a short list of projects I've been involved with in the past or am curre
 <!-- ### Ordered -- Unordered -- Ordered -->
 * 2022
   1. Adaptive Randomized Sketching for Dynamic Nonsmooth Optimization; to appear in Proceedings of the International Model Analysis Conference XLI.
-  2. A Proximal Trust-Region Method for Nonsmooth Optimiza- tion with Inexact Function and Gradient Evaluations; in review for Mathematical Programming.
-  3. A Levenberg-Marquardt Method for Nonsmooth Regularized Least Squares; submitted to the SIAM Journal on Scientific Computing.
-  4. Using Filter Methods to Guide Convergence for ADMM with Applications to Nonnegative Matrix Factorization; submitted to the SIAM Journal on Optimization.
-  5. [Tsunami Early Warning from Global Navigation Satellite System Data using Convolutional Neural Networks](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022GL099511) in Geophysical Review Letters.
+  2. [A Proximal Trust-Region Method for Nonsmooth Optimization with Inexact Function and Gradient Evaluations](https://link.springer.com/article/10.1007/s10107-022-01915-3).
+  3. [A Levenberg-Marquardt Method for Nonsmooth Regularized Least Squares](https://arxiv.org/abs/2301.02347) (submitted to SIAM Journal on Scientific Computing).
+  <!-- 4. Using Filter Methods to Guide Convergence for ADMM with Applications to Nonnegative Matrix Factorization; submitted to the SIAM Journal on Optimization. -->
+  4. [Tsunami Early Warning from Global Navigation Satellite System Data using Convolutional Neural Networks](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022GL099511) in Geophysical Review Letters.
 * 2021
   1. [A Proximal Quasi-Newton Trust-Region Method for Nonsmooth Regularized Optimization](https://epubs.siam.org/doi/abs/10.1137/21M1409536), with the ArXiv version [here](https://arxiv.org/abs/2103.15993).
   2. [Comparison of Machine Learning Approaches for TsunamiForecasting from Sparse Observation](https://link.springer.com/article/10.1007/s00024-021-02841-9). The EarchArXiv version can be found [here](https://eartharxiv.org/repository/view/2267/).

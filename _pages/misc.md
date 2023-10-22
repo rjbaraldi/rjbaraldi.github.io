@@ -1,5 +1,5 @@
 ---
-title: "Things I'm interested in besides convergence speed and nonsmoothness. "
+title: "Things I'm interested in besides optimization. "
 layout: archive
 permalink: /misc/
 ---
@@ -38,7 +38,7 @@ Multi line blockquote with a cite reference:
 | --------------------- | ------- | -------- | ----- | ----- |
 | USATF Club Nats       | 12/14/19| 10000m   | 32:27 | 58    |
 | USATF Regionals       | 11/24/18| 8000m    | 24:23 | 4     |
-| Vancouver Sun Run     | 4/22/18 | 10000m   | 31:13 | 20    |
+| Vancouver Sun Run     | 4/22/18 | 10000m   | 30:41 | 17    |
 | Seattle vs Portland   | 5/24/21 | 3000m    | 8:28  | 2     |
 | UW Dempsey Indoor     | 2/8/18  | 1600m    | 4:19  | 1     |
 | Duke City Half        | 10/17/21| 13.1 mi  | 68:29 | 1     |
@@ -60,14 +60,14 @@ Multi line blockquote with a cite reference:
 ## Music
 I spend a lot of time listening to music, playing guitar, and going to concerts, so I figured I should include some stuff about that here.
   * I used to DJ for the UW student radio station, [Rainy Dawg Radio](https://rainydawg.org/).
-  * I play a lot of guitar when I can, and I'm nowhere near as good as I should be considering how long I've played. Regardless, here's some of the gear I use (for those interested). These items are currently scattered all over the country.
+  * I play a lot of guitar when I can, and I'm nowhere near as good as I should be considering how long I've played. Regardless, here's some of the gear I use (for those interested).
       * Taylor SB2-S double cutaway solid body
       * Gretsch Nashville G6121 solid body
-      * Line 6 Pre-amp
+      <!-- * Line 6 Pre-amp
       * Whammy! pedal
-      * Boss SYB-5 bass synthesizer (when I pretend to be Thundercat)
+      * Boss SYB-5 bass synthesizer
       * Kustom Defender V5
-      * Fender Frontman (because everyone has one of these)
+      * Fender Frontman (because everyone has one of these) -->
 
 
 <!-- ## Buttons -->

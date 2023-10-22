@@ -25,7 +25,14 @@ tags: [calculus, courses, computer science, math]
 4. ordered item -->
 
 ### Seminars
-* Upcoming - SIAM CSE Minisymposium ``Algorithms for Nonconvex, Nonsmooth Optimization''
+
+* Robert Baraldi, Drew P. Kouri (2023),  "A Proximal Trust-Region Method for Nonsmooth Optimization with Inexact Function and Gradient Evaluations", Applied Inverse Problems, September 4, G{\"o}ttingen, Germany.
+* Robert Baraldi, Drew P. Kouri (2023),  "A Proximal Trust-Region Method for Nonsmooth Optimization with Inexact Function and Gradient Evaluations", WIAS Research Seminar on Mathematical Optimization
+Nonsmooth Variational Problems and Operator Equations, August 29, Berlin, Germany.
+* Robert Baraldi, Evelyn Herberg, Harbir Antil, Drew P. Kouri (2023), "Adaptive Randomized Sketching for Dynamic Nonsmooth Optimization", SIOPT, May 31 - June 4, Seattle, WA.
+* Robert Baraldi, Drew P. Kouri (2023), "Efficient Proximal Subproblem Solvers for an Inexact Nonsmooth Trust-Region Method", SIAM CSE, February 28 - March 4, Amsterdam, ND.
+* Robert Baraldi, Drew P. Kouri (2023),  "An Inexact Trust-Region Algorithm for Nonsmooth Nonconvex Regularized Problems", Bayreuth Applied Mathematics Seminar, February 24, Bayreuth, Germany.
+* Robert Baraldi, Evelyn Herberg, Harbir Antil, Drew P. Kouri (2023), "Adaptive Randomized Sketching for Dynamic Nonsmooth Optimization", IMAX XLI, February 15, Austin, TX.
 * Robert Baraldi, Drew P. Kouri (2022), “An Inexact Trust-Region Algorithm for Nonsmooth Nonconvex Regularized Problems”, Centre de recherches mathématiques Seminar at McGill, October 24, Quebec.
 * Robert Baraldi, Drew P. Kouri (2022), “An Inexact Trust-Region Algorithm for Nonsmooth Nonconvex Regularized Problems”, GERAD Seminar, October 20, Polytechnique Montréal, Quebec.
 * Robert Baraldi, Drew P. Kouri (2022), “An Inexact Trust-Region Algorithm for Nonsmooth Nonconvex Regularized Problems”, Center for Mathematics and Artificial Intelligence Colloquium, September 30 (Virtual).
@@ -47,6 +54,8 @@ ference, Boston, MA; July 11-15.
 
 ### Teaching
 Here is a short list of courses that I have taught.
+* Sandia
+  * PDECO Seminar (joint with George Mason University), 2023; optimiation and first order methods.
 * UW
 	* Teaching Assistant, 2016 - Calculus 3: Math 126.
 * NCSU
@@ -61,7 +70,7 @@ I have been a part of many wonderful societies and groups. These include:
   * Computational Science Graduate Fellowship
 
 
-### Relevant Coursework
+<!-- ### Relevant Coursework
 * University of Washington
 	* CSE 521 - Algorithms
 	* CSE 546 - Machine Learning
@@ -75,4 +84,4 @@ I have been a part of many wonderful societies and groups. These include:
 * North Carolina State University
 	* MA 540 - Uncertainty Quantification for Physical and Biological Models
 	* MA 573/4 - Mathematical Modeling for Physical and Biological Processes 1/2
-	* MA 580 - Numerical Analysis
+	* MA 580 - Numerical Analysis -->
