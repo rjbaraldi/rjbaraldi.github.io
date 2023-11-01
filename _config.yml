@@ -93,7 +93,7 @@ future: true
 author:
   name             : "Bobby Baraldi"
   avatar           : "/assets/images/baraldi2017.jpg"
-  bio              : "JvN Fellow, Sandia National Laboratories"
+  bio              : "R&D S&E, Computer Science SE, Sandia National Laboratories"
   location         : "Albuquerque, NM"
   # email            : "rbaraldi@uw.edu"
   links:
@@ -103,9 +103,9 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://rjbaraldi.github.io"
-    # - label: "Twitter"
+    - label: "SNL"
       # icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://www.sandia.gov/ccr/staff/robert-john-baraldi/"
     # - label: "Facebook"
     #   icon: "fab fa-fw fa-facebook-square"
     #   url: "https://facebook.com/"

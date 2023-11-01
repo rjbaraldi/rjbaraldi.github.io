@@ -38,8 +38,7 @@ tags: [calculus, courses, computer science, math]
 * Robert Baraldi, Stefan Wild, Sven Lyeffer (2022), “Using Filter Methods to Guide Convergence for ADMM, with Applications to Nonnegative Matrix Factorization Problems”, ICCOPT/MOPTA 2022, July 25-28. Bethlehem, PA.
 * Robert Baraldi, Aleksandr Aravkin, Dominique Orban (2021), “A Proximal Quasi-Newton Trust- Region Method for Nonsmooth Regularized Optimization”, SIOPT 2021 (virtual), July 22.
 * Robert Baraldi, Stefan Wild, Sven Lyeffer (2020), “Using Filter Methods to Guide Convergence for ADMM, with Applications to Nonnegative Matrix Factorization Problems”, SIAM CSE 2021 (virtual), March 1.
-* “Moreau-Yoshida Regularization and First Order Methods with Firedrake”, Firedrake 2020, Seattle,
-WA; February 22.
+* “Moreau-Yoshida Regularization and First Order Methods with Firedrake”, Firedrake 2020, Seattle, WA; February 22.
 * “Basis Pursuit Denoise with Nonsmooth Constraints”, DOE CSGF Annual Program Review, Arlington, VA; July 14-18.
 * “An Acceleration Framework for Parameter Estimation using Implicit Sampling and Adaptive Reduced order Models”, SIAM CSE, Spokane WA; 2/25-3/1.
 * “Relaxation Algorithms for matrix completion, with applications to seismic travel-time data interpolation”, DOE CSGF Annual Program Review, Arlington, VA; July 15-19.
