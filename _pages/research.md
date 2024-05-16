@@ -13,7 +13,7 @@ Here is a short list of projects I've been involved with in the past or am curre
 <!-- ### Ordered -- Unordered -- Ordered -->
 * 2023
   1. Local Convergence of an Inexact Trust-Region Method for Nonsmooth Optimization [[preprint](https://optimization-online.org/2023/11/local-convergence-analysis-of-an-inexact-trust-region-method-for-nonsmooth-optimization/)/[Optimization Letters](https://link.springer.com/article/10.1007/s11590-023-02092-8)] 
-  2. Efficient Proximal Subproblem Solvers for a Nonsmooth Trust-Region Method (submitted to Computational Optimization and Applications) [preprint](https://optimization-online.org/2023/11/efficient-proximal-subproblem-solvers-for-a-nonsmooth-trust-region-method/)]
+  2. Efficient Proximal Subproblem Solvers for a Nonsmooth Trust-Region Method (submitted to Computational Optimization and Applications) [[preprint](https://optimization-online.org/2023/11/efficient-proximal-subproblem-solvers-for-a-nonsmooth-trust-region-method/)]
 * 2022
   1. Adaptive Randomized Sketching for Dynamic Nonsmooth Optimization; Proceedings of the International Model Analysis Conference XLI.
   2. [A Proximal Trust-Region Method for Nonsmooth Optimization with Inexact Function and Gradient Evaluations](https://link.springer.com/article/10.1007/s10107-022-01915-3).
