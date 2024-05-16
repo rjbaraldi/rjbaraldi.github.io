@@ -47,7 +47,7 @@ tags: [calculus, courses, computer science, math]
 ### Teaching
 Here is a short list of courses that I have taught.
 * Sandia
-  * PDECO Seminar (joint with George Mason University), 2023; optimiation and first order methods.
+  * PDECO Seminar (joint with George Mason University), 2023/2024; introduction to convex optimiation and first order methods [[slides](https://github.com/harbirantil/PDE_Control_Seminar/blob/main/Fall_2023/HAntil_PDECO.pdf)].
 * UW
 	* Teaching Assistant, 2016 - Calculus 3: Math 126.
 * NCSU
