@@ -11,11 +11,14 @@ Here is a short list of projects I've been involved with in the past or am curre
 
 
 <!-- ### Ordered -- Unordered -- Ordered -->
+*2023
+  1. Local Convergence of an Inexact Trust-Region Method for Nonsmooth Optimization [preprint](https://optimization-online.org/2023/11/local-convergence-analysis-of-an-inexact-trust-region-method-for-nonsmooth-optimization/)/[Optimization Letters](https://link.springer.com/article/10.1007/s11590-023-02092-8) 
+  2. Efficient Proximal Subproblem Solvers for a Nonsmooth Trust-Region Method (submitted to Computational Optimization and Applications)[preprint](https://optimization-online.org/2023/11/efficient-proximal-subproblem-solvers-for-a-nonsmooth-trust-region-method/)
 * 2022
   1. Adaptive Randomized Sketching for Dynamic Nonsmooth Optimization; to appear in Proceedings of the International Model Analysis Conference XLI.
   2. [A Proximal Trust-Region Method for Nonsmooth Optimization with Inexact Function and Gradient Evaluations](https://link.springer.com/article/10.1007/s10107-022-01915-3).
-  3. [A Levenberg-Marquardt Method for Nonsmooth Regularized Least Squares](https://arxiv.org/abs/2301.02347) (submitted to SIAM Journal on Scientific Computing).
-  <!-- 4. Using Filter Methods to Guide Convergence for ADMM with Applications to Nonnegative Matrix Factorization; submitted to the SIAM Journal on Optimization. -->
+  3. [A Levenberg-Marquardt Method for Nonsmooth Regularized Least Squares](https://arxiv.org/abs/2301.02347) (to appear in SIAM Journal on Scientific Computing).
+  <!-- 4. Using Filter Methods to Guide Convergence for ADMM with Applications to Nonnegative Matrix Factorization; submitted to Journal of Optimization Theory and Applications. [preprint](https://optimization-online.org/2024/02/using-filter-methods-to-guide-convergence-for-admm-with-applications-to-nonnegative-matrix-factorization-problems/) -->
   4. [Tsunami Early Warning from Global Navigation Satellite System Data using Convolutional Neural Networks](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022GL099511) in Geophysical Review Letters.
 * 2021
   1. [A Proximal Quasi-Newton Trust-Region Method for Nonsmooth Regularized Optimization](https://epubs.siam.org/doi/abs/10.1137/21M1409536), with the ArXiv version [here](https://arxiv.org/abs/2103.15993).
