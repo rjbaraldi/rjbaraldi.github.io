@@ -11,7 +11,7 @@ Here is a short list of projects I've been involved with in the past or am curre
 
 
 <!-- ### Ordered -- Unordered -- Ordered -->
-*2023
+* 2023
   1. Local Convergence of an Inexact Trust-Region Method for Nonsmooth Optimization [preprint](https://optimization-online.org/2023/11/local-convergence-analysis-of-an-inexact-trust-region-method-for-nonsmooth-optimization/)/[Optimization Letters](https://link.springer.com/article/10.1007/s11590-023-02092-8) 
   2. Efficient Proximal Subproblem Solvers for a Nonsmooth Trust-Region Method (submitted to Computational Optimization and Applications)[preprint](https://optimization-online.org/2023/11/efficient-proximal-subproblem-solvers-for-a-nonsmooth-trust-region-method/)
 * 2022
@@ -38,13 +38,6 @@ Here is a short list of projects I've been involved with in the past or am curre
 	2. [The Effects of Parameterization on Inverse Problems](http://www.ncsu.edu/crsc/reports/ftp/pdf/crsc-tr14-07.pdf)
 * 2013
 	1. [Mathematical Modeling of HCV Viral Kinetics](http://www.ncsu.edu/crsc/reports/ftp/pdf/crsc-tr13-07.pdf)
-* Work-in-Progress
-    1. Combining Reduced Order Models with Implicit Sampling (presented at SIAM CSE, February 2019 by Matthew Zahr)
-    2. FWI with SMART
-    3. Fast Solutions to PDE constrained optimization
-    4. Nonsmooth Trust Region methods
-    5. Exact Relaxation - trying to find the correct hyperparameters for our work in BPDN and other relaxation algorithms.
-
 
 [Here]({{ rjbaraldi.github.io }}/assets/websitefiles/Personal/website_tex/bibliography/biblio.pdf) is an unordered bibliography of work I've submitted/published/reported/talked. A more complete/detailed version is located in my [CV]({{ rjbaraldi.github.io }}/assets/websitefiles/Personal/website_tex/resume/cv.pdf).
 <!-- <iframe src="https://drive.google.com/file/d/1YQtysu8fCMKaIWzEDTQFiZnu16VP_yGl/preview" width="640" height="480"></iframe> -->
