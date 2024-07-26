@@ -7,13 +7,15 @@ tags: [inverse problems, trust-region methods, proximal methods, nonsmooth, nonc
 ---
 
 
-Here is a short list of projects I've been involved with in the past or am currently working on. Note that complete publication history (with detailed citations) is located in my [CV]({{ rjbaraldi.github.io }}/assets/websitefiles/Personal/website_tex/resume/cv.pdf). Overall, much of my work is currently directed towards solving PDE-constrained optimization problems, especially with regards to solving nonsmooth and nonconvex problems. In the past, I've also worked on uncertainty quantification for biological models.
+Here is a short list of projects I've been involved with in the past or am currently working on. Note that complete publication history (with detailed citations) is located in my [CV]({{ rjbaraldi.github.io }}/assets/websitefiles/Personal/website_tex/resume/cv.pdf).
+Overall, much of my work is currently directed towards solving PDE-constrained optimization problems, especially with regards to solving nonsmooth and nonconvex problems. In the past, I've also worked on uncertainty quantification for biological models.
 
 * 2024 (working projects)
   1. Coordinate Descent for Total-Variation Integer Optimal Control (with [Paul Manns](https://wwwold.mathematik.tu-dortmund.de/sites/paul-manns)).
   2. Theory and Continuation Strategies for Moreau-Yosida Smoothed Problems (with [Alexander Hsu](https://ahsu98.github.io/), Aleksandr Aravkin, Dominique Orban)
   3. Adaptive Randomized Sketching for Dynamic Nonsmooth Optimization (with Drew Kouri and Harbir Antil - full journal submission).
   4. A Stochastic Trust-Region Method for Nonsmooth Optimization (with Aurya Javeed, Katya Scheinberg, and Drew Kouri).
+  5. A Multifidelity Variational Inference Approach to Sea-Ice Inversion (with [Christian Glusa](https://dblp.org/pid/183/6209.html) and [John Jakeman](https://www.sandia.gov/ccr/staff/john-davis-jakeman/)).
 
 <!-- ### Ordered -- Unordered -- Ordered -->
 * 2023

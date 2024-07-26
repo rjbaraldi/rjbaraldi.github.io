@@ -59,8 +59,8 @@ Multi line blockquote with a cite reference:
 
 ## Music
 I spend a lot of time listening to music, playing guitar, and going to concerts, so I figured I should include some stuff about that here.
-  * I used to DJ for the UW student radio station, [Rainy Dawg Radio](https://rainydawg.org/).
-  * I play a lot of guitar when I can, and I'm nowhere near as good as I should be considering how long I've played. Regardless, here's some of the gear I use (for those interested).
+  * I used to DJ for the UW student radio station; support them here [Rainy Dawg Radio](https://rainydawg.org/).
+  * I play a lot of guitar when I can. Here's some of the gear I use (for those interested).
       * Taylor SB2-S double cutaway solid body
       * Gretsch Nashville G6121 solid body
       <!-- * Line 6 Pre-amp
