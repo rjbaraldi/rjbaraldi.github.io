@@ -24,6 +24,29 @@ tags: [calculus, courses, computer science, math]
 3. ordered item
 4. ordered item -->
 
+
+### Teaching
+Here is a short list of courses that I have taught.
+* Sandia
+  * PDECO Seminar (joint with George Mason University), 2023/2024; introduction to convex optimiation and first order methods ([notes here](https://github.com/harbirantil/PDE_Control_Seminar/blob/main/Fall_2023/HAntil_PDECO.pdf))
+
+* UW
+	* Teaching Assistant, 2016 - Calculus 3: Math 126.
+* NCSU
+	* Mathematics Tutor, 2014-5 - Calculus 2: MA 241, Calculus 1: MA 121
+
+### Societies
+I have been a part of many wonderful societies and groups. These include:
+* Optimization
+  * SIAM (Group on Optimization and Uncertainty Quantification)
+  * Mathematical Optimization Society
+* UW
+  * Numerical Analysis Research Club
+  * SIAM Student Chapter
+* DOE
+  * Computational Science Graduate Fellowship
+
+
 ### Seminars
 
 * Robert Baraldi, Drew P. Kouri (2023),  "A Proximal Trust-Region Method for Nonsmooth Optimization with Inexact Function and Gradient Evaluations", Applied Inverse Problems, September 4, Gottingen, Germany.
@@ -43,24 +66,6 @@ tags: [calculus, courses, computer science, math]
 * “An Acceleration Framework for Parameter Estimation using Implicit Sampling and Adaptive Reduced order Models”, SIAM CSE, Spokane WA; 2/25-3/1.
 * “Relaxation Algorithms for matrix completion, with applications to seismic travel-time data interpolation”, DOE CSGF Annual Program Review, Arlington, VA; July 15-19.
 * “Systems Modeling and Data Assimilation in Drug Development”, SIAM Annual Life Sciences Conference, Boston, MA; July 11-15.
-
-### Teaching
-Here is a short list of courses that I have taught.
-* Sandia
-  * PDECO Seminar (joint with George Mason University), 2023/2024; introduction to convex optimiation and first order methods. 
-
-* UW
-	* Teaching Assistant, 2016 - Calculus 3: Math 126.
-* NCSU
-	* Mathematics Tutor, 2014-5 - Calculus 2: MA 241, Calculus 1: MA 121
-
-### Societies
-I have been a part of many wonderful societies and groups. These include:
-* UW
-  * Numerical Analysis Research Club
-  * SIAM Student Chapter
-* DOE
-  * Computational Science Graduate Fellowship
 
 
 <!-- ### Relevant Coursework

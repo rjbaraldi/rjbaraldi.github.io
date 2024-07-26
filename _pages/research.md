@@ -9,10 +9,15 @@ tags: [inverse problems, trust-region methods, proximal methods, nonsmooth, nonc
 
 Here is a short list of projects I've been involved with in the past or am currently working on. Note that complete publication history (with detailed citations) is located in my [CV]({{ rjbaraldi.github.io }}/assets/websitefiles/Personal/website_tex/resume/cv.pdf). Overall, much of my work is currently directed towards solving PDE-constrained optimization problems, especially with regards to solving nonsmooth and nonconvex problems. In the past, I've also worked on uncertainty quantification for biological models.
 
+* 2024 (working projects)
+  1. Coordinate Descent for Total-Variation Integer Optimal Control (with [Paul Manns](https://wwwold.mathematik.tu-dortmund.de/sites/paul-manns)).
+  2. Theory and Continuation Strategies for Moreau-Yosida Smoothed Problems (with [Alexander Hsu](https://ahsu98.github.io/), Aleksandr Aravkin, Dominique Orban)
+  3. Adaptive Randomized Sketching for Dynamic Nonsmooth Optimization (with Drew Kouri and Harbir Antil - full journal submission).
+  4. A Stochastic Trust-Region Method for Nonsmooth Optimization (with Aurya Javeed, Katya Scheinberg, and Drew Kouri).
 
 <!-- ### Ordered -- Unordered -- Ordered -->
 * 2023
-  1. Local Convergence of an Inexact Trust-Region Method for Nonsmooth Optimization [[preprint](https://optimization-online.org/2023/11/local-convergence-analysis-of-an-inexact-trust-region-method-for-nonsmooth-optimization/)/[Optimization Letters](https://link.springer.com/article/10.1007/s11590-023-02092-8)] 
+  1. Local Convergence of an Inexact Trust-Region Method for Nonsmooth Optimization [[preprint](https://optimization-online.org/2023/11/local-convergence-analysis-of-an-inexact-trust-region-method-for-nonsmooth-optimization/)/[Optimization Letters](https://link.springer.com/article/10.1007/s11590-023-02092-8)]
   2. Efficient Proximal Subproblem Solvers for a Nonsmooth Trust-Region Method (submitted to Computational Optimization and Applications) [[preprint](https://optimization-online.org/2023/11/efficient-proximal-subproblem-solvers-for-a-nonsmooth-trust-region-method/)]
 * 2022
   1. Adaptive Randomized Sketching for Dynamic Nonsmooth Optimization; Proceedings of the International Model Analysis Conference XLI.
