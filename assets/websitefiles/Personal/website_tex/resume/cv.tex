@@ -12,7 +12,7 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
 
-\documentclass[10pt, a4paper]{article}
+\documentclass[12pt, a4paper]{article}
 \usepackage{fontspec}
 
 % DOCUMENT LAYOUT
@@ -39,14 +39,14 @@
 \setmonofont[Scale=0.8]{DejaVuSansMono.ttf}
 
 % ---- CUSTOM COMMANDS
-\chardef\&="E050
+% \chardef\&="E050
 \newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
 \newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
 \newcommand{\doi}[1]{\href{#1}{\scriptsize\textsc{[doi]}}}
 % ---- MARGIN YEARS
 \usepackage{marginnote}
 \newcommand{\amper{}}{\chardef\amper="E0BD }
-\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\newcommand{\years}[1]{\marginnote{#1}}
 \renewcommand*{\raggedleftmarginnote}{}
 \setlength{\marginparsep}{7pt}
 \reversemarginpar
@@ -86,18 +86,23 @@ email: \href{mailto:rbaral@sandia.gov}{rbaral@sandia.gov}.\\
 \hrule
 \section*{Areas of specialization}
 %  Inverse Problems • Nonsmooth Optimization • Nonconvex Optimization • Trust Regions Methods • PDE-constrained Optimization • Uncertainty Quantification
-Nonsmooth Optimization • Nonconvex Optimization • PDE-constrained Optimization • Uncertainty Quantification
+Nonsmooth Optimization • Nonconvex Optimization • Numerical Analysis • Uncertainty Quantification • Scientific Computing • Data Science
 %  My research focuses on algorithm design and convergence analysis for nonsmooth and nonconvex problems in physical/biological modeling and learning applications.
 %\hrule
 
 \section*{Employment}
 \noindent
 % \subsection*{Current}
-\years{2023-} Senior Computer Science R\&D S\&E, Sandia National Labs. \textbf{Group}: Optimization and Uncertainty Quantification (1463).\\
-\years{2021-2023}John von Neumann Postdoctoral Fellow, Sandia National Labs. \textbf{Group}: Optimization and Uncertainty Quantification (1463). \textbf{Postdoctoral Advisor}: \href{https://cfwebprod.sandia.gov/cfdocs/CompResearch/templates/insert/profile.cfm?dpkouri}{Drew P. Kouri}.\\
+\years{2023-} Senior Computer Science R\&D S\&E, Sandia National Labs.\\
+ \textbf{Group}: Optimization and Uncertainty Quantification (1463).\\
+\years{2021-23} John von Neumann Fellow, Sandia National Labs.\\
+ \textbf{Group}: Optimization and Uncertainty Quantification (1463). \\
+\textbf{Advisor}: \href{https://cfwebprod.sandia.gov/cfdocs/CompResearch/templates/insert/profile.cfm?dpkouri}{Drew P. Kouri}.\\
 % \subsection*{Graduate}
-\years{2020} Argonne National Lab: DOE CSGF Practicum: ADMM and Filter Methods. \textbf{Advisor:} \href{https://www.anl.gov/profile/sven-leyffer}{Sven Leyffer}.\\
-\years{2018} Lawrence Berkeley National Lab: DOE CSGF Practicum: Reduced Order Models and Implicit Sampling. \textbf{Advisor:} \href{https://engineering.nd.edu/profiles/mzahr}{Matthew Zahr}.
+\years{2020} Argonne National Lab: DOE CSGF Practicum: ADMM and Filter Methods.
+\\ \textbf{Advisor}: \href{https://www.anl.gov/profile/sven-leyffer}{Sven Leyffer}.\\
+\years{2018} Lawrence Berkeley National Lab: DOE CSGF Practicum: Reduced Order Models and Implicit Sampling.\\
+ \textbf{Advisor}: \href{https://engineering.nd.edu/profiles/mzahr}{Matthew Zahr}.
 % \subsection*{Undergraduate}
 % \noindent
 % \years{2013-2016} Student Researcher, Center for Research in Scientific Computation, NC State University. \textbf{Advisor:} \href{https://projects.ncsu.edu/crsc/htbanks/}{Harvey Thomas Banks}.\\
@@ -108,52 +113,58 @@ Nonsmooth Optimization • Nonconvex Optimization • PDE-constrained Optimizati
 
 \section*{Education}
 \noindent
-\years{2021}\textsc{PhD} in Applied Mathematics, University of Washington. \textbf{PhD Advisor}: \href{http://uw-amo.github.io/saravkin}{Aleksandr Aravkin}. \\
+\years{2021}\textsc{PhD} in Applied Mathematics, University of Washington. \\
+\textbf{PhD Advisor}: \href{http://uw-amo.github.io/saravkin}{Aleksandr Aravkin}. \\
 % \years{2017}\textsc{MSc} in Applied Mathematics, University of Washington.\\
-\years{2016}\textsc{BS} in Mathematics, NC State University. \textbf{Academic Advisor:} Alina Duca. \textbf{Research Advisor:} Harvey Thomas Banks. \\
+\years{2016}\textsc{BS} in Mathematics, NC State University. \\
+\textbf{Academic Advisor}: Alina Duca. \textbf{Research Advisor}: Harvey Thomas Banks. \\
 \hrule
-% \pagebreak
+\pagebreak
 
 \section*{Grants \& Awards}
 \subsection*{Staff}
 \years{2024} Advanced Scientific Computing Research Portfolio: ASCEND Optimization \& UQ, Randomized Methods Thrusts \\
-\textbf{Opt} \& \textbf{UQ Team Members:}
+\textbf{Role}: Senior Personnel.\\
+\textbf{Opt} \& \textbf{UQ Team Members}:
+\href{https://cfwebprod.sandia.gov/cfdocs/CompResearch/templates/insert/profile.cfm?dridzal}{Denis Ridzal} (PI),
 \href{https://cfwebprod.sandia.gov/cfdocs/CompResearch/templates/insert/profile.cfm?dpkouri}{Drew P. Kouri},
-\href{https://cfwebprod.sandia.gov/cfdocs/CompResearch/templates/insert/profile.cfm?dridzal}{Denis Ridzal},
 \href{https://www.sandia.gov/ccr/staff/joseph-lee-hart/}{Joseph Hart},
-\href{https://www.sandia.gov/ccr/staff/bart-g-van-bloemen-waanders/}{Bart van Bloemen Waanders} \\
+\href{https://www.sandia.gov/ccr/staff/bart-g-van-bloemen-waanders/}{Bart van Bloemen Waanders}. \\
 \textbf{Amount:} \$2.4 million per year.\\
-\textbf{Randomized Methods Team Members:}
-\href{https://cfwebprod.sandia.gov/cfdocs/CompResearch/templates/insert/profile.cfm?dpkouri}{Drew P. Kouri},
-\href{https://www.sandia.gov/ccr/staff/eric-t-phipps/}{Eric Phipps},
+\textbf{Randomized Methods Team Members}:
+\href{https://cfwebprod.sandia.gov/cfdocs/CompResearch/templates/insert/profile.cfm?dpkouri}{Drew P. Kouri} (PI),
+\href{https://www.sandia.gov/ccr/staff/eric-t-phipps/}{Eric Phipps} (PI),
 \href{https://rileyjmurray.wordpress.com/}{Riley Murray},
-\href{https://rol.sandia.gov/team/}{Aurya Javeed}, \\
-\textbf{Amount:} \$2.0 million per year.
+\href{https://rol.sandia.gov/team/}{Aurya Javeed}. \\
+\textbf{Amount}: \$2.0 million per year.
 
 
 \years{2024} Late-Start Laboratory Directed Research and Development: Rapid Optimization of Total Variation with Applications to Imaging, Additive Manufacturing, and Qualification. \\
-\textbf{Team Members:} \href{https://www.sandia.gov/research/publications/search/?sort=date&format=citation&authors%5B0%5D=michael-heiden}{Michael Heiden}, \href{https://cfwebprod.sandia.gov/cfdocs/CompResearch/templates/insert/profile.cfm?dpkouri}{Drew P. Kouri}.\\
-\textbf{Amount:} \$130,000 over 1 year.
+\textbf{Role}: PI \\
+\textbf{Team Members}: \href{https://www.sandia.gov/research/publications/search/?sort=date&format=citation&authors%5B0%5D=michael-heiden}{Michael Heiden}, \href{https://cfwebprod.sandia.gov/cfdocs/CompResearch/templates/insert/profile.cfm?dpkouri}{Drew P. Kouri}.\\
+\textbf{Amount}: \$130,000 over 1 year.
 
 \noindent
 \years{2023} Laboratory Directed Research and Development: Robust Nonsmooth Stochastic Methods for Machine Learning\\
-\textbf{Team Members:} \href{https://rol.sandia.gov/team/}{Aurya Javeed},
+\textbf{Role}: Co-PI \\
+\textbf{Team Members}: \href{https://rol.sandia.gov/team/}{Aurya Javeed},
 \href{https://cfwebprod.sandia.gov/cfdocs/CompResearch/templates/insert/profile.cfm?dpkouri}{Drew P. Kouri}.\\
-\textbf{Amount:} \$1.2 million over 3 years.\\
-\textbf{Consultants:} \href{https://viterbi.usc.edu/directory/faculty/Pang/Jong-Shi}{Jong-shi Pang}, \href{https://www.orie.cornell.edu/faculty-directory/katya-scheinberg}{Katya Scheinberg}, \href{https://www.sandia.gov/ccr/staff/eric-christopher-cyr/}{Eric Cyr}.
+\textbf{Amount}: \$1.2 million over 3 years.\\
+\textbf{Consultants}: \href{https://viterbi.usc.edu/directory/faculty/Pang/Jong-Shi}{Jong-shi Pang}, \href{https://www.orie.cornell.edu/faculty-directory/katya-scheinberg}{Katya Scheinberg}, \href{https://www.sandia.gov/ccr/staff/eric-christopher-cyr/}{Eric Cyr}.
 \noindent
-\subsection*{Postdoctoral}
+% \subsection*{Postdoctoral}
 \years{2022} Air Force Office of Scientific Research: Compression and Randomization of Extreme-Scale Training and Optimization (CREST-Opt).\\
+\textbf{Role}: Co-PI.\\
  \textbf{Team Members:}
 \href{https://math.gmu.edu/~hantil/}{Harbir Antil},
-\href{https://math.gmu.edu/~eherberg/}{Evelyn Herberg},
 \href{https://cfwebprod.sandia.gov/cfdocs/CompResearch/templates/insert/profile.cfm?dpkouri}{Drew P. Kouri},
 \href{https://cfwebprod.sandia.gov/cfdocs/CompResearch/templates/insert/profile.cfm?dridzal}{Denis Ridzal}.\\
- \textbf{Amount:} \$700,000 over 3 years.\\
+ \textbf{Amount:} \$850,000 over 3 years.\\
 \subsection*{Graduate}
 \years{2021} Department of Energy Advanced Scientific Computing Research: John von Neumann Postdoctoral Fellowship.\\
+\textbf{Role}: PI \\
 \textbf{Amount:} \$170,000 over 2 years. \\
-\years{2017-2021} Department of Energy Computational Science Graduate Fellowship (DOE CSGF).\\
+\years{2017-21} Department of Energy Computational Science Graduate Fellowship (DOE CSGF).\\
 \years{2017} National Science Foundation Graduate Research Fellowship (NSF-GFRP, declined). \\
 \years{2016} Department of Applied Math Boeing Fellowship/Top Scholar Award, UW. \\
 % \subsection*{Undergraduate}
@@ -224,7 +235,7 @@ Nonsmooth Optimization • Nonconvex Optimization • PDE-constrained Optimizati
 \years{2019-} \href{https://github.com/JuliaSmoothOptimizers/RegularizedOptimization.jl/}{RegularizedOptimization} (part of \href{https://github.com/JuliaSmoothOptimizers}{JuliaSmoothOptimizers}) - {\tt Julia}.\\
 \years{2019-} \href{https://github.com/JuliaSmoothOptimizers/ShiftedProximalOperators.jl}{ShiftedProximalOperators} (part of \href{https://github.com/JuliaSmoothOptimizers}{JuliaSmoothOptimizers}) - {\tt Julia}.\\
 \years{2019-} \href{https://github.com/JuliaSmoothOptimizers/RegularizedProblems.jl/}{RegularizedProblems} (part of \href{https://github.com/JuliaSmoothOptimizers}{JuliaSmoothOptimizers}) - {\tt Julia}.\\
-\years{2019-2021} \href{https://github.com/UW-AMO}{UW-AMO Group}.\\
+\years{2019-21} \href{https://github.com/UW-AMO}{UW-AMO Group}.\\
 % \years{Personal} \href{https://github.com/rjbaraldi}{Personal}\\
 \subsection*{Coding Languages}
 \years{Active} Matlab, Python, Julia, C++.\\
@@ -233,12 +244,12 @@ Nonsmooth Optimization • Nonconvex Optimization • PDE-constrained Optimizati
 
 \section*{Service}
 \years{2019-} Reviewer: Advances in Continuous and Discrete Models, Inverse Problems, SIAM Journal On Scientific Computing, Mathematical Computing, Optimization Letters, Operations Research Letters, SIAM Journal on Optimization. \\
-\years{2021-} Minisymposia Organizer: SIAM Optimization (2021), ICCOPT/MOPTA (2022), SIAM CSE (2021,2023), PASC (2024), ISMP (2024), INFORMS (2024).\\
+\years{2021-} Minisymposia Organizer: SIAM Optimization (2021, 2023), ICCOPT/MOPTA (2022, 2025), SIAM CSE (2021, 2023, 2025), PASC (2024), ISMP (2024), INFORMS (2024).\\
 \hrule
 \section*{Teaching/Tutorials}
 \years{2023-} Sandia + GMU \href{https://github.com/harbirantil/PDE_Control_Seminar}{PDECO Seminar} \\
-\years{2016-2021} UW Applied Mathematics SIAM Student Chapter\\
-\years{2016-2019} Organizer - UW Applied Mathematics Numerical Analysis Research Club \\
+\years{2016-21} UW Applied Mathematics SIAM Student Chapter\\
+\years{2016-19} Organizer - UW Applied Mathematics Numerical Analysis Research Club \\
 \years{2016} Teaching Assistant: MATH 126 Calculus 3, University of Washington. \\
 \years{2013} Mathematics Tutor: MA 121 Calculus 1, MA 241 Calculus 2, NC State University. \\
 \hrule
