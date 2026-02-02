@@ -13,6 +13,9 @@ or [google scholar](https://scholar.google.com/citations?user=B36rCJwAAAAJ&hl=en
 Overall, much of my work is currently directed towards solving PDE-constrained optimization problems, especially with regards to solving nonsmooth and nonconvex problems.
 In the past, I've also worked on uncertainty quantification for biological models.
 
+Other relevant sites:
+[ROL](https://rol.sandia.gov/) and Sandia [CCR](https://www.sandia.gov/ccr/staff/robert-john-baraldi/) page.
+
 <!-- * 2024 (working projects)
   1. Coordinate Descent for Total-Variation Integer Optimal Control (with [Paul Manns](https://wwwold.mathematik.tu-dortmund.de/sites/paul-manns)).
   2. Theory and Continuation Strategies for Moreau-Yosida Smoothed Problems (with [Alexander Hsu](https://ahsu98.github.io/), Aleksandr Aravkin, Dominique Orban)
