@@ -9,7 +9,7 @@ permalink: /misc/
 <!-- # Header one -->
 
 ## Running
-I spend a lot of time moving around in straight or slightly curved lines, or on the street in perhaps too-short courses. I'm an active member of [Club Northwest](https://www.clubnorthwest.org/) and previously [Duke's Track Club](https://www.dukestrackclub.com). As a member, I help out with local races and occasionally travel places to race for them around the country (and occasionally in Canada).
+I spend a lot of time moving around in straight or slightly curved lines, or on the street in perhaps too-short courses. I'm an active member of [Club Northwest](https://www.clubnorthwest.org/) and previously [Duke's Track Club](https://www.dukestrackclub.com). As a member, I help out with local races and occasionally travel places to race for them around the country (and occasionally in Canada). See Strava [here](https://www.strava.com/athletes/46169578).
 
 <!-- ### Header three -->
 
@@ -32,7 +32,7 @@ Multi line blockquote with a cite reference:
 <!-- <cite>Steve Jobs</cite> --- Apple Worldwide Developers' Conference, 1997 -->
 <!-- {: .small} -->
 
-<!-- ## Tables -->
+<!-- ## Tables
 
 | Races I'm Proud of    | Date    | Distance | Time  | Place |
 | --------------------- | ------- | -------- | ----- | ----- |
@@ -42,6 +42,7 @@ Multi line blockquote with a cite reference:
 | Seattle vs Portland   | 5/24/21 | 3000m    | 8:28  | 2     |
 | UW Dempsey Indoor     | 2/8/18  | 1600m    | 4:19  | 1     |
 | Duke City Half        | 10/17/21| 13.1 mi  | 68:29 | 1     |
+-->
 
 <!-- ## Definition Lists -->
 
@@ -56,18 +57,19 @@ Multi line blockquote with a cite reference:
 
 <!-- Do It Live -->
 <!-- :   I'll let Bill O'Reilly [explain](https://www.youtube.com/watch?v=O_HyZ5aW76c "We'll Do It Live") this one. -->
-
+<!--
 ## Music
 I spend a lot of time listening to music, playing guitar, and going to concerts, so I figured I should include some stuff about that here.
   * I used to DJ for the UW student radio station; support them here [Rainy Dawg Radio](https://rainydawg.org/).
   * I play a lot of guitar when I can. Here's some of the gear I use (for those interested).
       * Taylor SB2-S double cutaway solid body
       * Gretsch Nashville G6121 solid body
-      <!-- * Line 6 Pre-amp
+       * Line 6 Pre-amp
       * Whammy! pedal
       * Boss SYB-5 bass synthesizer
       * Kustom Defender V5
-      * Fender Frontman (because everyone has one of these) -->
+      * Fender Frontman (because everyone has one of these)
+      -->
 
 
 <!-- ## Buttons -->
