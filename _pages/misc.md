@@ -8,7 +8,7 @@ permalink: /misc/
 
 <!-- # Header one -->
 
-## Running
+<!-- ## Running -->
 I spend a lot of time moving around in straight or slightly curved lines, or on the street in perhaps too-short courses. I'm an active member of [Club Northwest](https://www.clubnorthwest.org/) and previously [Duke's Track Club](https://www.dukestrackclub.com). As a member, I help out with local races and occasionally travel places to race for them around the country (and occasionally in Canada). See Strava [here](https://www.strava.com/athletes/46169578).
 
 <!-- ### Header three -->
