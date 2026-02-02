@@ -1,95 +1,301 @@
 @article{manns2024bcd,
   author = {Baraldi, Robert J. and Manns, Paul},
   title = {Domain decomposition for integer optimal control with total variation regularization},
-  journal = {{SIAM} Journal on Control and Optimization},
   year={2025},
-  pages = {to appear},
-  eprint={arxiv:2410.15672},
-}
-@article{baraldi2025sketch,
-  author = {Baraldi, Robert and Kouri, Drew P. and Antil, Harbir},
-  title  = {Memory-Efficient Nonsmooth Dynamic Optimization using Adaptive Randomized Compression},
-  journal = {In Review at Optimization and Engineering},
-  year = {2025}
-}
-@article{baraldi2024subprob,
-  author = {Baraldi, Robert J. and Kouri, Drew P.},
-  title  = {Efficient Subproblem Solvers for a nonsmooth trust-region method},
-  journal = {Computational Optimization and Applications},
-  volume =  90,
-  pages = {193--226},
-  year = {2025}
-}
-@article{baraldi2024local,
-  author = {Baraldi, Robert J. and Kouri, Drew P.},
-  title  = {Local Convergence Analysis of an inexact trust-region method for nonsmooth optimization},
-  journal = {Optimization Letters},
-  volume =  18,
-  pages = {663--680},
-  year = {2024}
-}
-@article{javeed2025proxstorm,
-  author = {Javeed, Aurya and Baraldi, Robert J. and Kouri, Drew P. and Scheinberg, Katya},
-  title = {ProxSTORM - An Stochastic Trust Region Algorithm for Nonsmooth Optimization},
-  journal = {In Review in Computational Optimization and Applications},
-  year = {2025},
-}
-@article{baraldi2023admm,
-author = {Baraldi, Robert J. and Wild, Stefan and Leyffer, Sven},
-year ={2023},
-title ={Using Filter Methods to Guide Convergence for ADMM with Applications to Nonnegative Matrix Factorization},
-journal= {In Review at the Journal of Optimization Theory and Applications},
+  journal = {{SIAM} Journal on Control and Optimization},
+  number = {63},
+  volume = {6},
+  pages = {3825--3855},
+  doi = {10.1137/24M170466X}
 }
 
-@article{baraldi2022nls,
-author = {Baraldi, Robert J. and Aravkin, Aleksandr and Orban Dominique},
-year = {2022},
-title = {A Levenberg - Marquardt Method for Nonsmooth Regularized Least Squares},
-journal =  {{SIAM} Journal on Scientific Computing},
-volume = {46},
-number = {4},
-pages = {A2557--A2581},
+@article{hinter2024relu,
+author = {Dong, Guozhi and Hinterm\"{u}ller, Michael and Papafitsoros, Kostas},
+title = {A Descent Algorithm for the Optimal Control of ReLU Neural Network Informed PDEs Based on Approximate Directional Derivatives},
+journal = {SIAM Journal on Optimization},
+volume = {34},
+number = {3},
+pages = {2314-2349},
+year = {2024},
+doi = {10.1137/22M1534420},
+URL = {https://doi.org/10.1137/22M1534420},
+eprint = {https://doi.org/10.1137/22M1534420},
+abstract = { Abstract. We propose and analyze a numerical algorithm for solving a class of optimal control problems for learning-informed semilinear partial differential equations (PDEs). Such PDEs contain constituents that are in principle unknown and are approximated by nonsmooth ReLU neural networks. We first show that direct smoothing of the ReLU network with the aim of using classical numerical solvers can have disadvantages, such as potentially introducing multiple solutions for the corresponding PDE. This motivates us to devise a numerical algorithm that treats directly the nonsmooth optimal control problem, by employing a descent algorithm inspired by a bundle-free method. Several numerical examples are provided and the efficiency of the algorithm is shown. }
 }
-@article{baraldi2023tr,
-  author = {Baraldi, Robert J. and Kouri, Drew P.},
-  title = {A Proximal Trust-Region Method for Nonsmooth Optimization with Inexact Function and Gradient Evaluations},
-  journal = {Mathematical Programming},
-  volume = {1},
-  number = {201},
-  pages = {559--598},
-  year = {2023},
+@article{beck2009fast,
+  title={A fast iterative shrinkage-thresholding algorithm for linear inverse problems},
+  author={Beck, Amir and Teboulle, Marc},
+  journal=siims,
+  volume={2},
+  number={1},
+  pages={183--202},
+  year={2009},
+  publisher={SIAM},
+}
+@article{hintermuller-2016,
+  title={{A bundle-free implicit programming approach for a class of elliptic MPECs in function space}},
+  author={Hinterm{\"u}ller, Michael and Surowiec, Thomas},
+  journal={Mathematical Programming},
+  volume={160},
+  pages={271--305},
+  year={2016},
+  publisher={Springer}
+}
+@incollection{combettes2011proximal,
+  title={Proximal splitting methods in signal processing},
+  author={Combettes, Patrick L and Pesquet, Jean-Christophe},
+  booktitle={Fixed-point algorithms for inverse problems in science and engineering},
+  pages={185--212},
+  year={2011},
+  publisher={Springer},
+  address={New York, NY},
+  doi = {10.1007/978-1-4419-9569-8\_10}
+}
+@article{herzog2015annular,
+  title={Annular and sectorial sparsity in optimal control of elliptic equations},
+  author={Herzog, Roland and Obermeier, Johannes and Wachsmuth, Gerd},
+  journal={Computational Optimization and Applications},
+  volume={62},
+  number={1},
+  pages={157--180},
+  year={2015},
+  publisher={Springer}
+}
+@article{herzog2012directional,
+  title={Directional sparsity in optimal control of partial differential equations},
+  author={Herzog, Roland and Stadler, Georg and Wachsmuth, Gerd},
+  journal={SIAM Journal on Control and Optimization},
+  volume={50},
+  number={2},
+  pages={943--963},
+  year={2012},
+  publisher={SIAM}
+}
+@article{tibshirani1996regression,
+  title={Regression shrinkage and selection via the lasso},
+  author={Tibshirani, Robert},
+  journal={J. Roy. Statist. Soc. Ser. B},
+  volume={58},
+  number={1},
+  pages={267--288},
+  year={1996},
+  publisher={Wiley Online Library},
+  doi = {10.1111/j.2517-6161.1996.tb02080.x}
+}
+@article{stadler2009elliptic,
+  title={Elliptic optimal control problems with {$L^1$}-control cost and applications for the placement of control devices},
+  author={Stadler, Georg},
+  journal={Computational Optimization and Applications},
+  volume={44},
+  number={2},
+  pages={159},
+  year={2009},
+  publisher={Springer}
+}
+@book{tibshirani2009stat,
+  author         = {Hastie, T. and Tibshirani, R. and Friedman, J.},
+  editor         = {},
+  publisher      = {Springer},
+  title          = {Elements of Statistical Learning},
+  year           = {2009},
+  edition        = {2},
+}
+@book{rtrw,
+    Author = {Rockafellar, R.T. and Wets, R.J.B.},
+    Publisher = {Springer},
+    Title = {Variational Analysis},
+    Volume = {317},
+    Year = {1998}
 }
 
-@article{rim2022gnss,
-author ={Rim, Donsub and Baraldi, Robert J. and Liu, Christopher and LeVequ, Randall and Terada, Kenjiro},
-year = {2022},
-url= {https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022GL099511},
-title ={Tsunami Early Warning from Global Navigation Satellite System Data using Convolutional Neural Networks},
-journal = {Geophysical Review Letters},
-volume = {49},
-number ={20}
+@article{krokhmal2002portfolio,
+  title={Portfolio optimization with conditional value-at-risk objective and constraints},
+  author={Krokhmal, Pavlo and Palmquist, Jonas and Uryasev, Stanislav},
+  journal={Journal of risk},
+  volume={4},
+  pages={43--68},
+  year={2002},
+  publisher={Citeseer}
 }
 
-@article{baraldi2021tr,
-author = {Baraldi, Robert J. and Aravkin, Aleksandr and Orban, Dominique},
-year = {2021},
-url = {https://epubs.siam.org/doi/abs/10.1137/21M1409536},
-title = {A Proximal Quasi-Newton Trust-Region Method for Nonsmooth Regularized Optimization},
-journal = {SIAM Journal of Optimization},
-volume = {32},
-number ={2},
-pages = {900-929},
+@article{rockafellar2000optimization,
+  title={Optimization of conditional value-at-risk},
+  author={Rockafellar, R Tyrrell and Uryasev, Stanislav and others},
+  journal={Journal of risk},
+  volume={2},
+  pages={21--42},
+  year={2000},
+  publisher={Citeseer}
 }
-@article{liu2021tsu,
+
+@book{beck2017firstorder,
+  author         = {Beck, A.},
+  title          = {First Order Methods in Optimization},
+  publisher      = {Society for Industrial and Applied Mathematics},
+  year           = {2017},
+  address        = {Philadelphia, PA},
+  doi            = {10.1137/1.9781611974997}
+}
+
+
+@article{baraldi2019bpdn,
+title={Basis Pursuit Denoise with Nonsmooth Constraints},
+author={Baraldi, Robert J. and Kumar, Rajiv and Aravkin, Aleksandr},
+journal={IEEE Transactions on Signal Processing},
+volume={67},
+number={22},
+pages={5811--5823},
+year={2019},
+publisher={IEEE}
+}
+@article{levenberg-1944,
+  author          = {Levenberg, K.},
+  title           = {A method for the solution of certain problems in least squares},
+  journal         = qam,
+  volume          = {},
+  number          = {2},
+  pages           = {164--168},
+  year            = {1944},
+  doi             = {10.1090/qam/10666},
+}
+@article{liu2021tsunami,
 author = {Liu, Christopher and Rim, Donsub and Baraldi, Robert J. and LeVeque, Randall},
 year = {2021},
-url ={https://link.springer.com/article/10.1007/s00024-021-02841-9},
-title ={Comparison of Machine Learning Approaches for Tsunami Forecasting from Sparse Observations},
+title = {Comparison of Machine Learning Approaches for Tsunami Forecasting from Sparse Observations},
 journal = {Pure and Applied Geophysics},
 volume = {178},
-pages = {5129-5153},
+pages= {5129--5153},
 }
+@article{donoho2006compressed,
+  title={Compressed sensing},
+  author={Donoho, David L},
+  journal={IEEE Transactions on Information Theory},
+  volume={52},
+  number={4},
+  pages={1289--1306},
+  year={2006},
+  publisher={IEEE},
+  doi = {10.1109/TIT.2006.871582}
+}
+@Article{Leyffer2020filter,
+  author  = {Vanaret, Charlie and Leyffer, Sven},
+  journal = {Mathematical Methods of Operations Research},
+  title   = {An Augmented {L}agrangian Filter Method},
+  year    = {2020},
+  number  = {2},
+  pages   = {343--376},
+  volume  = {92},
+  doi     = {10.1007/s00186-020-00713-x},
+}
+@article{fletcher2002nonlin,
+	author = {Fletcher, Roger and Leyffer, Sven},
+	title = {{Nonlinear programming without a penalty function}},
+	journal = {Mathematical Programming},
+	year = {2002},
+	volume = {91},
+	pages ={239--270},
+}
+@misc{fletcher2006hist,
+	author = {{Fletcher, R. and Leyffer, S. and Toint, Ph. L.}},
+	title = {{A brief history of filter methods}},
+	year = {2006},
+	institution = {Argonne National Laboratories},
+}
+@article{toint2002nonlin,
+	author = {Fletcher, R. and Leyffer, S. and Toint, {\relax Ph}. L.},
+	title = {{On the global convergence of a filter-SQP algorithm}},
+	journal = {SIAM Journal of Optimization},
+	year = {2002},
+	volume = {13},
+	number = {1},
+	pages = {44--59},
+}
+@article{niu2019discrete,
+  author          = {Niu, Y. S. and Glowinski, R.},
+  journal         = {arXiv preprint arXiv: 1912.10221},
+  number          = {},
+  title           = {Discrete dynamical system approaches for boolean polynomial optimization},
+  volume          = {},
+  year            = {2019}
+}
+@article{coban_kenderov_revalski_1989,
+	title={Generic well-posedness of optimization problems in topological spaces},
+	volume={36},
+	DOI={10.1112/S0025579300013152},
+	number={2},
+	journal={Mathematika},
+	publisher={London Mathematical Society},
+	author={Čoban, M. M. and Kenderov, P. S. and Revalski, J. P.},
+	year={1989},
+	pages={301–324},
+}
+@article{scheinberg2017trstoch,
+	author = {Chen, R and Menickelly, M. and Scheinberg, K.},
+	title  = {Stochastic optimization using a trust-region method and random models},
+	journal ={Mathematical Programming},
+	volume = 169,
+	number = {},
+	pages = {447--487},
+	year = 2018,
+	doi = {https://doi.org/10.1007/s10107-017-1141-8}
+}
+@article{berahas2021sqpstoch,
+author = {Berahas, Albert S. and Curtis, Frank E. and Robinson, Daniel and Zhou, Baoyu},
+title = {Sequential Quadratic Optimization for Nonlinear Equality Constrained Stochastic Optimization},
+journal = {SIAM Journal on Optimization},
+volume = {31},
+number = {2},
+pages = {1352-1379},
+year = {2021},
+doi = {10.1137/20M1354556},
 
+URL = {
+        https://doi.org/10.1137/20M1354556
+
+},
+eprint = {
+        https://doi.org/10.1137/20M1354556
+
+}
+}
+@ARTICLE{chaari2014ham,
+  author={Chaari, Lotfi and Tourneret, Jean-Yves and Chaux, Caroline and Batatia, Hadj},
+  journal={IEEE Transactions on Signal Processing},
+  title={A Hamiltonian Monte Carlo Method for Non-Smooth Energy Sampling},
+  year={2016},
+  volume={64},
+  number={21},
+  pages={5585-5594},
+  doi={10.1109/TSP.2016.2585120}
+}
+@article{Leeuwen2021proj,
+author = {van Leeuwen, Tristan and Aravkin, Aleksandr Y.},
+title = {Variable Projection for NonSmooth Problems},
+journal = {SIAM Journal on Scientific Computing},
+volume = {43},
+number = {5},
+pages = {S249-S268},
+year = {2021},
+doi = {10.1137/20M1348650},
+URL = {https://doi.org/10.1137/20M1348650},
+eprint = {https://doi.org/10.1137/20M1348650},
+abstract = { Variable projection solves structured optimization problems by completely minimizing over a subset of the variables while iterating over the remaining variables. Over the past 30 years, the technique has been widely used, with empirical and theoretical results demonstrating both greater efficacy and greater stability compared to competing approaches. Classic examples have exploited closed-form projections and smoothness of the objective function. We extend the approach to problems that include nonsmooth terms, develop an inexact adaptive algorithm that solves projection subproblems inexactly by iterative methods, and analyze its computational complexity. Finally, we illustrate the effectiveness of the adaptive algorithm with numerical examples. Code to reproduce the examples is available at ŭlhttps://github.com/TristanvanLeeuwen/VarProNS. }
+}
+@Inbook{Shi2022,
+author="Shi, Andrew
+and Persson, Per-Olof
+and Zahr, Matthew J.",
+editor={Sevilla, Rub{\'e}n and Perotto, Simona and Morgan, Kenneth},
+title="High-Order Implicit Shock Tracking (HOIST)",
+bookTitle="Mesh Generation and Adaptation: Cutting-Edge Techniques",
+year="2022",
+publisher="Springer International Publishing",
+address="Cham",
+pages="233--259",
+isbn="978-3-030-92540-6",
+doi="10.1007/978-3-030-92540-6_11",
+url="https://doi.org/10.1007/978-3-030-92540-6_11"
+}
 @InProceedings{baraldi2022sketch,
 author="Baraldi, Robert J.
 and Herberg, Evelyn
@@ -107,123 +313,3322 @@ address="Cham",
 pages="107--116",
 isbn="978-3-031-37003-8"
 }
-@incollection{baraldi2023inexact,
-  author      = "Baraldi, Robert J. and Kouri, Drew P. and Ridzal, Denis",
-  title       = "Trust-Region Methods with Inexact and Adaptive Computations",
-  editor      = "Pardalos, Panos M. and Prokopyev, Oleg A.",
-  booktitle   = "Encyclopedia of Optimization",
-  publisher   = "Springer Nature",
-  address     = "Cham, Switzerland",
-  year        = 2023,
-}
-
-@ARTICLE{bpndnonsmooth2018,
-  title={Basis Pursuit Denoise with Nonsmooth Constraints},
-  author={Baraldi, Robert J. and Kumar, Rajiv, and Aravkin, Aleksandr },
-  journal={IEEE Transactions on Signal Processing},
-  year = {2019},
-  volume={67},
-  number={22},
-  pages={5811-5823}
-}
-@ARTICLE{interpmatcomp2019,
-  doi = {10.1088/1361-6420/ab3204},
-  url = {https://doi.org/10.1088%2F1361-6420%2Fab3204},
-  year = 2019,
-  month = {9},
-  publisher = {{IOP} Publishing},
-  volume = {35},
-  number = {10},
-  pages = {105009},
-  author = {Robert J. Baraldi and Carl Ulberg and Rajiv Kumar and Kenneth Creager and Aleksandr Aravkin},
-  title = {Relaxation algorithms for matrix completion, with applications to seismic travel-time data interpolation},
-  journal = {Inverse Problems},
-  abstract = {Travel time tomography is used to infer the underlying three-dimensional wavespeed structure of the Earth by fitting seismic travel time data collected at surface stations. Data interpolation and denoising techniques are important pre-processing steps that use prior knowledge about the data, including parsimony in the frequency and wavelet domains, low-rank structure of matricizations, and local smoothness.
-We show how local smoothness structure can be combined with low rank constraints using level-set optimization formulations, and develop a new relaxation algorithm that can efficiently solve these joint problems. In the seismology setting, we use the approach to interpolate missing stations and de-noise observed stations. The new approach is competitive with alternative algorithms, and offers new functionality to interpolate observed data using both smoothness and low rank structure in the presence of data fitting constraints.}
-}
-
-@ARTICLE{paramest2016,
-  title={Parameter Estimation Using Unidentified Individual Data in Individual Based Models},
-  author={Banks, Harvey Thomas and Baraldi, Robert J. and  Catenacci, Jared and Myers, Nicholas},
-  journal={Mathematical Modeling of Natural Phenomena},
-  volume={11},
-  number={6},
-  pages={103-121},
-  year={2016}
-}
-@ARTICLE{algeadynam2016,
-  title={Validation of a Mathematical Model for Green Algae (Raphidocelis subcapitata) Growth and Implications for a Coupled Dynamical System with Daphnia Magna},
-  author={Banks, Harvey Thomas and Baraldi, Robert J. and  Flores, Kevin and Stemkovski, Michael},
-  journal={Applied Sciences},
-  volume={6},
-  number={5},
-  pages={155},
-  year={2016}
-}
-
-@ARTICLE{paramadmittance2015,
-  title={Correlation of Parameter Estimators for Models Admitting Multiple Parametrizations},
-  author={Adoteye, Kaska and Banks, Harvey Thomas and Baraldi, Robert J. and  Nardini, John and Thompson, W Clay},
-  journal={International Journal of Pure and Applied Mathematics},
-  volume={105},
-  number={3},
-  pages={497-522},
-  year={2015}
-}
-@ARTICLE{opdesignminuncert2015,
-  title={Optimal Design for Minimizing Uncertainty in Dynamic Equilibrium Systems},
-  author={Banks, Harvey Thomas and Baraldi, Robert J. and Flores, Kevin},
-  journal={Eurasian Journal of Mathematical and Computer Applications},
-  volume={3},
-  pages={20-43},
-  year={2015}
-}
-@ARTICLE{uqhiv2015,
-  title={Uncertainty quantification in modeling HIV viral mechanics.},
-  author={Banks, Harvey Thomas and Baraldi, Robert J. and Cross, Karissa and McChesney, Christina and Poag, Laura and Thorpe, Emma and Flores, Kevin},
-  journal={Mathematical Biosciences and Engineering},
-  volume={12},
-  number={5},
-  pages={937-964},
-  year={2015}
-}
-
-@conference {uqhivconf2014,
-  title = {Uncertainty quantification for a model of HIV-1 patient response to antiretroviral therapy interruptions},
-  booktitle = {Proceedings of the 2014 American Control Conference},
-  year = {2014},
-  authors = {Banks, Harvey Thomas and Baraldi, Robert J. and Cross, Karissa and McChesney, Christina and Poag, Laura and Thorpe, Emma and Flores, Kevin},
-  year = {2014},
-  pages={2753-2758}
-}
-@techreport{paramtech2014,
-  author = {Baraldi, Robert J. and Nardini, John and Thorpe, Emma and Banks, Harvey Thomas},
-  title = {The Effects of Parameterization on Inverse Problems},
-  institution = {NC State Center for Research in Scientific Computation},
-  year = {2014},
-  number = {CRSC-TR14-07},
-  type = {Report},
-  address={Raleigh, NC}
-}
-@techreport{baraldi2024tvreg,
+@misc{baraldi2024tv,
   author = {Baraldi, Robert J. and Kouri, Drew P. and Heiden, Michael},
+  howpublished = {Sandia Technical Report},
   title = {Rapid Optimization of Total Variation with Applications in Imaging, Additive Manufacturing, and Qualification},
-  institution = {Sandia National Laboratories},
   year = {2024},
+  eprint = {SAND2024 - 14136},
+}
+@article{baraldi2024sketch,
+  author = {Baraldi, Robert J. and Kouri, Drew P. and Antil, Harbir},
+  journal = {Optimization and Engineering},
   number = {},
-  type = {Report},
-  address={Albuquerque, NM}
+  title = {Memory-Efficient Nonsmooth Dynamic Optimization using Adaptive Randomized Compression},
+  volume = {To appear},
+  year = {2024}
+}
+@article{javeed2025proxstorm,
+  author = {Javeed, Aurya and Baraldi, Robert J. and Kouri, Drew P. and Scheinberg, Katya},
+  title = {ProxSTORM -- An Stochastic Trust Region Algorithm for Nonsmooth Optimization},
+  journal = {Computational Optimization and Applications},
+  year = {2025},
+  pages = {In Review}
+}
+@article{fukushima1981pg,
+author = { Masao Fukushima  and  Hisashi   Mine },
+title = {A generalized proximal point algorithm for certain non-convex minimization problems},
+journal = {International Journal of Systems Science},
+volume = {12},
+number = {8},
+pages = {989-1000},
+year  = {1981},
+publisher = {Taylor & Francis},
+doi = {10.1080/00207728108963798},
+URL = {https://doi.org/10.1080/00207728108963798},
+eprint = {https://doi.org/10.1080/00207728108963798}
+}
+@article{wang2025multi,
+ author = {Wang, Qi and Baraldi, Robert J. and Hinterm{\"u}ller, Michael},
+ title = {multilevel proximal trust-region method for nonsmooth
+ optimization with applications to scientific machine learning},
+ journal = {in preparation},
+ year = {2025},
+}
+@article{baraldi2025mm,
+  author = {Javeed, Aurya and Baraldi, Robert J. and Kouri, Drew P.},
+  title = {Robust Optimization of Neural Networks via a Maximization-Minimization Routine},
+  journal = {in preparation},
+  year = {2025}
+}
+@article{baraldi2025vi,
+  author = {Baraldi, Robert J. and Glusa, Christian and Jakeman, John},
+  title = {A multifidelity variational inference approach to kernal parameters in nonlocal models},
+  journal = {in preparation},
+  year = {2025}
+}
+@article{baraldi2025ip,
+  author = {Maia, Leandro and Baraldi, Robert J. and Kouri, Drew P.},
+  title = {A weighted proximal trust-region method},
+  journal = {in preparation},
+  year = {2025}
+}
+@article{baraldi2025tvip,
+  author = {Baraldi, Robert J. and Kouri, Drew P. and Hinterm{\"u}ller, Michael},
+  title = {Optimization of Total-Variation Regularized Problems using Inexact Proximal Solves},
+  journal = {in preparation},
+  year = {2025}
+}
+@article{baraldi2025afem,
+  author = {Baraldi, Robert J. and Kandelwahl, Rohit and Kouri, Drew P. and Antil, Harbir},
+  title = {An adaptive finite element method for nonsmooth optimal control},
+  journal = {in preparation},
+  year = {2025},
+}
+@article{baraldi2024subprob,
+  author = {Baraldi, Robert J. and Kouri, Drew P.},
+  title  = {Efficient Subproblem Solvers for a nonsmooth trust-region method},
+  journal = {Computational Optimization and Applications},
+  volume =  90,
+  pages = {193--226},
+  year = {2025}
+}
+@article{kouri2014inexact,
+  title={Inexact objective function evaluations in a trust-region algorithm for {PDE}-constrained optimization under uncertainty},
+  author={Kouri, D. P. and Heinkenschloss, M. and Ridzal, D. and van Bloemen Waanders, B. G.},
+  journal={{SIAM Journal on Scientific Computing}},
+  volume={36},
+  number={6},
+  pages={A3011--A3029},
+  year={2014},
+  publisher={SIAM}
+}
+@misc{rathore2024challenges,
+      title={Challenges in Training PINNs: A Loss Landscape Perspective},
+      author={Pratik Rathore and Weimu Lei and Zachary Frangella and Lu Lu and Madeleine Udell},
+      year={2024},
+      eprint={2402.01868},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2402.01868},
+}
+@article{baraldi2024leven,
+author = {Baraldi, Robert J. and Aravkin, Aleksandr and Orban, Dominique},
+year = {2024},
+title = {A Levenberg-Marquardt Method for Nonsmooth Regularized Least Squares},
+journal = {SIAM Journal on Scientific Computing},
+volume = {46},
+number = {4},
+pages = {A2557-A2581},
+}
+@article{baraldi2025banach,
+  author = {Baraldi, Robert J. and Walter, Daniel},
+  journal = {in preparation},
+  number = {},
+  title = {A globally convergent trust-region algorithm in {B}anach space},
+  volume = {},
+  year = {2025}
+}
+@article{baraldi2026mp,
+  author = {Baraldi, Robert J. and Sethi-Olowin, Arjun and Ridzal, Denis},
+  journal = {in preparation},
+  number = {},
+  title = {Controlling Arithmetic Precision in Trust-Region Methods for {PDE}-constrained optimization},
+  volume = {},
+  year = {2026}
+}
+@article{hart2025risk,
+  author = {Baraldi, Robert J. and Hart, Joseph and Kouri, Drew P. and Ridzal, Denis and van Bloemen Waanders, Bart},
+  journal = {in preparation},
+  number = {},
+  title = {Hyper-Differential Sensitivity Analysis for Risk Averse Optimization},
+  volume = {},
+  year = {2025}
+}
+@article{marquardt-1963,
+  author = {Marquardt, Donald W.},
+  title = {An Algorithm for Least-Squares Estimation of Nonlinear Parameters},
+  journal = {Journal of the Society for Industrial and Applied Mathematics},
+  volume = {11},
+  number = {2},
+  pages = {431--441},
+  year = {1963},
+  doi = {10.1137/0111030}
+}
+@book{bach-jenatton-mairal-obozinski-2011,
+  author={Bach, Francis and Jenatton, Rodolph and Mairal, Julien and Obozinski, Guillaume},
+  title={Optimization with Sparsity-Inducing Penalties},
+  year={2012},
+  booktitle = {Foundations and Trends in Machine Learning},
+  publisher      = {IEEE},
+  volume={4},
+  doi={10.1561/2200000015}
+}
+@article{baraldi2022anl,
+author = {Baraldi, Robert J. and Wild, Stefan and Leyffer, Sven},
+year = {2023},
+title = {Using Filter Methods to Guide Convergence for ADMM, with Applications to Nonnegative Matrix Factorization},
+journal = {to appear: Journal on Optimization Theory and Applications},
+volume = {},
+number ={},
+pages = {},
+}
+@article{zhu-leus-giannakis-2011,
+  author={Zhu, Hao and Leus, Geert and Giannakis, Georgios B.},
+  journal=ieee-tsp,
+  title={Sparsity-Cognizant Total Least-Squares for Perturbed Compressive Sampling},
+  year={2011},
+  volume={59},
+  number={5},
+  pages={2002--2016},
+  doi={10.1109/TSP.2011.2109956}
+}
+@book{bonnansperturb,
+  editor         = {Bonnans, Joseph Fr{\'e}d{\'e}ric and Shapiro, Alexander},
+  publisher      = {Springer, New York},
+  title          = {Perturbation Analysis of Optimization Problems},
+  booktitle      = { Springer Series in Operations Research and Financial Engineering },
+  year           = {2000}
+}
+@article{liu2022gnss,
+author = {Liu, Christopher and Rim, Donsub and Baraldi, Robert J. and LeVeque, Randall and Terada, Kenjiro},
+year = {2022},
+title ={Tsunami Early Warning from Global Navigation Satellite System Data using Convolutional Neural Networks},
+journal = {submitted to Geophysical Review Letters},
+volume = {},
+number = {},
+pages = {},
+}
+@article{pang2020multi,
+  author          = {Cui, Ying and He, Ziyu and Pang, Jong-Shi},
+  journal         = siopt,
+  number          = {2},
+  title           = {MultiComposite Nonconvex Optimization for Training Deep Neural Networks},
+  volume          = {30},
+  year            = {2020},
+  pages           = {1693-1723},
+}
+@article{baraldi2022tr,
+author = {Baraldi, Robert J. and Kouri, Drew P.},
+year = {2023},
+title = {A Proximal Trust-Region Method for Nonsmooth Optimization with Inexact Function and Gradient Evaluations},
+journal = {Mathematical Programming},
+volume = {201},
+number = {},
+pages = {559-598},
+}
+@article{baraldi2024local,
+  author = {Baraldi, Robert J. and Kouri, Drew P.},
+  title  = {Local Convergence Analysis of an inexact trust-region method for nonsmooth optimization},
+  journal = {Optimization Letters},
+  volume =  18,
+  pages = {663--680},
+  year = {2024}
+}
+
+@Article{steihaug-1983,
+  author   = {T. Steihaug},
+  title    = {The conjugate gradient method and trust regions in
+              large scale optimization},
+  journal  = sinum,
+  volume   = {20},
+  number   = {3},
+  pages    = {626--637},
+  year     = {1983},
+}
+
+@book{tarantola1987inverse,
+title = {Inverse problem theory: Methods for data fitting and model parameter estimation},
+author = {Tarantola, A.},
+doi = {},
+publisher      = {Elsevier Science},
+journal = {},
+number = {},
+volume = {},
+place = {United States},
+year = {1987},
+month = {1}
+}
+@article{toint2008recursive,
+  author          = {Gratton, Serge and Sartenaer, Annick and Toint, Philippe L.},
+  journal         = {{SIAM} Journal on Optimization},
+  number          = {1},
+  title           = {Recursive Trust-Region Methods for Multiscale Nonlinear Optimization},
+  volume          = {19},
+  year            = {2008},
+  pages          = {414--444},
+}
+@article{gross2009proof,
+author = {Gross, Christian and Krause, Rolf},
+title = {On the Convergence of Recursive Trust-Region Methods for Multiscale Nonlinear Optimization and Applications to Nonlinear Mechanics},
+journal = {SIAM Journal on Numerical Analysis},
+volume = {47},
+number = {4},
+pages = {3044-3069},
+year = {2009},
+doi = {10.1137/08071819X},
+URL = {https://doi.org/10.1137/08071819X},
+eprint = {https://doi.org/10.1137/08071819X}
+}
+@article{pyro,
+  author  = {Eli Bingham and Jonathan P. Chen and Martin Jankowiak and Fritz Obermeyer and Neeraj Pradhan and Theofanis Karaletsos and Rohit Singh and Paul Szerlip and Paul Horsfall and Noah D. Goodman},
+  title   = {Pyro: Deep Universal Probabilistic Programming},
+  journal = {Journal of Machine Learning Research},
+  year    = {2019},
+  volume  = {20},
+  number  = {28},
+  pages   = {1--6},
+  url     = {http://jmlr.org/papers/v20/18-403.html}
+}
+@article{d2020numerical,
+  title={Numerical methods for nonlocal and fractional models},
+  author={D’Elia, Marta and Du, Qiang and Glusa, Christian and Gunzburger, Max and Tian, Xiaochuan and Zhou, Zhi},
+  journal={Acta Numerica},
+  volume={29},
+  pages={1--124},
+  year={2020},
+  publisher={Cambridge University Press}
+}
+@article{qi1994trust,
+  title={A trust region algorithm for minimization of locally Lipschitzian functions},
+  author={Qi, Liqun and Sun, Jie},
+  journal={Mathematical Programming},
+  volume={66},
+  number={1},
+  pages={25--43},
+  year={1994},
+  publisher={Springer}
+}
+@article{antil2023sobolev,
+    title = {Sparse Optimization problems in fractional order Sobolev Spaces},
+    author = {Antil, Harbir and Wachsmuth, Daniel},
+    journal = {Inverse Problems},
+    number = {},
+    volume = {39},
+    pages = {044001},
+    publisher = {IOP Publishing},
+    year = {2023},
+    doi = {https://doi.org/10.1088/1361-6420/acbe5e}
+}
+@article{grohs2016nonsmooth,
+  title={Nonsmooth trust region algorithms for locally Lipschitz functions on Riemannian manifolds},
+  author={Grohs, Philipp and Hosseini, Seyedehsomayeh},
+  journal={IMA Journal of Numerical Analysis},
+  volume={36},
+  number={3},
+  pages={1167--1192},
+  year={2016},
+  publisher={Oxford University Press}
+}
+@article{osher2023hamilton,
+  title={A Hamilton--Jacobi-based proximal operator},
+  author={Osher, Stanley and Heaton, Howard and Wu Fung, Samy},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={120},
+  number={14},
+  pages={e2220469120},
+  year={2023},
+  publisher={National Acad Sciences}
+}
+@article{hinter2017p1,
+  author          = {Rautenberg, Carlos and Hinterm{\"u}ller, Michael},
+  journal         = {Journal of Mathematical Imaging and Vision},
+  number          = {59},
+  title           = {Optimal selection of the regularization function in a
+weighted total variation model. {Part I:} modeling and theory},
+  volume          = {},
+  year            = {2017},
+  pages           = {498-514},
+}
+@article{Nocedal2018OptMl,
+  author          = {Bottou, L{\'e}on and Curtis, Frank E. and Nocedal, Jorge},
+  title           = {Optimization Methods for Large-Scale Machine Learning},
+  journal         = {SIAM Review},
+  volume          = {60},
+  number          = {2},
+  year            = {2018},
+  pages           = {223--311}
+}
+@misc{barone2021dd,
+  author       = {Jaideep, R. and Barone, M. and Domino, S. and Banerjee, T. and Ranka, S.},
+  title        = {Verification of Data-Driven Models of Physical Phenomenon using Interpretable Approximation},
+  howpublished = {Sandia National Laboratories},
+  year         = {2021}
+}
+@article{adams2005hiv,
+  author          = {Adams, B.M. and Banks, H.T. and Davidian, M. and Kwon, Hee-Dae and Tran, H.T. and Wynne, S.N. and Rosenberg, E.S.},
+  title           = {HIV dynamics: Modeling, data analysis, and optimal treatment protocols},
+  journal         = {Journal of Computational and Applied Mathematics},
+  volume          = {184},
+  number          = {1},
+  year            = {2005}
+}
+@article{siefer2012phys,
+  author          = {Pawlowski, R. and Phipps, E. and Salinger, A. and Owen, S. and Siefert, C. and Staten M.},
+  title           = {{Automating embedded analysis capabilities and managing software complexity in multiphysics simulation, Part II: Application to partial differential equations}},
+  journal         = {Scientific Programming},
+  volume          = {20},
+  number          = {3},
+  year            = {2012},
+  pages           ={}
+}
+@misc{hart2023solving,
+      title={Solving High-Dimensional Inverse Problems with Auxiliary Uncertainty via Operator Learning with Limited Data},
+      author={Joseph Hart and Mamikon Gulian and Indu Manickam and Laura Swiler},
+      year={2023},
+      eprint={2303.11379},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML}
+}
+@misc{manns2023integer,
+      title={On Integer Optimal Control with Total Variation Regularization on Multi-dimensional Domains},
+      author={Paul Manns and Annika Schiemann},
+      year={2023},
+      eprint={2212.12226},
+      archivePrefix={arXiv},
+      primaryClass={math.OC}
+}
+@article{PANG2020109760,
+title = "nPINNs: Nonlocal physics-informed neural networks for a parametrized nonlocal universal Laplacian operator. Algorithms and applications",
+journal = "Journal of Computational Physics",
+volume = "422",
+pages = "109760",
+year = "2020",
+issn = "0021-9991",
+doi = "https://doi.org/10.1016/j.jcp.2020.109760",
+url = "http://www.sciencedirect.com/science/article/pii/S0021999120305349",
+author = "G. Pang and M. D'Elia and M. Parks and G.E. Karniadakis",
+keywords = "Nonlocal models, Deep learning, Fractional Laplacian, Physics-informed neural networks, Turbulence modeling",
+abstract = "Physics-informed neural networks (PINNs) are effective in solving inverse problems based on differential and integro-differential equations with sparse, noisy, unstructured, and multi-fidelity data. PINNs incorporate all available information, including governing equations (reflecting physical laws), initial-boundary conditions, and observations of quantities of interest, into a loss function to be minimized, thus recasting the original problem into an optimization problem. In this paper, we extend PINNs to parameter and function inference for integral equations such as nonlocal Poisson and nonlocal turbulence models, and we refer to them as nonlocal PINNs (nPINNs). The contribution of the paper is three-fold. First, we propose a unified nonlocal Laplace operator, which converges to the classical Laplacian as one of the operator parameters, the nonlocal interaction radius δ goes to zero, and to the fractional Laplacian as δ goes to infinity. This universal operator forms a super-set of classical Laplacian and fractional Laplacian operators and, thus, has the potential to fit a broad spectrum of data sets. We provide theoretical convergence rates with respect to δ and verify them via numerical experiments. Second, we use nPINNs to estimate the two parameters, δ and α, characterizing the kernel of the unified operator. The strong non-convexity of the loss function yielding multiple (good) local minima reveals the occurrence of the operator mimicking phenomenon, that is, different pairs of estimated parameters could produce multiple solutions of comparable accuracy. Third, we propose another nonlocal operator with spatially variable order α(y), which is more suitable for modeling wall-bounded turbulence, e.g. turbulent Couette flow. Our results show that nPINNs can jointly infer this function as well as δ. More importantly, these parameters exhibit a universal behavior with respect to the Reynolds number, a finding that contributes to our understanding of nonlocal interactions in wall-bounded turbulence."
+}
+@article{wild2015phase,
+title = {Visualizing and improving the robustness of phase retrieval algorithms},
+author = {Tripathi, Ashish and Leyffer, Sven and Munson, Todd and Wild, Stefan M.},
+journal = {Procedia Computer Science},
+number = {C},
+volume = 51,
+place = {United States},
+year = {2015},
+month = {6},
+pages = {815--824}
+}
+
+@article{keeling2009infectious,
+    author = {Keeling, M. J. and Danon, L.},
+    title = "{Mathematical modelling of infectious diseases}",
+    journal = {British Medical Bulletin},
+    volume = {92},
+    number = {1},
+    pages = {33-42},
+    year = {2009}
+}
+
+@incollection{bach2011inexact,
+title = {Convergence Rates of Inexact Proximal-Gradient Methods for Convex Optimization},
+author = {Schmidt, Mark and Nicolas L. Roux and Francis R. Bach},
+booktitle = {Advances in Neural Information Processing Systems 24},
+pages = {1458--1466},
+year = {2011},
+publisher      = {Curran Associates, Inc.},
+}
+
+@article{Rockafellar1976ppoint,
+  author          = {Rockafellar, R. Tyrrell},
+  title           = {Monotone Operators and the Proximal Point Algorithm},
+  journal         = {SIAM Journal of Control and Optimization},
+  volume          = {14},
+  number          = {5},
+  year            = {1976}
+}
+
+@article{villa2013inexact,
+  author          = {Villa, Silvia and Salzo, Saverio and Baldassarre, Luca and Verri, Allesandro},
+  title           = {Accelerated and Inexact Forward-Backward Algorithms},
+  journal         = {SIAM Journal on Optimization},
+  volume          = {23},
+  number          = {3},
+  year            = {2013}
+}
+
+@article{scheinberg2016inexact,
+  author          = {Scheinberg, Katya and Tang, Xiaocheng},
+  title           = {Practical Inexact Proximal Quasi-{N}ewton Method with Global Complexity Analysis},
+  journal         = {Mathematical Programming},
+  volume          = {160},
+  number          = {},
+  year            = {2016},
+  pages           = {495–-529}
+}
+
+@article{bach2014saga,
+  author          = {Defazio, Aaron and Bach, Francis and Lacoste-Julien, Simon},
+  title           = {{SAGA}: A Fast Incremental Gradient Method With Support for Non-Strongly Convex Composite Objectives},
+  journal         = {Advances in Neural Information Processing Systems},
+  volume          = {},
+  number          = {},
+  year            = {2014},
+  pages           = {1646-1654}
+}
+
+@article{PORCELLI20171059,
+title = {Preconditioning {PDE}-constrained optimization with L1-sparsity and control constraints},
+journal = {Computers \& Mathematics with Applications},
+volume = {74},
+number = {5},
+pages = {1059-1075},
+year = {2017},
+note = {SI: SDS2016 – Methods for PDEs},
+issn = {0898-1221},
+doi = {https://doi.org/10.1016/j.camwa.2017.04.033},
+author = {Margherita Porcelli and Valeria Simoncini and Martin Stoll}
+}
+
+@article{bellavia1998inexactIPM,
+  author          = {Bellavia, S},
+  title           = {Inexact Interior-Point Method},
+  journal         = {Journal of Optimization Theory and Applications},
+  volume          = {96},
+  number          = {1},
+  year            = {1998}
+}
+
+@article{nest2014oracle,
+  author          = {Devolder, Olivier and Glineur, Francois and Nesterov, Yurii},
+  title           = {First-order Methods of Smooth Convex Optimization with Inexact Oracle},
+  journal         = {Mathematical Programming},
+  volume          = {146},
+  number          = {},
+  year            = {2014}
+}
+@inproceedings{yun2019trimming,
+  title={Trimming the {L1} Regularizer: Statistical Analysis, Optimization, and Applications to Deep Learning},
+  author={Yun, Jihun and Zheng, Peng and Yang, Eunho and Lozano, Aurelie and Aravkin, Aleksandr},
+  booktitle={International Conference on Machine Learning},
+  pages={7242--7251},
+  year={2019},
+  organization={PMLR}
+}
+
+@article{zheng2018unified,
+  title={A unified framework for sparse relaxed regularized regression: {SR3}},
+  author={Zheng, Peng and Askham, Travis and Brunton, Steven L and Kutz, J Nathan and Aravkin, Aleksandr Y},
+  journal={IEEE Access},
+  volume={7},
+  pages={1404--1423},
+  year={2018},
+  publisher={IEEE},
+  doi = {10.1109/ACCESS.2018.2886528}
+}
+@InProceedings{schmidt09a,
+  title = {Optimizing Costly Functions with Simple Constraints: A Limited-Memory Projected Quasi-{N}ewton Algorithm},
+  author = {Schmidt, M. and Berg, E. and Friedlander, M. and Murphy, K.},
+  booktitle = {Proceedings of the Twelth International Conference on Artificial Intelligence and Statistics},
+  pages = {456--463},
+  year = {2009},
+  editor = {van Dyk, D. and Welling, M.},
+  volume = {5},
+  series = {Proceedings of Machine Learning Research},
+  address = {Hilton Clearwater Beach Resort, Clearwater Beach, Florida USA},
+  month = {16--18 Apr},
+  publisher = {PMLR}
+}
+@book{gunz2003,
+	author = {Gunzberger, M. D.},
+	title = {Perspectives in Flow Control  and Optimization},
+	publisher = {{SIAM}},
+	year = {2003},
+	address = {Philadelphia},
+}
+@article{schot2009tom,
+	author = {Arridge, S. R. and Schotland, J. C.},
+	title = {Optical Tomography: Forward and Inverse Problems},
+	journal = {Inverse Problems},
+	volume = {25},
+	year = 2009,
+	pages = {123010},
+}
+@article{grapiglia-yuan-yuan-2016,
+  author          = {Grapiglia, G.N. and Yuan, J. and Yuan, Yx.},
+  title           = {Nonlinear Stepsize Control Algorithms: Complexity Bounds for First- and Second-Order Optimality},
+  journal         = {J. Optim. Theory and Applics.},
+  volume          = {},
+  number          = {171},
+  pages           = {980-997},
+  year            = {2016},
+  doi             = {10.1007/s10957-016-1007-x}
+}
+@article{klose2002tom,
+	author = {Klose, A. D. and Hielscher, A. H.},
+	title = {Optical Tomography using the Time-Independent Equation of Radiative Transfer--Part 2: Inverse Model},
+	journal = {Journal of Quantitative Spectroscopy and Radiative Transfer},
+	volume = {72},
+	year = 2002,
+	pages = {715--732},
+}
+@book{bauschke2018convex,
+  title={Convex Analysis and Monotone Operator Theory in Hilbert Spaces},
+  author={Bauschke, H. H. and Combettes, P. L.},
+  isbn={9783319839110},
+  series={CMS Books in Mathematics},
+  year={2018},
+  publisher={Springer International Publishing},
+  address = {Cham, Switzerland}
+}
+@article{krebs2009full,
+	author = {Krebs, J. R. and Anderson, J. E. and Hinkley, D. and Neelamani, R. and Lee, S. and Baumstein, A. and Lacasse, M.-D.},
+	title = {Fast full-wavefield seismic inversion using encoded sources},
+	volume = {74},
+	year = 2009,
+	journal = {Geophysics},
+	pages = {WCC177-WCC188},
+}
+@article{chambolle2020pdalg,
+  author          = {Rasch, Julian and Chambolle, Antonin},
+  title           = {Inexact first‑order primal–dual algorithms},
+  journal         = {Computational Optimization and Applications},
+  volume          = {76},
+  number          = {},
+  year            = {2020},
+  pages           = {381--430}
+}
+@article{kouri2021matrix,
+  title={A matrix-free trust-region {N}ewton algorithm for convex-constrained optimization},
+  author={D. P. Kouri},
+  journal={Optimization Letters},
+  pages={1--15},
+  year={2021},
+  publisher={Springer}
+}
+@book{shapiro2021lectures,
+  title={Lectures on stochastic programming: modeling and theory},
+  author={Shapiro, Alexander and Dentcheva, Darinka and Ruszczynski, Andrzej},
+  year={2021},
+  publisher={SIAM}
+}
+@article{zhang2014sg,
+  author          = {Xiao, Lin and Zhang, Tong},
+  title           = {A Proximal Stochastic Gradient Method with Progressive Variance Reduction},
+  journal         = {SIAM Journal on Optimization},
+  volume          = {24},
+  number          = {4},
+  year            = {2014}
+}
+@article{PhLToint_1988a,
+    author = {Toint, Ph. L.},
+    title = "{Global Convergence of a Class of Trust-Region Methods for Nonconvex Minimization in {H}ilbert Space}",
+    journal = {IMA Journal of Numerical Analysis},
+    volume = {8},
+    number = {2},
+    pages = {231-252},
+    year = {1988},
+    month = {04},
+    doi = {10.1093/imanum/8.2.231}
+}
+@book{bertsekas1982constrained,
+  title={Constrained Optimization and Lagrange Multiplier Methods},
+  author={Bertsekas, D.P.},
+  isbn={9780120934805},
+  lccn={81017612},
+  series={Computer science and applied mathematics : a series of monographs and textbooks},
+  url={https://books.google.com/books?id=AX0jIIftffkC},
+  year={1982},
+  publisher={Academic Press}
+}
+@article{nocedal2011sample,
+	author={Byrd, Richard H. and Chin, Gillian M. and Neveitt, Will and Nocedal, Jorge},
+	title={On the use of stochastic {H}essian information in optimization methods for machine learning},
+	journal = {{SIAM Journal of Optimization}},
+	volume = 21,
+	number = 3,
+	pages={977--995},
+	year = 2011}
+}
+@misc{berahas2022sqpreduct,
+  doi = {10.48550/ARXIV.2204.04161},
+  url = {https://arxiv.org/abs/2204.04161},
+  author = {Berahas, Albert S. and Shi, Jiahao and Yi, Zihong and Zhou, Baoyu},
+  keywords = {Optimization and Control (math.OC), FOS: Mathematics, FOS: Mathematics},
+  title = {Accelerating Stochastic Sequential Quadratic Programming for Equality Constrained Optimization using Predictive Variance Reduction},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+@article{fried2005lag,
+author = {Friedlander, Michael and Saunders, Michael},
+year = {2005},
+month = {01},
+pages = {863-897},
+title = {A Globally Convergent Linearly Constrained Lagrangian Method for Nonlinear Optimization},
+volume = {15},
+journal = {SIAM Journal on Optimization},
+doi = {10.1137/S1052623402419789}
+}
+@incollection{reddi2016pstoch,
+title = {Proximal Stochastic Methods for Nonsmooth Nonconvex Finite-Sum Optimization},
+author = {J. Reddi, Sashank and Sra, Suvrit and Poczos, Barnabas and Smola, Alexander J},
+booktitle = {Advances in Neural Information Processing Systems 29},
+publisher = {Curran Associates, Inc.},
+editor = {D. D. Lee and M. Sugiyama and U. V. Luxburg and I. Guyon and R. Garnett},
+pages = {1145--1153},
+year = {2016}
+}
+
+@incollection{sra2012scalable,
+  author          = {Sra, Suvrit},
+  title           = {Scalable Nonconvex Inexact Proximal Splitting},
+  journal         = {Advances in Neural Information Processing Systems},
+  volume          = {},
+  pages          = {530-538},
+  publisher       = {NeurIPS},
+  year            = {2012}
+}
+@incollection{wild2019dfo,
+  author         = {Bollapragada, Raghu and Wild, Stefan},
+  title          = {Adaptive Sampling Quasi-{N}ewton Methods for Derivative-Free Stochastic Optimization},
+  booktitle      = {Beyond First-Order Methods in Machine Learning Systems},
+  publisher      = {NeurIPS},
+  year           = {2019}
+}
+
+@article{baralorbanarav2020tr,
+  author          = {Baraldi, Robert J. and Aravkin, Aleksandr and Orban, Dominique},
+  title           = {A Proximal Quasi-Newton Trust-Region Method for Nonsmooth Regularized Optimization},
+  journal         = {SIAM Journal on Optimization},
+  volume          = {32},
+  number          = {2},
+  year            = {2022},
+  pages           = {900--929},
+}
+@article{Eckstein2015UnderstandingTC,
+  title={Understanding the Convergence of the Alternating Direction Method of Multipliers: Theoretical and Computational Perspectives},
+  author={Eckstein, Jonathan and Yao, Wang},
+  year={2015},
+  journal = {Pacific Journal on Optimization},
+  volume          = {11},
+  pages           = {619--644},
+}
+@article{wohlberg2017residual,
+	author = {Wohlberg, Brendt},
+	title = {{ADMM} Penalty Parameter Selection by Residual Balancing},
+	journal = {arXiv preprint arXiv:1704.06209v1},
+	year = {2017}
+}
+@inproceedings{xu2017admm,
+ author = {Xu, Yi and Liu, Mingrui and Lin, Qihang and Yang, Tianbao},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {I. Guyon and U. Von Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},
+ pages = {},
+ publisher = {Curran Associates, Inc.},
+ title = {ADMM without a Fixed Penalty Parameter: Faster Convergence with New Adaptive Penalization},
+ url = {https://proceedings.neurips.cc/paper/2017/file/e97ee2054defb209c35fe4dc94599061-Paper.pdf},
+ volume = {30},
+ year = {2017}
+}
+@article{boyd2011admm,
+author={Boyd, Stephen and Parikh, Neal and Chu, Eric and Peleato, Borja and Eckstein, Jonathan},
+title={Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers},
+journal={Foundations and Trends in Machine Learning},
+volume={3},
+number={1},
+year={2011},
+pages={1--122}
+}
+@techreport{hiop,
+     title = {{HiOp - User Manual}},
+     author = {Petra, C.G.},
+     group = {LLNL - SM-&43591},
+     year = {2010},
+     institution = {Lawrence Livermore National Laboratory},
+     month = {},
+     year = {2018}
+}
+
+@article{lu-wei-li-2012,
+  author          = {S. Lu and Z. Wei and L. Li},
+  title           = {A trust-region algorithm with adaptive cubic regularization methods for nonsmooth convex minimization},
+  journal         = coap,
+  volume          = {},
+  number          = {51},
+  pages           = {551--573},
+  year            = {2012}
+}
+
+@article{higham-2019,
+author = {Higham, Nicholas J. and Pranesh, Srikara and Zounon, Mawussi},
+title = {Squeezing a Matrix into Half Precision, with an Application to Solving Linear Systems},
+journal = {SIAM Journal on Scientific Computing},
+volume = {41},
+number = {4},
+pages = {A2536--A2551},
+year = {2019},
+}
+
+@misc{cuda,
+  author={NVIDIA and Vingelmann, Péter and Fitzek, Frank H.P.},
+  title={CUDA, release: 10.2.89},
+  year={2020},
+  url={https://developer.nvidia.com/cuda-toolkit},
+}
+
+@article{petra2020uncert,
+  author          = {Constantinescu, Emil M. and Petra, No{\'e}mi and Bessac, Julie and Petra, Cosmin G.},
+  title           = {{Statistical Treatment of Inverse Problems Constrained by Differential Equations-Based Models with Stochastic Terms}},
+  journal         = {{SIAM Journal of Uncertainty Quantification}},
+  volume          = {8},
+  number          = {1},
+  year            = {2020},
+  pages           = {170-197}
+}
+
+@article{keskar2019quasinewt,
+  author          = {Keskar, N. and W{\"a}cter, A.},
+  title           = {{A limited-memory quasi-Newton algorithm for bound-constrained non-smooth optimization}},
+  journal         = {{Optimization Methods and Software}},
+  volume          = {34},
+  number          = {1},
+  year            = {2019},
+  pages           = {150-171}
+}
+
+@article{orban2013cute,
+  author          = {Gould, N. I. M. and Orban, D. and Toint, {\relax Ph}. L.},
+  title           = {{CUTEr (and  SifDec): A Constrained and Unconstrained Testing Environment, revisited}},
+  journal         = {{ACM Transactions on Mathematical Software}},
+  volume          = {29},
+  number          = {4},
+  year            = {2003},
+  pages           = {373-394}
+}
+
+@article{orban2013gala,
+  author = {Gould, N. I. M. and Orban, D. and Toint, {\relax Ph}. L.},
+  title = {{GALAHAD}, a Library of Thread-safe Fortran 90 Packages for Large-scale Nonlinear Optimization},
+  journal = {{ACM Transactions on Mathematical Software}},
+  volume = {29},
+  number = {4},
+  year = {2003},
+  pages = {353--372},
+  publisher = {ACM},
+  address = {New York, NY, USA},
+  pdf = {http://dl.acm.org/authorize?782475}
+}
+
+@article{orban2005large,
+  author          = {Gould, N. I. M. and Orban, D. and Toint, {\relax Ph}. L.},
+  title           = {{Large Scale Numerical Optimization}},
+  journal         = {{Acta Numerica}},
+  volume          = {14},
+  number          = {1},
+  year            = {2005},
+  pages           = {3299-361}
+}
+
+@article{baraldi2019seis,
+  author          = {Baraldi, R. and Ulberg, C. and Kumar, R. and Creager, K. and Aravkin, A.},
+  title           = {Relaxation algorithms for matrix completion, with applications to seismic travel-time data interpolation},
+  journal         = {Inverse Problems},
+  volume          = {35},
+  number          = {10},
+  year            = {2019},
+  pages           = {105009},
+}
+
+
+@article{attouch2013conv,
+author = {Attouch, H. and Bolte, J. and Svaiter, B. F.},
+title = {Convergence of descent methods for semi-algebraic and tame problems: proximal algorithms, forward-backward splitting, and regularized Gauss-Seidel methods},
+journal = {Mathematical Programming},
+volume = {137},
+year = {2013},
+pages = {91--129}
+}
+
+@article{bolte2014palm,
+author = {Bolte, J. and Sabach, S. and Teboulle, M.},
+title = {Proximal Alternating linearized minimization for nonconvex and nonsmooth problems},
+journal = {Mathematical Programming},
+volume = {146},
+year = {2014},
+pages = {459--494}
+}
+
+@article{spgl1,
+ author = {van den Berg, Ewout and Friedlander, Michael P.},
+ title = {Probing the Pareto Frontier for Basis Pursuit Solutions},
+ journal = {SIAM J. Sci. Comput.},
+ issue_date = {November 2008},
+ volume = {31},
+ number = {2},
+ month = nov,
+ year = {2008},
+ issn = {1064-8275},
+ pages = {890--912},
+ numpages = {23},
+ url = {http://dx.doi.org/10.1137/080714488},
+ doi = {10.1137/080714488},
+ acmid = {1654196},
+ publisher = {Society for Industrial and Applied Mathematics},
+ address = {Philadelphia, PA, USA},
+ keywords = {Newton's method, basis pursuit, convex program, duality, one-norm regularization, projected gradient, root-finding, sparse solutions},
+}
+
+@article{lin1999newton,
+  title={Newton's method for large bound-constrained optimization problems},
+  author={Lin, C.-J. and Mor{\'e}, J. J.},
+  journal={SIAM Journal on Optimization},
+  volume={9},
+  number={4},
+  pages={1100--1127},
+  year={1999},
+  publisher={SIAM}
 }
 
 
 
-@unpublished{pfizerdrugdevelop2016,
-title= {Systems Modeling and Data Assimilation in Drug Development},
-author = {Robert J. Baraldi},
-year = {2016},
-month={7},
-day={11-15},
-address={Boston, MA},
-note= {SIAM Annual Life Sciences Conference},
+@article{antil2020alesqp,
+author = {Antil, H. and Kouri, D. P. and Ridzal, D.},
+title = {{ALESQP}: {A}n augmented {L}agrangian equality-constrained {SQP} method for optimization with general constraints},
+journal = {SIAM Journal on Optimization},
+volume = {},
+number = {},
+pages = {},
+year = {2020},
+note = {Submitted}
 }
 
+@article{elkady2021hpc,
+author = {El-Kady, I. and Ridzal, D. and Wildey, T.},
+title = {{MIRaGE}: Design software for metamaterials},
+journal = {Sandia 2020 HPC Annual Report},
+volume = {},
+number = {},
+pages = {2-4},
+year = {2021},
+note = {\url{https://www.sandia.gov/news/publications/computing_reports/_assets/documents/2020_HPC_AnnualReport.pdf}}
+}
+
+@article{kouri2020primal,
+  title={A primal--dual algorithm for risk minimization},
+  author={Kouri, D.P. and Surowiec, T.M.},
+  journal={Mathematical Programming},
+  pages={1--27},
+  year={2021},
+  publisher={Springer}
+}
+@article{penalty,
+    author = {Griffin, Joshua D. and Kolda, Tamara G.},
+    title = "{Nonlinearly Constrained Optimization Using Heuristic Penalty Methods and Asynchronous Parallel Generating Set Search}",
+    journal = {Applied Mathematics Research eXpress},
+    volume = {2010},
+    number = {1},
+    pages = {36-62},
+    year = {2010},
+    month = {04},
+    abstract = "{Many optimization problems are characterized by expensive objective and/or constraint function evaluations paired with a lack of derivative information. Direct search methods such as generating set search (GSS) are well understood and efficient for derivative-free optimization of unconstrained and linearly constrained problems. This paper presents a study of heuristic algorithms that address the more difficult problem of general nonlinear constraints where derivatives for objective or constraint functions are unavailable. We focus on penalty methods that use GSS to solve a sequence of linearly constrained problems, numerically comparing different penalty functions. A classical choice for penalizing constraint violations is ℓ22, the squared ℓ2 norm, which has advantages for derivative-based optimization methods. In our numerical tests, however, we show that exact penalty functions based on the ℓ1, ℓ2, and ℓ∞ norms converge to good approximate solutions more quickly and thus are attractive alternatives. Unfortunately, exact penalty functions are nondifferentiable and consequently degrade the final solution accuracy, so we also consider smoothed variants. Smoothed-exact penalty functions are attractive because they retain the differentiability of the original problem. Numerically, they are a compromise between exact and , i.e., they converge to a good solution somewhat quickly without sacrificing much solution accuracy. Moreover, the smoothing is parameterized and can potentially be adjusted to balance the two considerations. Since our focus is on optimization problems that are characterized by expensive function evaluations, reducing the number of function evaluations is paramount, and the numerical results of this paper suggest that exact and smoothed-exact penalty functions are well-suited to this task.}",
+    issn = {1687-1200},
+    doi = {10.1093/amrx/abq003},
+    url = {https://doi.org/10.1093/amrx/abq003},
+    eprint = {https://academic.oup.com/amrx/article-pdf/2010/1/36/760058/abq003.pdf},
+}
+@article {muthukumar2020randomized,
+    AUTHOR = {Muthukumar, Ramchandran and Kouri, Drew P. and Udell,
+              Madeleine},
+     TITLE = {Randomized sketching algorithms for low-memory dynamic
+              optimization},
+   JOURNAL = {SIAM J. Optim.},
+  FJOURNAL = {SIAM Journal on Optimization},
+    VOLUME = {31},
+      YEAR = {2021},
+    NUMBER = {2},
+     PAGES = {1242--1275},
+      ISSN = {1052-6234},
+   MRCLASS = {49M41 (49L20 65K99 68W20 90C30 90C39)},
+  MRNUMBER = {4254987},
+       DOI = {10.1137/19M1272561},
+       URL = {https://doi.org/10.1137/19M1272561},
+}
+
+@article{RLoehner_HAntil_SIdelsohn_EOnate_2020a,
+	fauthor = {L\"{o}hner, Rainald and Antil, Harbir and Idelsohn, Sergio and O\~{n}ate, Eugenio},
+	author = {L\"{o}hner, R. and Antil, H. and Idelsohn, S. and O\~{n}ate, E.},
+	date-added = {2020-10-20 00:02:50 -0400},
+	date-modified = {2020-10-20 00:03:17 -0400},
+	doi = {10.1007/s00466-020-01881-7},
+	fjournal = {Computational Mechanics},
+	issn = {0178-7675},
+	journal = {Comput. Mech.},
+	mrclass = {Prelim},
+	mrnumber = {4163345},
+	number = {5},
+	pages = {1093--1107},
+	title = {Detailed simulation of viral propagation in the built environment},
+	url = {https://doi.org/10.1007/s00466-020-01881-7},
+	volume = {66},
+	year = {2020},
+	Bdsk-Url-1 = {https://doi.org/10.1007/s00466-020-01881-7}}
+
+@article {RLoehner_HAntil_2021a,
+   FAUTHOR = {L\"{o}hner, Rainald and Antil, Harbir},
+    AUTHOR = {L\"{o}hner, R. and Antil, H.},
+     TITLE = {High fidelity modeling of aerosol pathogen propagation in
+              built environments with moving pedestrians},
+   JOURNAL = {Int. J. Numer. Methods Biomed. Eng.},
+  FJOURNAL = {International Journal for Numerical Methods in Biomedical
+              Engineering},
+    VOLUME = {37},
+      YEAR = {2021},
+    NUMBER = {3},
+     PAGES = {e3428, 34},
+      ISSN = {2040-7939},
+   MRCLASS = {92D30 (65M60 76A30 76D05 76Z99)},
+  MRNUMBER = {4235090},
+       DOI = {10.1002/cnm.3428},
+       URL = {https://doi.org/10.1002/cnm.3428},
+}
+
+@article{loehner2021,
+  title={High-Fidelity Simulation of Pathogen Propagation, Transmission and Mitigation in the Built Environment},
+  author={L{\"o}hner, Rainald and Antil, Harbir and Srinivasan, Ashok and Idelsohn, Sergio and O{\~n}ate, Eugenio},
+  journal={Archives of Computational Methods in Engineering},
+  pages={1--26},
+  year={2021},
+  publisher={Springer}
+}
+
+@article{chud,
+  author          = {Gulian, Mamikon and Raissi, Maziar and Perdikaris, Paris and Karniadakis, George},
+  title           = {{Machine Learning of Space-Fractional Differential Equations}},
+  journal         = {{SIAM Journal of Scientific Computing}},
+  volume          = {41},
+  number          = {4},
+  year            = {2019},
+  pages           = {A2485–-A2509},
+}
+@article{parks2015inverse,
+  author          = {Turner, Daniel and van Bloemen Waanders, Bart and Parks, Michael L.},
+  title           = {Inverse problems in heterogeneous and fractured media using peridynamics},
+  journal         = {Journal of Mechanics of Materials and Structures},
+  volume          = {10},
+  number          = {5},
+  year            = {2015},
+  pages           = {573--590},
+}
+@article{EHerberg_MHinze_HSchumacher_2018a,
+	author = {Herberg, Evelyn and Hinze, Michael and Schumacher, Henrik},
+	date-added = {2021-05-02 17:03:14 -0400},
+	date-modified = {2021-05-02 17:05:09 -0400},
+	journal = {Mathematical Control and Related Fields},
+	number = {4},
+	pages = {735--759},
+	title = {Maximal discrete sparsity in parabolic optimal control with measures},
+	volume = {10},
+	year = {2020}}
+
+
+@article{ECasas_KKunisch_2016a,
+	author = {Casas, Eduardo and Kunisch, Karl},
+	date-added = {2021-05-02 17:02:12 -0400},
+	date-modified = {2021-05-02 17:02:24 -0400},
+	journal = {ESAIM: Control, Optimisation and Calculus of Variations},
+	number = {2},
+	pages = {355--370},
+	publisher = {EDP Sciences},
+	title = {Parabolic control problems in space-time measure spaces},
+	volume = {22},
+	year = {2016}}
+
+
+@article{ECasas_KKunisch_2019a,
+	author = {Casas, Eduardo and Kunisch, Karl},
+	date-added = {2021-05-02 17:51:39 -0400},
+	date-modified = {2021-05-02 17:51:52 -0400},
+	journal = {Inverse problems},
+	number = {11},
+	pages = {114002},
+	publisher = {IOP Publishing},
+	title = {Using sparse control methods to identify sources in linear diffusion-convection equations},
+	volume = {35},
+	year = {2019}}
+
+
+@article{EHerberg_MHinze_2020a,
+	author = {Herberg, Evelyn and Hinze, Michael},
+	date-added = {2021-05-02 17:52:45 -0400},
+	date-modified = {2021-05-02 17:52:55 -0400},
+	journal = {arXiv preprint arXiv:2003.14380},
+	title = {Variational discretization approach applied to an optimal control problem with bounded measure controls},
+	year = {2020}}
+
+
+@article{ECasas_MMateos_BVexler_2014a,
+	author = {Casas, E. and Mateos, M. and Vexler, B.},
+	doi = {10.1051/cocv/2013084},
+	fauthor = {Casas, Eduardo and Mateos, Mariano and Vexler, Boris},
+	fjournal = {ESAIM. Control, Optimisation and Calculus of Variations},
+	issn = {1292-8119},
+	journal = {ESAIM Control Optim. Calc. Var.},
+	mrclass = {49K20 (49N60)},
+	mrnumber = {3264224},
+	mrreviewer = {Graziano Crasta},
+	number = {3},
+	pages = {803--822},
+	title = {New regularity results and improved error estimates for optimal control problems with state constraints},
+	url = {http://dx.doi.org/10.1051/cocv/2013084},
+	volume = {20},
+	year = {2014},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1051/cocv/2013084}}
+
+
+@article{ECasas_1986a,
+	author = {Casas, E.},
+	doi = {10.1137/0324078},
+	fjournal = {SIAM Journal on Control and Optimization},
+	issn = {0363-0129},
+	journal = {SIAM J. Control Optim.},
+	mrclass = {49A22},
+	mrnumber = {861100},
+	mrreviewer = {Elvira Mascolo},
+	number = {6},
+	pages = {1309--1318},
+	title = {Control of an elliptic problem with pointwise state constraints},
+	url = {http://dx.doi.org/10.1137/0324078},
+	volume = {24},
+	year = {1986},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1137/0324078}}
+
+
+@article{ECasas_1993a,
+	author = {Casas, E.},
+	coden = {SJCODE},
+	date-modified = {2021-05-02 19:10:50 -0400},
+	doi = {10.1137/0331044},
+	fjournal = {SIAM Journal on Control and Optimization},
+	issn = {0363-0129},
+	journal = {SIAM J. Control Optim.},
+	mrclass = {49K20 (49N60)},
+	mrnumber = {1227543},
+	mrreviewer = {Urszula Ledzewicz},
+	number = {4},
+	pages = {993--1006},
+	title = {Boundary control of semilinear elliptic equations with pointwise state constraints},
+	url = {http://dx.doi.org/10.1137/0331044},
+	volume = {31},
+	year = {1993},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1137/0331044}}
+
+
+
+@article{MHinze_2005a,
+	author = {Hinze, M.},
+	doi = {10.1007/s10589-005-4559-5},
+	fjournal = {Computational Optimization and Applications. An International Journal},
+	issn = {0926-6003},
+	journal = {Comput. Optim. Appl.},
+	mrclass = {49M25 (49N10 65K10)},
+	mrnumber = {2122182 (2005i:49034)},
+	mrreviewer = {Arnd R{\"o}sch},
+	number = {1},
+	pages = {45--61},
+	title = {A variational discretization concept in control constrained optimization: the linear-quadratic case},
+	url = {http://dx.doi.org/10.1007/s10589-005-4559-5},
+	volume = {30},
+	year = {2005},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1007/s10589-005-4559-5}}
+
+
+
+@book{IEkeland_RTemam_1999a,
+	address = {Philadelphia, PA},
+	author = {Ekeland, I. and T{\'e}mam, R.},
+	edition = {English},
+	isbn = {0-89871-450-8},
+	mrclass = {49-02 (01A75 49J53 90C46)},
+	mrnumber = {1727362 (2000j:49001)},
+	note = {Translated from the French},
+	pages = {xiv+402},
+	publisher = {Society for Industrial and Applied Mathematics (SIAM)},
+	series = {Classics in Applied Mathematics},
+	title = {Convex analysis and variational problems},
+	volume = {28},
+	year = {1999}}
+
+
+@article{MHintermueller_KIto_KKunisch_2002a,
+	author = {Hinterm{\"u}ller, M. and Ito, K. and Kunisch, K.},
+	coden = {SJOPE8},
+	doi = {10.1137/S1052623401383558},
+	fjournal = {SIAM Journal on Optimization},
+	issn = {1052-6234},
+	journal = {SIAM J. Optim.},
+	mrclass = {90C33 (65K10 90C53)},
+	mrnumber = {1972219 (2004b:90123)},
+	mrreviewer = {Hou Duo Qi},
+	number = {3},
+	pages = {865--888 (2003)},
+	title = {The primal-dual active set strategy as a semismooth {N}ewton method},
+	url = {http://dx.doi.org/10.1137/S1052623401383558},
+	volume = {13},
+	year = {2002},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1137/S1052623401383558}}
+
+
+
+@article{MHintermuller_IKopacka_2011a,
+	author = {Hinterm{\"u}ller, M. and Kopacka, I.},
+	doi = {10.1007/s10589-009-9307-9},
+	fjournal = {Computational Optimization and Applications. An International Journal},
+	issn = {0926-6003},
+	journal = {Comput. Optim. Appl.},
+	mrclass = {49M37 (35J86 49J40 49K20 65K15)},
+	mrnumber = {2822818 (2012g:49072)},
+	mrreviewer = {Christian Clason},
+	number = {1},
+	pages = {111--145},
+	title = {A smooth penalty approach and a nonlinear multigrid algorithm for elliptic {MPEC}s},
+	url = {http://dx.doi.org/10.1007/s10589-009-9307-9},
+	volume = {50},
+	year = {2011},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1007/s10589-009-9307-9}}
+
+
+@book{MUlbrich_2011a,
+	author = {Ulbrich, M.},
+	doi = {10.1137/1.9781611970692},
+	fauthor = {Ulbrich, Michael},
+	isbn = {978-1-611970-68-5},
+	mrclass = {49-02 (47J20 47J25 49J40 49M15 65-02 65K15)},
+	mrnumber = {2839219},
+	mrreviewer = {Michael Hinterm\~A${}^1\!/\!_4$ller},
+	pages = {xiv+308},
+	publisher = {Society for Industrial and Applied Mathematics (SIAM), Philadelphia, PA; Mathematical Optimization Society, Philadelphia, PA},
+	series = {MOS-SIAM Series on Optimization},
+	title = {Semismooth {N}ewton methods for variational inequalities and constrained optimization problems in function spaces},
+	url = {http://dx.doi.org/10.1137/1.9781611970692},
+	volume = {11},
+	year = {2011},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1137/1.9781611970692}}
+
+
+@book{GBFolland_1999a,
+	author = {Folland, G.B.},
+	edition = {Second},
+	isbn = {0-471-31716-0},
+	mrclass = {00A05 (26-01 28-01 46-01)},
+	mrnumber = {1681462},
+	note = {Modern techniques and their applications, A Wiley-Interscience Publication},
+	pages = {xvi+386},
+	publisher = {John Wiley \& Sons, Inc., New York},
+	series = {Pure and Applied Mathematics (New York)},
+	title = {Real analysis},
+	year = {1999}}
+
+@Book{lapack,
+  Title                    = {{LAPACK} Users' Guide},
+  Author                   = {Anderson, E. and Bai, Z. and Bischof, C. and Blackford, S. and Demmel, J. and Dongarra, J. and Du Croz, J. and Greenbaum, A. and Hammarling, S. and McKenney, A. and Sorensen, D.},
+  Publisher                = {SIAM},
+  Year                     = {1999},
+
+  Address                  = {Philadelphia, PA},
+  Edition                  = {Third}
+}
+
+@Book{Scalapack,
+  Title                    = {{ScaLAPACK} Users' Guide},
+  Author                   = {Blackford, L. S. and Choi, J. and Cleary, A. and D'Azevedo, E. and Demmel, J. and Dhillon, I. and Dongarra, J. and Hammarling, S. and Henry, G. and Petitet, A. and Stanley, K. and Walker, D. and Whaley, R. C.},
+  Publisher                = {Society for Industrial and Applied Mathematics},
+  Year                     = {1997},
+
+  Address                  = {Philadelphia, PA}
+}
+
+@Article{BenziBoitoRazouk2013,
+  Title                    = {Decay properties of spectral projectors with applications to electronic structure},
+  Author                   = {Benzi, M. and Boito, P. and Razouk, N.},
+  Journal                  = {SIAM Rev.},
+  Year                     = {2013},
+  Number                   = {1},
+  Pages                    = {3--64},
+  Volume                   = {55}
+}
+
+@Article{cheng2005compression,
+  Title                    = {On the compression of low rank matrices},
+  Author                   = {Cheng, H. and Gimbutas, Z. and Martinsson, P.G. and Rokhlin, V.},
+  Journal                  = {SIAM J. Sci. Comput.},
+  Year                     = {2005},
+  Number                   = {4},
+  Pages                    = {1389--1404},
+  Volume                   = {26},
+
+  Publisher                = {SIAM}
+}
+
+@TechReport{DemmelRRQR,
+  Title                    = {Communication Avoiding Rank Revealing QR Factorization with Column Pivoting},
+  Author                   = {Demmel, J. and Grigori, L. and Gu, M. and Xiang, H.},
+  Institution              = {EECS Department, University of California, Berkeley},
+  Year                     = {2013},
+  Month                    = {May},
+  Number                   = {UCB/EECS-2013-46}
+}
+
+@Article{Gu,
+  title={Randomized QR with Column Pivoting},
+  author={Duersch, Jed A and Gu, Ming},
+  journal={SIAM Journal on Scientific Computing},
+  volume={39},
+  number={4},
+  pages={C263--C291},
+  year={2017},
+  publisher={SIAM}
+}
+
+@Book{GVL,
+  Title                    = {Matrix computations},
+  Author                   = {Golub, G. H. and Van Loan, C. F.},
+  Publisher                = {Johns Hopkins Univ. Press},
+  Year                     = {1996},
+
+  Address                  = {Baltimore},
+  Edition                  = {third}
+}
+
+@Article{gu1996efficient,
+  Title                    = {Efficient Algorithms for Computing a Strong Rank-Revealing QR Factorization},
+  Author                   = {Gu, M. and Eisenstat, S.},
+  Journal                  = {SIAM J. Sci. Comput.},
+  Year                     = {1996},
+  Number                   = {4},
+  Pages                    = {848--869},
+  Volume                   = {17}
+}
+
+@Article{liberty2007randomized,
+  Title                    = {Randomized algorithms for the low-rank approximation of matrices},
+  Author                   = {Liberty, E. and Woolfe, F. and Martinsson, P. G. and Rokhlin, V. and Tygert, M.},
+  Journal                  = {Proc. Natl. Acad. Sci.},
+  Year                     = {2007},
+  Pages                    = {20167--20172},
+  Volume                   = {104}
+}
+
+@Article{MahoneyDrineas,
+  Title                    = {CUR matrix decompositions for improved data analysis},
+  Author                   = {Mahoney, M. W. and Drineas, P.},
+  Journal                  = {Proceedings of the National Academy of Sciences},
+  Year                     = {2009},
+  Number                   = {3},
+  Pages                    = {697-702},
+  Volume                   = {106},
+
+  Doi                      = {10.1073/pnas.0803205106},
+  Eprint                   = {http://www.pnas.org/content/106/3/697.full.pdf},
+  Url                      = {http://www.pnas.org/content/106/3/697.abstract}
+}
+
+@Article{Martinsson,
+  title={Householder QR Factorization With Randomization for Column Pivoting ({HQRRP})},
+  author={Martinsson, Per-Gunnar and Quintana OrtÍ, Gregorio and Heavner, Nathan and van de Geijn, Robert},
+  journal={SIAM Journal on Scientific Computing},
+  volume={39},
+  number={2},
+  pages={C96--C115},
+  year={2017},
+  publisher={SIAM}
+}
+
+@ARTICLE{DamleLinYing2017b,
+  author = {A. Damle and L. Lin and L. Ying},
+  title = {Computing localized representations of the Kohn-Sham subspace via randomization and refinement},
+  journal = {SIAM J. Sci. Comput.},
+  pages = {to appear}
+}
+
+@ARTICLE{HalkoMartinssonTropp2011,
+  author = {Halko, N. and Martinsson, P.-G. and Tropp, J. A.},
+  title = {Finding structure with randomness: Probabilistic algorithms for constructing
+	approximate matrix decompositions},
+  journal = {SIAM Rev.},
+  year = {2011},
+  volume = {53},
+  pages = {217--288},
+  number = {2}
+}
+
+@ARTICLE{AvronToledo2011,
+  author = {Avron, H. and Toledo, S.},
+  title = {Randomized algorithms for estimating the trace of an implicit symmetric
+	positive semi-definite matrix},
+  journal = {J. ACM},
+  year = {2011},
+  volume = {58},
+  pages = {8}
+}
+
+@article{DamleSun2017,
+author = {Anil Damle and Yuekai Sun},
+title = {A Geometric Approach to Archetypal Analysis and Nonnegative Matrix Factorization},
+journal = {Technometrics},
+volume = {59},
+number = {3},
+pages = {361-370},
+year = {2017}
+}
+
+@inproceedings{clarkson2013low,
+  title={Low rank approximation and regression in input sparsity time},
+  author={Clarkson, K. L. and Woodruff, D. P.},
+  booktitle={Proceedings of the forty-fifth annual ACM symposium on Theory of computing},
+  pages={81--90},
+  year={2013},
+  organization={ACM}
+}
+
+@inproceedings{clarkson2009numerical,
+  title={Numerical linear algebra in the streaming model},
+  author={Clarkson, K. L. and Woodruff, D. P.},
+  booktitle={Proceedings of the forty-first annual ACM symposium on Theory of computing},
+  pages={205--214},
+  year={2009},
+  organization={ACM}
+}
+
+@article{benson2014parallel,
+  title={A parallel directional fast multipole method},
+  author={Benson, Austin R and Poulson, Jack and Tran, Kenneth and Engquist, Bjorn and Ying, Lexing},
+  journal={SIAM Journal on Scientific Computing},
+  volume={36},
+  number={4},
+  pages={C335--C352},
+  year={2014},
+  publisher={SIAM}
+}
+
+@inproceedings{benson2014scalable,
+  title={Scalable methods for nonnegative matrix factorizations of near-separable tall-and-skinny matrices},
+  author={Benson, Austin R and Lee, Jason D and Rajwa, Bartek and Gleich, David F},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={945--953},
+  year={2014}
+}
+
+@article{minden2016technique,
+  title={A technique for updating hierarchical skeletonization-based factorizations of integral operators},
+  author={Minden, Victor and Damle, Anil and Ho, Kenneth L and Ying, Lexing},
+  journal={Multiscale Modeling \& Simulation},
+  volume={14},
+  number={1},
+  pages={42--64},
+  year={2016},
+  publisher={SIAM}
+}
+
+@article{minden2016fast,
+  title={Fast spatial Gaussian process maximum likelihood estimation via skeletonization factorizations},
+  author={Minden, Victor and Damle, Anil and Ho, Kenneth L and Ying, Lexing},
+  journal={arXiv preprint arXiv:1603.08057},
+  year={2016}
+}
+
+@inproceedings{austin2016parallel,
+  title={Parallel tensor compression for large-scale scientific data},
+  author={Austin, Woody and Ballard, Grey and Kolda, Tamara G},
+  booktitle={Parallel and Distributed Processing Symposium, 2016 IEEE International},
+  pages={912--922},
+  year={2016},
+  organization={IEEE}
+}
+
+@article{kivela2014multilayer,
+  title={Multilayer networks},
+  author={Kivel{\"a}, Mikko and Arenas, Alex and Barthelemy, Marc and Gleeson, James P and Moreno, Yamir and Porter, Mason A},
+  journal={Journal of complex networks},
+  volume={2},
+  number={3},
+  pages={203--271},
+  year={2014},
+  publisher={Oxford University Press}
+}
+
+@article{boccaletti2014structure,
+  title={The structure and dynamics of multilayer networks},
+  author={Boccaletti, Stefano and Bianconi, Ginestra and Criado, Regino and Del Genio, Charo I and G{\'o}mez-Gardenes, Jes{\'u}s and Romance, Miguel and Sendina-Nadal, Irene and Wang, Zhen and Zanin, Massimiliano},
+  journal={Physics Reports},
+  volume={544},
+  number={1},
+  pages={1--122},
+  year={2014},
+  publisher={Elsevier}
+}
+
+@inproceedings{rahimi2008random,
+  title={Random features for large-scale kernel machines},
+  author={Rahimi, A. and Recht, B.},
+  booktitle={Advances in neural information processing systems},
+  pages={1177--1184},
+  year={2008}
+}
+
+@inproceedings{wang2015fast,
+  title={Fast and guaranteed tensor decomposition via sketching},
+  author={Wang, Y. and Tung, H.-Y. and Smola, A. J. and Anandkumar, A.},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={991--999},
+  year={2015}
+}
+
+@article{pilanci2016iterative,
+  title={Iterative Hessian sketch: Fast and accurate solution approximation for constrained least-squares},
+  author={Pilanci, M. and Wainwright, M. J.},
+  journal={The Journal of Machine Learning Research},
+  volume={17},
+  number={1},
+  pages={1842--1879},
+  year={2016},
+  publisher={JMLR. org}
+}
+
+@article {pilanci2017newton,
+    AUTHOR = {Pilanci, Mert and Wainwright, Martin J.},
+     TITLE = {Newton sketch: a near linear-time optimization algorithm with
+              linear-quadratic convergence},
+   JOURNAL = {SIAM J. Optim.},
+  FJOURNAL = {SIAM Journal on Optimization},
+    VOLUME = {27},
+      YEAR = {2017},
+    NUMBER = {1},
+     PAGES = {205--245},
+      ISSN = {1052-6234},
+   MRCLASS = {90C51 (49M15 62J12 90C06 90C25)},
+  MRNUMBER = {3612185},
+MRREVIEWER = {Jen-Chih Yao},
+       DOI = {10.1137/15M1021106},
+       URL = {https://doi.org/10.1137/15M1021106},
+}
+
+@article{yang2015randomized,
+  title={Randomized sketches for kernels: Fast and optimal non-parametric regression},
+  author={Yang, Y. and Pilanci, M. and Wainwright, M. J.},
+  journal={arXiv preprint arXiv:1501.06195},
+  year={2015}
+}
+@article{pilanci2015randomized,
+  title={Randomized sketches of convex programs with sharp guarantees},
+  author={Pilanci, M. and Wainwright, M. J.},
+  journal={IEEE Transactions on Information Theory},
+  volume={61},
+  number={9},
+  pages={5096--5115},
+  year={2015},
+  publisher={IEEE}
+}
+@article{boutsidis2013near,
+  title={Near-optimal coresets for least-squares regression},
+  author={Boutsidis, Christos and Drineas, Petros and Magdon-Ismail, Malik},
+  journal={IEEE transactions on information theory},
+  volume={59},
+  number={10},
+  pages={6880--6892},
+  year={2013},
+  publisher={IEEE}
+}
+@article{drineas2011faster,
+  title={Faster least squares approximation},
+  author={Drineas, P. and Mahoney, M. W. and M, S. and Sarl{\'o}s, T.},
+  journal={Numerische mathematik},
+  volume={117},
+  number={2},
+  pages={219--249},
+  year={2011},
+  publisher={Springer}
+}
+@article{mahoney2011randomized,
+  title={Randomized algorithms for matrices and data},
+  author={Mahoney, Michael W and others},
+  journal={Foundations and Trends{\textregistered} in Machine Learning},
+  volume={3},
+  number={2},
+  pages={123--224},
+  year={2011},
+  publisher={Now Publishers, Inc.}
+}
+@inproceedings{sarlos2006improved,
+  title={Improved approximation algorithms for large matrices via random projections},
+  author={Sarlos, Tamas},
+  booktitle={Foundations of Computer Science, 2006. FOCS'06. 47th Annual IEEE Symposium on},
+  pages={143--152},
+  year={2006},
+  organization={IEEE}
+}
+@article{wright2017analyzing,
+  title={Analyzing Random Permutations for Cyclic Coordinate Descent},
+  author={Wright, Stephen J and Lee, Ching-Pei},
+  journal={arXiv preprint arXiv:1706.00908},
+  year={2017}
+}
+@article{lee2016random,
+  title={Random Permutations Fix a Worst Case for Cyclic Coordinate Descent},
+  author={Lee, Ching-Pei and Wright, Stephen J},
+  journal={arXiv preprint arXiv:1607.08320},
+  year={2016}
+}
+
+@article{udell2017nice,
+  title={Nice Latent Variable Models Have Log-Rank},
+  author={Udell, Madeleine and Townsend, Alex},
+  journal={arXiv preprint arXiv:1705.07474},
+  archivePrefix = {arXiv},
+  eprint = {1705.07474},
+  year={2017}
+}
+@article{tropp2017fixed,
+  title={Fixed-Rank Approximation of a Positive-Semidefinite Matrix from Streaming Data},
+  author={Tropp, J. A. and Yurtsever, A. and Udell, M. and Cevher, V.},
+  journal={arXiv preprint arXiv:1706.05736},
+  archivePrefix = {arXiv},
+  eprint = {1706.05736},
+  year={2017}
+}
+@InProceedings{yurtsever2017sketchy,
+  title={Sketchy Decisions: Convex Low-Rank Matrix Optimization with Optimal Storage},
+  author={Yurtsever, A. and Udell, M. and Tropp, J. A. and Cevher, V.},
+  booktitle={International Conference on Artificial Intelligence and Statistics (AISTATS)},
+  year={2017},
+  archivePrefix = {arXiv},
+  eprint = {1702.06838},
+  comment={Oral Presentation}
+}
+@article{tropp2016randomized,
+  title={Randomized Single-View Algorithms for Low-Rank Matrix Approximation},
+  author={Tropp, J. A. and Yurtsever, A. and Udell, M. and Cevher, V.},
+  journal={arXiv preprint arXiv:1609.00048},
+  archivePrefix = {arXiv},
+  eprint = {1609.00048},
+  year={2016}
+}
+@article{Beckermann_16_01,
+  title={On the singular values of matrices with displacement structure},
+  author={Beckermann, B. and Townsend, A.},
+  journal={arXiv preprint arXiv:1609.09494},
+  year={2016}
+}
+
+@article{linluying2011,
+  title={Fast construction of hierarchical matrix representation from matrix--vector multiplication},
+  author={Lin, Lin and Lu, Jianfeng and Ying, Lexing},
+  journal={Journal of Computational Physics},
+  volume={230},
+  number={10},
+  pages={4071--4087},
+  year={2011},
+  publisher={Elsevier}
+}
+
+@article{minden2017recursive,
+  title={A recursive skeletonization factorization based on strong admissibility},
+  author={Minden, Victor and Ho, Kenneth L and Damle, Anil and Ying, Lexing},
+  journal={Multiscale Modeling \& Simulation},
+  volume={15},
+  number={2},
+  pages={768--796},
+  year={2017},
+  publisher={SIAM}
+}
+
+@article{rskel,
+author = {Ho, K.L. and Greengard, L.},
+title = {A Fast Direct Solver for Structured Linear Systems by Recursive Skeletonization},
+journal = {SIAM Journal on Scientific Computing},
+volume = {34},
+number = {5},
+pages = {A2507-A2532},
+year = {2012},
+doi = {10.1137/120866683},
+
+URL = {
+        http://dx.doi.org/10.1137/120866683
+
+},
+eprint = {
+        http://dx.doi.org/10.1137/120866683
+
+}
+
+}
+
+
+
+@article {hifie,
+author = {Ho, K.L. and Ying, L.},
+title = {Hierarchical Interpolative Factorization for Elliptic Operators: Integral Equations},
+journal = {Communications on Pure and Applied Mathematics},
+issn = {1097-0312},
+url = {http://dx.doi.org/10.1002/cpa.21577},
+doi = {10.1002/cpa.21577},
+year = {2015},
+}
+
+@article{martinsson-rokhlin,
+ author = "Martinsson,  Per-Gunnar and Rokhlin, V.",
+ title = {A Fast Direct Solver for Boundary Integral Equations in Two Dimensions},
+ journal = {J. Comput. Phys.},
+ issue_date = {May 2005},
+ volume = {205},
+ number = {1},
+ month = may,
+ year = {2005},
+ issn = {0021-9991},
+ pages = {1--23},
+ numpages = {23},
+ url = {http://dx.doi.org/10.1016/j.jcp.2004.10.033},
+ doi = {10.1016/j.jcp.2004.10.033},
+ acmid = {1082893},
+ publisher = {Academic Press Professional, Inc.},
+ address = {San Diego, CA, USA},
+}
+
+
+
+ @article{corona2013,
+title = {{An $O(N)$ direct solver for integral equations on the plane}},
+journal = "Applied and Computational Harmonic Analysis ",
+volume = "38",
+number = "2",
+pages = "284 - 317",
+year = "2015",
+note = "",
+issn = "1063-5203",
+doi = "http://dx.doi.org/10.1016/j.acha.2014.04.002",
+url = "http://www.sciencedirect.com/science/article/pii/S1063520314000529",
+author = "Corona, E. and Martinsson,  Per-Gunnar and Zorin, D.",
+keywords = "Fast algorithms",
+keywords = "Direct solvers",
+keywords = "Integral equations",
+keywords = "Hierarchical matrix compression",
+keywords = "Interpolative decomposition",
+keywords = "Fast multipole methods "
+}
+
+@article{HackbuschK,
+ author = {Hackbusch, W. and Khoromskij, B.N.},
+ title = {A Sparse $\mathcal{H}$-matrix Arithmetic. {P}art {II}: Application to Multi-dimensional Problems},
+ journal = {Computing},
+ issue_date = {Jan. 2000},
+ volume = {64},
+ number = {1},
+ month = {Jan.},
+ year = {2000},
+ issn = {0010-485X},
+ pages = {21--47},
+ numpages = {27},
+ url = {http://dl.acm.org/citation.cfm?id=333825.333827},
+ acmid = {333827},
+ publisher = {Springer-Verlag New York, Inc.},
+ address = {New York, NY, USA},
+ keywords = {BEM, FEM, fast algorithms, hierarchical block partitioning, hierarchical matrices, matrix inversion, sparse matrices},
+}
+
+@article{Hackbusch,
+year={1999},
+issn={0010-485X},
+journal={Computing},
+volume={62},
+number={2},
+doi={10.1007/s006070050015},
+title={A Sparse Matrix Arithmetic Based on $\mathcal{H}$-Matrices. {P}art {I}: Introduction to $\mathcal{H}$-Matrices},
+url={http://dx.doi.org/10.1007/s006070050015},
+publisher={Springer Verlag},
+keywords={AMS Subject Classifications:65F05, 65F30, 65F50.; Key words.Hierarchical matrices, hierarchical block partitioning, sparse matrices, matrix inversion.},
+author={Hackbusch, W.},
+pages={89-108},
+language={English}
+}
+
+@article{superfast,
+author = {Jianlin Xia and Shivkumar Chandrasekaran and Ming Gu and Xiaoye S. Li},
+title = {Superfast Multifrontal Method for Large Structured Linear Systems of Equations},
+journal = {SIAM Journal on Matrix Analysis and Applications},
+volume = {31},
+number = {3},
+pages = {1382-1411},
+year = {2010},
+doi = {10.1137/09074543X},
+
+URL = {
+        http://dx.doi.org/10.1137/09074543X
+
+},
+eprint = {
+        http://dx.doi.org/10.1137/09074543X
+
+}
+
+}
+
+@article{bremer,
+title = "A fast direct solver for the integral equations of scattering theory on planar curves with corners",
+journal = "Journal of Computational Physics ",
+volume = "231",
+number = "4",
+pages = "1879 - 1899",
+year = "2012",
+note = "",
+issn = "0021-9991",
+doi = "http://dx.doi.org/10.1016/j.jcp.2011.11.015",
+url = "http://www.sciencedirect.com/science/article/pii/S002199911100670X",
+author = "Bremer, J.",
+keywords = "Integral equations",
+keywords = "Corner singularities",
+keywords = "Elliptic boundary value problems",
+keywords = "Scattering theory "
+}
+
+@article{siva,
+year={2013},
+issn={0885-7474},
+journal={SIAM Journal of Scientific Computing},
+volume={57},
+number={3},
+doi={10.1007/s10915-013-9714-z},
+title={An ${O}({N} \log {N})$  Fast Direct Solver for Partial Hierarchically Semi-Separable Matrices},
+url={http://dx.doi.org/10.1007/s10915-013-9714-z},
+publisher={Springer US},
+keywords={Fast direct solver; Numerical linear algebra; Partial hierarchically semi-separable representation; Hierarchical matrix; Radial basis function; 65F05},
+author={Ambikasaran, S. and Darve, E.},
+pages={477-501},
+language={English}
+}
+@article{arora2012multiplicative,
+  title={The Multiplicative Weights Update Method: a Meta-Algorithm and Applications.},
+  author={Arora, Sanjeev and Hazan, Elad and Kale, Satyen},
+  journal={Theory of Computing},
+  volume={8},
+  number={1},
+  pages={121--164},
+  year={2012}
+}
+@inproceedings{yurtsever2015universal,
+  title={A universal primal-dual convex optimization framework},
+  author={Yurtsever, Alp and Dinh, Quoc Tran and Cevher, Volkan},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={3150--3158},
+  year={2015}
+}
+@inproceedings{jaggi2013revisiting,
+  title={Revisiting Frank-Wolfe: Projection-Free Sparse Convex Optimization.},
+  author={Jaggi, Martin},
+  booktitle={ICML (1)},
+  pages={427--435},
+  year={2013}
+}
+@article{frank1956algorithm,
+  title={An algorithm for quadratic programming},
+  author={Frank, Marguerite and Wolfe, Philip},
+  journal={Naval Research Logistics (NRL)},
+  volume={3},
+  number={1-2},
+  pages={95--110},
+  year={1956},
+  publisher={Wiley Online Library}
+}
+@article{goemans1995improved,
+  title={Improved approximation algorithms for maximum cut and satisfiability problems using semidefinite programming},
+  author={Goemans, Michel X and Williamson, David P},
+  journal={Journal of the ACM (JACM)},
+  volume={42},
+  number={6},
+  pages={1115--1145},
+  year={1995},
+  publisher={ACM}
+}
+
+@Misc{BaBaKo17,
+  author      = {Casey Battaglino and Grey Ballard and Tamara G. Kolda},
+  eprint      = {1701.06600},
+  title       = {A Practical Randomized {CP} Tensor Decomposition},
+  year        = {2017},
+  month       = jan,
+  eprintclass = {cs.NA},
+  abstract    = {The CANDECOMP/PARAFAC (CP) decomposition is a leading method for the analysis of multiway data. The standard alternating least squares algorithm for the CP decomposition (CP-ALS) involves a series of highly overdetermined linear least squares problems. We extend randomized least squares methods to tensors and show the workload of CP-ALS can be drastically reduced without a sacrifice in quality. We introduce techniques for efficiently preprocessing, sampling, and computing randomized least squares on a dense tensor of arbitrary order, as well as an efficient sampling-based technique for checking the stopping condition. We also show more generally that the Khatri-Rao product (used within the CP-ALS iteration) produces conditions favorable for direct sampling. In numerical results, we see improvements in speed, reductions in memory requirements, and robustness with respect to initialization.},
+  approval    = {SAND2017-0792 O (Jan 23, 2017)},
+  date        = {2017-01-23},
+  eprinttype  = {arXiv},
+  file        = {online:http\://arxiv.org/pdf/1701.06600v1:PDF},
+  groups      = {In Review},
+  owner       = {tgkolda},
+  timestamp   = {2017.01.23},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+@article{xiao2014proximal,
+  title={A proximal stochastic gradient method with progressive variance reduction},
+  author={Xiao, Lin and Zhang, Tong},
+  journal={SIAM Journal on Optimization},
+  volume={24},
+  number={4},
+  pages={2057--2075},
+  year={2014},
+  publisher={SIAM}
+}
+@inproceedings{needell2014stochastic,
+  title={Stochastic gradient descent, weighted sampling, and the randomized kaczmarz algorithm},
+  author={Needell, Deanna and Ward, Rachel and Srebro, Nati},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={1017--1025},
+  year={2014}
+}
+@article{mahoney2009cur,
+  title={CUR matrix decompositions for improved data analysis},
+  author={Mahoney, Michael W and Drineas, Petros},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={106},
+  number={3},
+  pages={697--702},
+  year={2009},
+  publisher={National Acad Sciences}
+}
+@article{chen2015completing,
+  title={Completing any low-rank matrix, provably.},
+  author={Chen, Yudong and Bhojanapalli, Srinadh and Sanghavi, Sujay and Ward, Rachel},
+  journal={Journal of Machine Learning Research},
+  volume={16},
+  pages={2999--3034},
+  year={2015}
+}
+@inproceedings{bhojanapalli2014tighter,
+  title={Tighter low-rank approximation via sampling the leveraged element},
+  author={Bhojanapalli, Srinadh and Jain, Prateek and Sanghavi, Sujay},
+  booktitle={Proceedings of the twenty-sixth annual ACM-SIAM symposium on Discrete algorithms},
+  pages={902--920},
+  year={2014},
+  organization={SIAM}
+}
+@article{eftekhari2016mc,
+  title={MC\^{} 2: A Two-Phase Algorithm for Leveraged Matrix Completion},
+  author={Eftekhari, Armin and Wakin, Michael B and Ward, Rachel A},
+  journal={arXiv preprint arXiv:1609.01795},
+  year={2016}
+}
+
+@Article{AGriewank_1992,
+  Title                    = {Achieving logarithmic growth of temporal and spatial complexity reverse automatic differentiation},
+  Author                   = {A. Griewank},
+  Journal                  = {Optimization Methods and Software},
+  Year                     = {1992},
+  Pages                    = {35--54},
+  Volume                   = {1}
+}
+
+@Article{AShapiro_2006a,
+  author	= "A. Shapiro",
+  title		= "On complexity of multistage stochastic programs",
+  journal	= "Operations Research Letters",
+  year		= 2006,
+  volume	= 34,
+  pages		= "1--8"
+}
+
+@book{BenNem:09,
+author={A. Ben-Tal and  L. El Ghaoui and  A. Nemirovski},
+year = {2009},
+title = {Robust Optimization},
+publisher = {Princeton University Press},
+address = { }
+}
+
+@incollection{shapnem:05,
+author = "Shapiro, A. and Nemirovski, A.",
+title  = "On complexity of
+stochastic programming
+problems",
+booktitle = "Continuous Optimization: Current Trends and Applications",
+editor = "V. Jeyakumar and A.M. Rubinov",
+publisher = "Springer-Verlag",
+year   = 2005,
+pages  = "111--144"}
+
+@ARTICLE{Pere:91,
+author ={M.V.F. Pereira and  L.M.V.G. Pinto},
+title = {Multi-stage stochastic optimization
+applied to energy planning},
+journal = {Mathematical Programming},
+volume = {52},
+pages = {359-375},
+year = {1991}
+}
+
+@ARTICLE{shap:2013,
+author ={Shapiro, A. and Tekaya, W. and Paulo da Costa, J. and Pereira Soares,M.},
+title = {Risk neutral and risk averse Stochastic Dual Dynamic Programming method},
+journal = { European Journal of Operational Research},
+volume = {224},
+pages = { 375-391},
+year = {2013}
+}
+
+@article{nemir:09,
+author = "A. Nemirovski and  A. Juditsky
+and G. Lan  and A. Shapiro",
+title = {Robust stochastic approximation approach
+ to stochastic programming },
+journal = { SIAM Journal on Optimization},
+volume = {19},
+pages  ="1574-1609",
+year = {2009}
+}
+
+@article{kuhn:11,
+author = "D. Kuhn and  W. Wiesemann and A. Georghiou",
+title = {Primal and dual linear decision rules in stochastic and robust optimization},
+journal = {athematical Programming},
+volume = {130},
+pages  ="177-209",
+year = {2011}
+}
+
+@ARTICLE{shap:2011,
+author ={Shapiro, A.},
+title = {Analysis of Stochastic Dual Dynamic Programming Method},
+journal = { European Journal of Operational Research},
+volume = {209},
+pages = {63-72},
+year = {2011}
+}
+
+@TechReport{shapic:2016,
+  author = "A. Shapiro and A. Pichler",
+  title = "{Time and Dynamic Consistency of Risk Averse Stochastic Programs}",
+  institution = "Georgia Institute of Technology",
+  year = "2016",
+  note = "{Preprint posted on Optimization Online (October 16, 2016),\\ \small http://www.optimization-online.org/DB\_HTML/2016/09/5654.html}"
+}
+
+@article {JOFI:JOFI1525,
+author = {Markowitz, H.},
+title = {PORTFOLIO SELECTION},
+journal = {The Journal of Finance},
+volume = {7},
+number = {1},
+publisher = {Blackwell Publishing Ltd},
+issn = {1540-6261},
+url = {http://dx.doi.org/10.1111/j.1540-6261.1952.tb01525.x},
+doi = {10.1111/j.1540-6261.1952.tb01525.x},
+pages = {77--91},
+year = {1952},
+}
+
+@ARTICLE{DDentcheva_ARuszczynski_2017a,
+   author = {{Dentcheva}, D. and {Ruszczynski}, A.},
+    title = "{Time-Consistent Risk Measures for Continuous-Time Markov Chains}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1701.08453},
+ primaryClass = "math.OC",
+ keywords = {Mathematics - Optimization and Control},
+     year = 2017,
+    month = jan,
+   adsurl = {http://adsabs.harvard.edu/abs/2017arXiv170108453D},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{MStadje_2010a,
+title = "Extending dynamic convex risk measures from discrete time to continuous time: A convergence approach",
+journal = "Insurance: Mathematics and Economics",
+volume = "47",
+number = "3",
+pages = "391 - 404",
+year = "2010",
+author = "M. Stadje"
+}
+
+@Article{Coquet2002,
+author="Coquet, F.
+and Hu, Y.
+and M{\'e}min, J.
+and Peng, S.",
+title="Filtration-consistent nonlinear expectations and related g-expectations",
+journal="Probability Theory and Related Fields",
+year="2002",
+month="May",
+day="01",
+volume="123",
+number="1",
+pages="1--27"
+}
+
+@book{bell:57,
+author = "Bellman, R. E.",
+title  = "Dynamic Programming",
+booktitle = "Dynamic Programming",
+publisher = "Princeton University Press",
+address = "Princeton, NJ",
+year   = 1957,
+}
+
+@book{von2007theory,
+  title={Theory of Games and Economic Behavior (Commemorative Edition)},
+  author={von Neumann, J. and Morgenstern, O.},
+  isbn={9780691130613},
+  lccn={2008299762},
+  series={Princeton Classic Editions},
+  url={https://books.google.com/books?id=\_aIGYI-jGEcC},
+  year={2007},
+  publisher={Princeton University Press}
+}
+
+@InProceedings{DDentcheva_WRomisch_1998a,
+author="Dentcheva, D. and R{\"o}misch, W.",
+editor="Marti, K. and Kall, P.",
+title="Optimal Power Generation under Uncertainty via Stochastic Programming",
+booktitle="Stochastic Programming Methods and Technical Applications",
+year="1998",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="22--56"
+}
+
+@Article{TBreiten_KKunisch_LPfeiffer_2017a,
+author="T. Breiten and K. Kunisch and L. Pfeiffer",
+title="Control strategies for the {F}okker-{P}lanck equation",
+journal="ESAIM: Control, Optimization and Calculus of Variations",
+year="2018",
+note="To Appear"
+}
+
+@Book{MDGunzburger_2003a,
+  Title                    = {Perspectives in Flow Control and Optimization},
+  Author                   = {M. D. Gunzburger},
+  Publisher                = {SIAM},
+  Year                     = {2003},
+
+  Address                  = {Philadelphia}
+}
+
+@article{harada1992real,
+  title={Real-time observation of vortex lattices in a superconductor by electron microscopy},
+  author={Harada, K. and Matsuda, T. and Bonevich, J. and Igarashi, M. and Kondo, S. and Pozzi, G. and Kawabe, U. and Tonomura, A.},
+  journal={Nature},
+  volume={360},
+  number={6399},
+  pages={51},
+  year={1992},
+  publisher={Nature Publishing Group}
+}
+
+@article{DBLP:journals/corr/HaberR17,
+  author    = {E. Haber and
+               L. Ruthotto},
+  title     = {Stable Architectures for Deep Neural Networks},
+  journal   = {CoRR},
+  volume    = {abs/1705.03341},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1705.03341},
+  archivePrefix = {arXiv},
+  eprint    = {1705.03341},
+  timestamp = {Wed, 07 Jun 2017 14:40:21 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/HaberR17},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@article{parareal,
+  title={A parareal in time procedure for the control of partial differential equations},
+  author={Maday, Y. and Turinici, G.},
+  journal={Comptes Rendus Mathematique},
+  volume={335},
+  number={4},
+  pages={387--392},
+  year={2002},
+  publisher={Elsevier}
+}
+@article{mgrit,
+  title="{Parallel time integration with multigrid}",
+  author={Falgout, R. D. and Friedhoff, S. and Kolev, T. V. and MacLachlan, S. P. and Schroder, J. B.},
+  journal={SIAM Journal on Scientific Computing},
+  volume={36},
+  number={6},
+  pages={C635--C661},
+  year={2014},
+  publisher={SIAM}
+}
+@article{JSChang_GCooper_1970a,
+  title="{A practical scheme for {F}okker-{P}lanck equations}",
+  author={J. S. Chang and G. Cooper},
+  journal={Journal of Computational Physics},
+  volume={6},
+  pages={1--16},
+  year={1970}
+}
+
+@INPROCEEDINGS{YSun_MKumar_2015a,
+author={Y. Sun and M. Kumar},
+booktitle={2015 American Control Conference (ACC)},
+title={Solution of high dimensional transient {F}okker-{P}lanck equations by tensor decomposition},
+year={2015},
+volume={},
+number={},
+pages={1475-1480},
+month={July}
+}
+@book{nocedal2006numerical,
+  title={Numerical optimization},
+  author={Nocedal, Jorge and Wright, Stephen J},
+  year={2006},
+  publisher={Springer}
+}
+@Book{ARConn_NIMGould_PLToint_2000,
+  author = {A. R. Conn and N. I. M. Gould and {\relax Ph}. L. Toint},
+  title = {Trust-Region Methods},
+  publisher = {Society for Industrial and Applied Mathematics},
+  year = {2000},
+  address = {Philadelphia PA},
+  series = {MOS-SIAM Series on Optimization},
+  number = {1}
+}
+@article{chen2018random,
+  author = {Chen, R. and Menickelly, M. and Scheinberg, K},
+  journal = {Mathematical Programming},
+  number = {1},
+  title = {Stochastic optimization using a trust-region method and random models},
+  volume = {169},
+  year = {2018},
+  pages = {447--487},
+  doi = {https://doi.org/10.1007/s10107-017-1141-8},
+}
+@article{hintermuller2002solving,
+  title={Solving nonlinear programming problems with noisy function values and noisy gradients},
+  author={Hinterm{\"u}ller, M},
+  journal={Journal of optimization theory and applications},
+  volume={114},
+  pages={133--169},
+  year={2002},
+  publisher={Springer}
+}
+@Article{DPKouri_MHeinkenschloss_DRidzal_BGvanBloemenWaanders_2014a,
+  Title                    = {Inexact Objective Function Evaluations in a Trust-Region Algorithm for {PDE}-Constrained Optimization Under Uncertainty},
+  Author                   = {Kouri, D. P. and Heinkenschloss, M. and Ridzal, D. and van Bloemen Waanders, B. G.},
+  Journal                  = {SIAM Journal on Scientific Computing},
+  Year                     = {2014},
+  Number                   = {6},
+  Pages                    = {A3011-A3029},
+  Volume                   = {36},
+
+  Doi                      = {10.1137/140955665}
+}
+
+@Article{MHeinkenschloss_DRidzal_2014a,
+  Title                    = {A Matrix-Free Trust-Region {SQP} Method for Equality Constrained Optimization},
+  Author                   = {M. Heinkenschloss and D. Ridzal},
+  Journal                  = {SIAM Journal on Optimization},
+  Year                     = {2014},
+  Number                   = {3},
+  Pages                    = {1507-1541},
+  Volume                   = {24},
+
+  Doi                      = {10.1137/130921738}
+}
+
+@article {HScheel_Scholtes_2000a,
+   FAUTHOR = {Scheel, Holger and Scholtes, Stefan},
+    AUTHOR = {Scheel, H. and Scholtes, S.},
+     TITLE = {Mathematical programs with complementarity constraints:
+              stationarity, optimality, and sensitivity},
+   JOURNAL = {Math. Oper. Res.},
+  FJOURNAL = {Mathematics of Operations Research},
+    VOLUME = {25},
+      YEAR = {2000},
+    NUMBER = {1},
+     PAGES = {1--22},
+      ISSN = {0364-765X},
+   MRCLASS = {90C33 (90C31)},
+  MRNUMBER = {1854317},
+       DOI = {10.1287/moor.25.1.1.15213},
+       URL = {http://dx.doi.org/10.1287/moor.25.1.1.15213},
+}
+
+@article {MR3385648,
+    AUTHOR = {G\"{o}tschel, Sebastian and Weiser, Martin},
+     TITLE = {Lossy compression for {PDE}-constrained optimization: adaptive
+              error control},
+   JOURNAL = {Comput. Optim. Appl.},
+  FJOURNAL = {Computational Optimization and Applications. An International
+              Journal},
+    VOLUME = {62},
+      YEAR = {2015},
+    NUMBER = {1},
+     PAGES = {131--155},
+      ISSN = {0926-6003},
+   MRCLASS = {65M60 (35K58 49M15 65M15 65M22 94A29)},
+  MRNUMBER = {3385648},
+MRREVIEWER = {H. P. Dikshit},
+       DOI = {10.1007/s10589-014-9712-6},
+       URL = {https://doi.org/10.1007/s10589-014-9712-6%7D},
+}
+
+
+@article{DPKouri_TMSurowiec_2018a,
+	author = {Kouri, D. P. and Surowiec, T. M.},
+	doi = {10.1137/16M1086613},
+	fjournal = {SIAM/ASA Journal on Uncertainty Quantification},
+	issn = {2166-2525},
+	journal = {SIAM/ASA J. Uncertain. Quantif.},
+	mrclass = {49J20 (49J50 49J55 49K20 49K45 90C15)},
+	mrnumber = {3810513},
+	number = {2},
+	pages = {787--815},
+	title = {Existence and optimality conditions for risk-averse {PDE}-constrained optimization},
+	url = {https://doi.org/10.1137/16M1086613},
+	volume = {6},
+	year = {2018},
+	Bdsk-Url-1 = {https://doi.org/10.1137/16M1086613}}
+
+
+
+@book{HAntil_DPKouri_MDLacasse_DRidzal_2018a,
+	date-added = {2020-05-03 23:29:30 -0400},
+	date-modified = {2020-05-03 23:29:53 -0400},
+	doi = {10.1007/978-1-4939-8636-1},
+	editor = {Antil, Harbir and Kouri, Drew P. and Lacasse, Martin-D. and Ridzal, Denis},
+	isbn = {978-1-4939-8635-4; 978-1-4939-8636-1},
+	mrclass = {49-06 (49K20 49M25 49N90 65Kxx 90C90)},
+	mrnumber = {3839310},
+	note = {Papers based on the workshop held at the Institute for Mathematics and its Applications, Minneapolis, MN, June 6--10, 2016},
+	pages = {x+434},
+	publisher = {Springer, New York},
+	series = {The IMA Volumes in Mathematics and its Applications},
+	title = {Frontiers in {PDE}-constrained optimization},
+	url = {https://doi.org/10.1007/978-1-4939-8636-1},
+	volume = {163},
+	year = {2018},
+	Bdsk-Url-1 = {https://doi.org/10.1007/978-1-4939-8636-1}}
+
+
+
+@article{HAntil_DPKouri_JPfefferer_2021a,
+	author = {Antil, H. and Kouri, D. P. and Pfefferer, J.},
+	date-added = {2021-05-06 18:22:22 -0400},
+	date-modified = {2021-05-06 18:22:39 -0400},
+	doi = {10.1137/20M1324958},
+	fjournal = {SIAM Journal on Control and Optimization},
+	issn = {0363-0129},
+	journal = {SIAM J. Control Optim.},
+	mrclass = {49J20 (35J75 49J55 49M25 65M12 65M15 65M60)},
+	mrnumber = {4236268},
+	number = {2},
+	pages = {1161--1187},
+	title = {Risk-{A}verse {C}ontrol of {F}ractional {D}iffusion with {U}ncertain {E}xponent},
+	url = {https://doi.org/10.1137/20M1324958},
+	volume = {59},
+	year = {2021},
+	Bdsk-Url-1 = {https://doi.org/10.1137/20M1324958}}
+
+
+
+@article{DPKouri_TMSurowiec_2016a,
+	author = {Kouri, D. P. and Surowiec, T. M.},
+	doi = {10.1137/140954556},
+	fjournal = {SIAM Journal on Optimization},
+	issn = {1052-6234},
+	journal = {SIAM J. Optim.},
+	mrclass = {49M15 (49K20 49K45 65K05 65N35 90C15 90C48 91B30)},
+	mrnumber = {3455142},
+	number = {1},
+	pages = {365--396},
+	title = {Risk-averse {PDE}-constrained optimization using the conditional value-at-risk},
+	url = {http://dx.doi.org/10.1137/140954556},
+	volume = {26},
+	year = {2016},
+	Bdsk-Url-1 = {http://dx.doi.org/10.1137/140954556}}
+
+
+
+@book{AShapiro_DDentcheva_ARuszczynski_2014a,
+	author = {Shapiro, Alexander and Dentcheva, Darinka and Ruszczy\'{n}ski, Andrzej},
+	date-added = {2020-05-13 15:36:34 -0400},
+	date-modified = {2020-05-21 14:07:12 -0400},
+	edition = {Second},
+	fauthor = {Shapiro, Alexander and Dentcheva, Darinka and Ruszczy\'{n}ski, Andrzej},
+	isbn = {978-1-611973-42-6},
+	mrclass = {90-01 (90C15)},
+	mrnumber = {3242164},
+	note = {Modeling and theory},
+	pages = {xviii+494},
+	publisher = {SIAM, Philadelphia, PA; MOS, Philadelphia, PA},
+	series = {MOS-SIAM Series on Optimization},
+	title = {Lectures on stochastic programming},
+	volume = {9},
+	year = {2014}}
+
+@article {herzog2021dimensionally,
+    AUTHOR = {Herzog, Roland},
+     TITLE = {Dimensionally consistent preconditioning for saddle-point
+              problems},
+   JOURNAL = {Comput. Methods Appl. Math.},
+  FJOURNAL = {Computational Methods in Applied Mathematics},
+    VOLUME = {21},
+      YEAR = {2021},
+    NUMBER = {3},
+     PAGES = {593--607},
+      ISSN = {1609-4840},
+   MRCLASS = {65F08 (49K40 65F10 65K10 65N22)},
+  MRNUMBER = {4279088},
+       DOI = {10.1515/cmam-2020-0037},
+       URL = {https://doi.org/10.1515/cmam-2020-0037},
+}
+
+@incollection {More1983,
+    AUTHOR = {Mor\'{e}, J. J.},
+     TITLE = {Recent developments in algorithms and software for trust
+              region methods},
+ BOOKTITLE = {Mathematical programming: the state of the art ({B}onn, 1982)},
+     PAGES = {258--287},
+ PUBLISHER = {Springer, Berlin},
+      YEAR = {1983},
+   MRCLASS = {90C30 (65K10)},
+  MRNUMBER = {717404},
+MRREVIEWER = {Kaj Madsen},
+}
+
+@article{JEKelley_1960a,
+  title={The cutting-plane method for solving convex programs},
+  author={J. E. Kelley, Jr},
+  journal={Journal of the Society for Industrial and Applied Mathematics},
+  volume={8},
+  number={4},
+  pages={703--712},
+  year={1960},
+  publisher={SIAM}
+}
+
+@Book{JFBonnans_JCGilbert_CLemarechal_CASagastizabal_2006a,
+  Title                    = {Numerical optimization. {T}heoretical and practical aspects},
+  Author                   = {J. F. Bonnans and J. C. Gilbert and C. Lemar{\'e}chal and C. A. Sagastiz{\'a}bal},
+  Publisher                = {Springer-Verlag},
+  Year                     = {2006},
+
+  Address                  = {Berlin},
+  Edition                  = {Second},
+  Series                   = {Universitext},
+
+  Fauthor                  = {Bonnans, J. Fr{\'e}d{\'e}ric and Gilbert, J. Charles and Lemar{\'e}chal, Claude and Sagastiz{\'a}bal, Claudia A.}
+}
+
+@article {MMMakela_2002a,
+    AUTHOR = {M\"akel\"a, M.M.},
+     TITLE = {Survey of bundle methods for nonsmooth optimization},
+   JOURNAL = {Optim. Methods Softw.},
+  FJOURNAL = {Optimization Methods \& Software},
+    VOLUME = {17},
+      YEAR = {2002},
+    NUMBER = {1},
+     PAGES = {1--29},
+      ISSN = {1055-6788},
+   MRCLASS = {90C30 (49J52 90-02)},
+  MRNUMBER = {1906232},
+       DOI = {10.1080/10556780290027828},
+       URL = {http://dx.doi.org/10.1080/10556780290027828},
+}
+
+@article {HSchramm_JZowe_1992a,
+   FAUTHOR = {Schramm, Helga and Zowe, Jochem},
+    AUTHOR = {Schramm, H. and Zowe, J.},
+     TITLE = {A version of the bundle idea for minimizing a nonsmooth
+              function: conceptual idea, convergence analysis, numerical
+              results},
+   JOURNAL = {SIAM J. Optim.},
+  FJOURNAL = {SIAM Journal on Optimization},
+    VOLUME = {2},
+      YEAR = {1992},
+    NUMBER = {1},
+     PAGES = {121--152},
+      ISSN = {1052-6234},
+   MRCLASS = {90C30 (49J52 65K05)},
+  MRNUMBER = {1147886},
+MRREVIEWER = {Hans-Peter Scheffler},
+       DOI = {10.1137/0802008},
+       URL = {http://dx.doi.org/10.1137/0802008},
+}
+
+@techreport{AGrothey_KMcKinnon_1998a,
+  title={A Superlinearly Convergent Trust Region Bundle Method},
+  author={A. Grothey and K. McKinnon},
+  year={1998},
+  institution={University of Edinburgh}
+}
+
+@Book{ARConn_NIMGould_PhLToint_2000a,
+  Title                    = {Trust--Region Methods},
+  Author                   = {A. R. Conn and N. I. M. Gould and Ph. L. Toint},
+  Publisher                = {SIAM},
+  Year                     = {2000},
+  Address                  = {Philadelphia}
+}
+
+@Article{JVBurke_JJMore_GToraldo_1990,
+  Title                    = {Convergence properties of trust region methods for linear and convex constraints},
+  Author                   = {J. V. Burke and J. J. Mor{\'e} and G. Toraldo},
+  Journal                  = {Math. Programming},
+  Year                     = {1990},
+  Pages                    = {305--336},
+  Volume                   = {47}
+}
+
+@article{AFrangioni_1996a,
+title = "Solving semidefinite quadratic problems within nonsmooth optimization algorithms",
+journal = "Computers \& Operations Research",
+volume = "23",
+number = "11",
+pages = "1099 - 1118",
+year = "1996",
+author = "A. Frangioni"
+}
+
+@article{AFrangioni_2002a,
+author = {A. Frangioni},
+title = {Generalized Bundle Methods},
+journal = {SIAM Journal on Optimization},
+volume = {13},
+number = {1},
+pages = {117-156},
+year = {2002}
+}
+
+@Article{JEDennis_SBLi_RATapia_1995a,
+author="J. E. Dennis and S. B. Li and R. A. Tapia",
+title="A unified approach to global convergence of trust region methods for nonsmooth optimization",
+journal="Mathematical Programming",
+year="1995",
+volume="68",
+number="1",
+pages="319--346"
+}
+
+@Article{DPKouri_MHeinkenschloss_DRidzal_BGvanBloemenWaanders_2013a,
+  Title                    = {A Trust-Region Algorithm with Adaptive Stochastic Collocation for {PDE} Optimization under Uncertainty},
+  Author                   = {Kouri, D. P. and Heinkenschloss, M. and Ridzal, D. and van Bloemen Waanders, B. G.},
+  Journal                  = {SIAM Journal on Scientific Computing},
+  Year                     = {2013},
+  Number                   = {4},
+  Pages                    = {A1847-A1879},
+  Volume                   = {35},
+
+  Doi                      = {10.1137/120892362},
+  Owner                    = {dpkouri},
+  Timestamp                = {2015.01.07}
+}
+
+
+@article{HAntil_HCElman_AOnwunta_DVerma_2021a,
+	author = {Antil, H. and Elman, H. C. and Onwunta, A. and Verma, D.},
+	date-added = {2021-05-02 14:28:24 -0400},
+	date-modified = {2021-05-02 14:28:48 -0400},
+	journal = {arXiv preprint arXiv:2102.03974},
+	title = {Novel Deep neural networks for solving Bayesian statistical inverse problems},
+	year = {2021}}
+
+
+@article{TSBrown_HAntil_RLoehner_FTogashi_DVerma_2021a,
+	author = {Brown, T. S. and Antil, H. and L{\"o}hner, R. and Togashi, F. and Verma, D.},
+	date-added = {2021-05-12 22:50:54 -0400},
+	date-modified = {2021-05-12 22:51:25 -0400},
+	journal = {arXiv preprint arXiv:2104.01914},
+	title = {Novel DNNs for Stiff ODEs with Applications to Chemically Reacting Flows},
+	year = {2021}}
+
+
+@article{HAntil_TSBrown_RLohner_FTogashi_DVerma_2021a,
+	author = {Antil, H. and Brown, T. S. and L{\"o}hner, R. and Togashi, F. and Verma, D.},
+	date-added = {2021-07-15 09:21:05 -0400},
+	date-modified = {2021-07-15 09:21:24 -0400},
+	journal = {arXiv preprint arXiv:2107.01308},
+	title = {Deep Neural Nets with Fixed Bias Configuration},
+	year = {2021}}
+
+
+@article{HAntil_RKhatri_RLohner_DVerma_2020a,
+	author = {Antil, H. and Khatri, R. and L{\"o}hner, R. and Verma, D.},
+	date-added = {2021-06-14 20:27:05 -0400},
+	date-modified = {2021-06-14 20:27:05 -0400},
+	doi = {10.1088/2632-2153/aba8e7},
+	journal = {Machine Learning: Science and Technology},
+	month = {dec},
+	number = {1},
+	pages = {015003},
+	publisher = {{IOP} Publishing},
+	title = {Fractional deep neural network via constrained optimization},
+	url = {https://doi.org/10.1088/2632-2153/aba8e7},
+	volume = {2},
+	year = 2020,
+	Bdsk-Url-1 = {https://doi.org/10.1088/2632-2153/aba8e7}}
+
+@inproceedings{CyrRidzal2017_pinttalk,
+	Author = {Cyr, E. C. and Ridzal D. R.},
+	Booktitle = {The 6th Parallel in Time Workshop, Monte Verit{\`a}, Ascona, Switzerland},
+	Title = {Towards Parallel in Time for Full Space Optimizationa},
+	Year = {\url{http://www.cs.sandia.gov/~eccyr/pubs/pint2017.pdf}. 2017}}
+
+
+@article{SGuenther_LRuthotto_JSchroder_ECyr_NGauger_2020a,
+	author = {G{\"u}nther, Stefanie and Ruthotto, Lars and Schroder, Jacob and Cyr, Eric and Gauger, Nicolas},
+	date-added = {2020-05-14 10:29:09 -0400},
+	date-modified = {2020-05-21 13:55:40 -0400},
+	doi = {10.1137/19M1247620},
+	fauthor = {G{\"u}nther, Stefanie and Ruthotto, Lars and Schroder, Jacob and Cyr, Eric and Gauger, Nicolas},
+	journal = {SIAM Journal on Mathematics of Data Science},
+	month = {01},
+	pages = {1-23},
+	title = {Layer-Parallel Training of Deep Residual Neural Networks},
+	volume = {2},
+	year = {2020},
+	Bdsk-Url-1 = {https://doi.org/10.1137/19M1247620}}
+
+
+
+@article{DZHuang_KXu_CFarhat_EDarve_2020a,
+	author = {Huang, Daniel Z. and Xu, Kailai and Farhat, Charbel and Darve, Eric},
+	date-added = {2020-05-13 15:40:51 -0400},
+	date-modified = {2020-05-13 15:41:12 -0400},
+	doi = {10.1016/j.jcp.2020.109491},
+	fjournal = {Journal of Computational Physics},
+	issn = {0021-9991},
+	journal = {J. Comput. Phys.},
+	mrclass = {60 (65C50 65N30 68)},
+	mrnumber = {4094818},
+	pages = {109491},
+	title = {Learning constitutive relations from indirect observations using deep neural networks},
+	url = {https://doi.org/10.1016/j.jcp.2020.109491},
+	volume = {416},
+	year = {2020},
+	Bdsk-Url-1 = {https://doi.org/10.1016/j.jcp.2020.109491}}
+
+
+@article{MJLai_YXu_WYin_2013a,
+	author = {Lai, Ming-Jun and Xu, Yangyang and Yin, Wotao},
+	doi = {10.1137/110840364},
+	fjournal = {SIAM Journal on Numerical Analysis},
+	issn = {0036-1429},
+	journal = {SIAM J. Numer. Anal.},
+	mrclass = {65K10 (49M37 90C20)},
+	mrnumber = {3033038},
+	mrreviewer = {Driss Mentagui},
+	number = {2},
+	pages = {927--957},
+	title = {Improved iteratively reweighted least squares for unconstrained smoothed {$\ell_q$} minimization},
+	url = {https://doi.org/10.1137/110840364},
+	volume = {51},
+	year = {2013},
+	Bdsk-Url-1 = {https://doi.org/10.1137/110840364}}
+
+
+
+@book{DKindelehrer_GStampacchia_1980,
+	address = {New York},
+	author = {Kinderlehrer, D. and Stampacchia, G.},
+	fauthor = {Kinderlehrer, David and Stampacchia, Guido},
+	isbn = {0-12-407350-6},
+	mrclass = {49A29 (35R35 47H15)},
+	mrnumber = {567696 (81g:49013)},
+	mrreviewer = {Erich Miersemann},
+	pages = {xiv+313},
+	publisher = {Academic Press Inc. [Harcourt Brace Jovanovich Publishers]},
+	series = {Pure and Applied Mathematics},
+	title = {An introduction to variational inequalities and their applications},
+	volume = {88},
+	year = {1980}}
+
+@book {ZQLuo_JSPang_DRalph_1996,
+   FAUTHOR = {Luo, Zhi-Quan and Pang, Jong-Shi and Ralph, Daniel},
+    AUTHOR = {Luo, Z.-Q. and Pang, J.-S. and Ralph, D.},
+     TITLE = {Mathematical programs with equilibrium constraints},
+ PUBLISHER = {Cambridge University Press, Cambridge},
+      YEAR = {1996},
+     PAGES = {xxiv+401},
+      ISBN = {0-521-57290-8},
+   MRCLASS = {90-02 (49-02 49J40 90C30 90D65)},
+  MRNUMBER = {1419501},
+MRREVIEWER = {Stephan Dempe},
+       DOI = {10.1017/CBO9780511983658},
+       URL = {http://dx.doi.org/10.1017/CBO9780511983658},
+}
+
+@book {JVOutrata_MKocvara_JZowe_1998,
+   FAUTHOR = {Outrata, Ji\v ri and Ko\v cvara, Michal and Zowe, Jochem},
+    AUTHOR = {Outrata, J. and Ko\v cvara, M. and Zowe, J.},
+     TITLE = {Nonsmooth approach to optimization problems with equilibrium
+              constraints},
+    SERIES = {Nonconvex Optimization and its Applications},
+    VOLUME = {28},
+      NOTE = {Theory, applications and numerical results},
+ PUBLISHER = {Kluwer Academic Publishers, Dordrecht},
+      YEAR = {1998},
+     PAGES = {xxii+273},
+      ISBN = {0-7923-5170-3},
+   MRCLASS = {90-02 (49J40 49J52 90C31 90D65)},
+  MRNUMBER = {1641213},
+MRREVIEWER = {Stephan Dempe},
+       DOI = {10.1007/978-1-4757-2825-5},
+       URL = {http://dx.doi.org/10.1007/978-1-4757-2825-5},
+}
+
+@article {RHerzog_CMeyer_GWachsmuth_2013,
+   FAUTHOR = {Herzog, Roland and Meyer, Christian and Wachsmuth, Gerd},
+    AUTHOR = {Herzog, R. and Meyer, C. and Wachsmuth, G.},
+     TITLE = {B- and strong stationarity for optimal control of static
+              plasticity with hardening},
+   JOURNAL = {SIAM J. Optim.},
+  FJOURNAL = {SIAM Journal on Optimization},
+    VOLUME = {23},
+      YEAR = {2013},
+    NUMBER = {1},
+     PAGES = {321--352},
+      ISSN = {1052-6234},
+   MRCLASS = {49K20 (74C05)},
+  MRNUMBER = {3033110},
+MRREVIEWER = {Jos\'e Eduardo Souza de Cursi},
+       DOI = {10.1137/110821147},
+       URL = {http://dx.doi.org/10.1137/110821147},
+}
+
+@article {JCDelosReyes_CMeyer_2016,
+    AUTHOR = {De los Reyes, J. C. and Meyer, C.},
+     TITLE = {Strong stationarity conditions for a class of optimization
+              problems governed by variational inequalities of the second
+              kind},
+   JOURNAL = {J. Optim. Theory Appl.},
+  FJOURNAL = {Journal of Optimization Theory and Applications},
+    VOLUME = {168},
+      YEAR = {2016},
+    NUMBER = {2},
+     PAGES = {375--409},
+      ISSN = {0022-3239},
+   MRCLASS = {49K21 (35J87 35R35 49J40 90C33)},
+  MRNUMBER = {3451505},
+MRREVIEWER = {Hassan Saoud},
+       DOI = {10.1007/s10957-015-0748-2},
+       URL = {http://dx.doi.org/10.1007/s10957-015-0748-2},
+}
+
+@article {MHintermueller_TSurowiec_2016a,
+    AUTHOR = {Hinterm\"uller, M. and Surowiec, T.},
+     TITLE = {A bundle-free implicit programming approach for a class of
+              elliptic {MPEC}s in function space},
+   JOURNAL = {Math. Program.},
+  FJOURNAL = {Mathematical Programming},
+    VOLUME = {160},
+      YEAR = {2016},
+    NUMBER = {1-2, Ser. A},
+     PAGES = {271--305},
+      ISSN = {0025-5610},
+   MRCLASS = {49J52 (49K20 49K21 49M05 65K15 90C33)},
+  MRNUMBER = {3555389},
+MRREVIEWER = {Hamdullah Y\~A${}^1\!/\!_4$cel},
+       DOI = {10.1007/s10107-016-0983-9},
+       URL = {http://dx.doi.org/10.1007/s10107-016-0983-9},
+}
+
+@article {MHintermueller_BSMordukhovich_TMSurowiec_2014a,
+    AUTHOR = {Hinterm\"uller, M. and Mordukhovich, B.S. and Surowiec, T.M.},
+     TITLE = {Several approaches for the derivation of stationarity
+              conditions for elliptic {MPEC}s with upper-level control
+              constraints},
+   JOURNAL = {Math. Program.},
+  FJOURNAL = {Mathematical Programming},
+    VOLUME = {146},
+      YEAR = {2014},
+    NUMBER = {1-2, Ser. A},
+     PAGES = {555--582},
+      ISSN = {0025-5610},
+   MRCLASS = {90C33 (49K21 90C46 90C48)},
+  MRNUMBER = {3232626},
+       DOI = {10.1007/s10107-013-0704-6},
+       URL = {http://dx.doi.org/10.1007/s10107-013-0704-6},
+}
+
+@misc{HAntil,
+  author={H. Antil},
+  title={Webpage},
+  howpublished={\footnotesize\url{http://math.gmu.edu/~hantil/}\normalsize}
+}
+
+@misc{DPKouri,
+  author={D. P. Kouri},
+  title={Webpage},
+  howpublished={\footnotesize\url{http://www.cs.sandia.gov/cr-dpkouri}\normalsize}
+}
+
+@misc{DRidzal,
+  author={D. Ridzal},
+  title={Webpage},
+  howpublished={\footnotesize\url{http://www.sandia.gov/~dridzal/}\normalsize}
+}
+
+@article {MR3665917,
+    AUTHOR = {Antil, H. and Hinterm\"uller, M. and Nochetto, R.H.
+              and Surowiec, T. and Wegner, D.},
+     TITLE = {Finite horizon model predictive control of electrowetting on
+              dielectric with pinning},
+   JOURNAL = {Interfaces Free Bound.},
+  FJOURNAL = {Interfaces and Free Boundaries. Mathematical Analysis,
+              Computation and Applications},
+    VOLUME = {19},
+      YEAR = {2017},
+    NUMBER = {1},
+     PAGES = {1--30},
+      ISSN = {1463-9963},
+   MRCLASS = {49 (35 65 76 90)},
+  MRNUMBER = {3665917},
+       DOI = {10.4171/IFB/375},
+       URL = {http://dx.doi.org/10.4171/IFB/375},
+}
+
+@article {MR3645662,
+    AUTHOR = {Antil, H. and Hardesty, S. and Heinkenschloss, M.},
+     TITLE = {Shape optimization of shell structure acoustics},
+   JOURNAL = {SIAM J. Control Optim.},
+  FJOURNAL = {SIAM Journal on Control and Optimization},
+    VOLUME = {55},
+      YEAR = {2017},
+    NUMBER = {3},
+     PAGES = {1347--1376},
+      ISSN = {0363-0129},
+   MRCLASS = {74K25 (35Q93 49Q10 65N38)},
+  MRNUMBER = {3645662},
+       DOI = {10.1137/16M1070633},
+       URL = {http://dx.doi.org/10.1137/16M1070633},
+}
+
+
+@article{HAntil_CNRautenberg_2019a,
+	author = {Antil, H. and Rautenberg, C. N.},
+	date-added = {2020-05-03 22:53:53 -0400},
+	date-modified = {2020-05-03 22:54:03 -0400},
+	doi = {10.1137/18M1224970},
+	fjournal = {SIAM Journal on Mathematical Analysis},
+	issn = {0036-1410},
+	journal = {SIAM J. Math. Anal.},
+	mrclass = {35R11 (26A33 35S15 49J10 65N30)},
+	mrnumber = {3961985},
+	mrreviewer = {Vincenzo Ambrosio},
+	number = {3},
+	pages = {2479--2503},
+	title = {Sobolev spaces with non-{M}uckenhoupt weights, fractional elliptic operators, and applications},
+	url = {https://doi.org/10.1137/18M1224970},
+	volume = {51},
+	year = {2019},
+	Bdsk-Url-1 = {https://doi.org/10.1137/18M1224970}}
+
+@Article{DPKouri_2014a,
+  Title                    = {A Multilevel Stochastic Collocation Algorithm for Optimization of {PDE}s with Uncertain Coefficients},
+  Author                   = {D. P. Kouri},
+  Journal                  = {SIAM/ASA Journal on Uncertainty Quantification},
+  Year                     = {2014},
+  Number                   = {1},
+  Pages                    = {55-81},
+  Volume                   = {2},
+
+  Owner                    = {dpkouri},
+  Timestamp                = {2015.01.07}
+}
+
+@article {DPKouri_TSurowiec_2014a,
+    AUTHOR = {Kouri, D. P. and Surowiec, T. M.},
+     TITLE = {Risk-averse {PDE}-constrained optimization using the
+              conditional value-at-risk},
+   JOURNAL = {SIAM J. Optim.},
+  FJOURNAL = {SIAM Journal on Optimization},
+    VOLUME = {26},
+      YEAR = {2016},
+    NUMBER = {1},
+     PAGES = {365--396},
+      ISSN = {1052-6234},
+   MRCLASS = {90C15 (49K20 49K45 49M15 65K05 65N35 90C48 91B30)},
+  MRNUMBER = {3455142},
+MRREVIEWER = {Wim van Ackooij},
+       DOI = {10.1137/140954556},
+       URL = {http://dx.doi.org/10.1137/140954556},
+}
+
+@inproceedings{ZZou_DPKouri_WAquino_2016a,
+author = {Z. Zou and D. P. Kouri and W. Aquino},
+title = {An Adaptive Sampling Approach for Solving {PDE}s with Uncertain Inputs and Evaluating Risk},
+booktitle = {AIAA SciTech Proceedings},
+year = {2016}
+}
+
+@InProceedings{MHeinkenschloss_DRidzal_2008b,
+  Title                    = {An Inexact Trust-Region {SQP} Method with Applications to {PDE}-Constrained Optimization},
+  Author                   = {M. Heinkenschloss and D. Ridzal},
+  Booktitle                = {Numerical Mathematics and Advanced Applications. ENUMATH 2007},
+  Year                     = {2008},
+
+  Address                  = {Heidelberg},
+  Editor                   = {K. Kunisch and G. Of and O. Steinbach},
+  Pages                    = {613--620},
+  Publisher                = {Springer-Verlag},
+
+  Owner                    = {dpkouri},
+  Timestamp                = {2015.01.07}
+}
+
+
+@article{HAntil_KShirakawa_NYamazaki_2018a,
+	author = {Antil, H. and Shirakawa, K. and Yamazaki, N.},
+	date-added = {2020-05-03 22:56:17 -0400},
+	date-modified = {2020-05-03 22:56:37 -0400},
+	fjournal = {Advances in Mathematical Sciences and Applications},
+	isbn = {978-4-7625-0672-7},
+	issn = {1343-4373},
+	journal = {Adv. Math. Sci. Appl.},
+	mrclass = {35K51 (35B30 35K87 49N90)},
+	mrnumber = {3888633},
+	number = {2},
+	pages = {299--336},
+	title = {A class of parabolic systems associated with optimal controls of grain boundary motions},
+	volume = {27},
+	year = {2018}}
+
+
+@article{HAntil_SKubota_KShirakawa_NYamazaki_2021a,
+	author = {Antil, Harbir and Kubota, Shodai and Shirakawa, Ken and Yamazaki, Noriaki},
+	date-added = {2021-09-13 14:29:38 -0400},
+	date-modified = {2021-09-13 14:30:01 -0400},
+	doi = {10.3934/mcrf.2020036},
+	fjournal = {Mathematical Control and Related Fields},
+	issn = {2156-8472},
+	journal = {Math. Control Relat. Fields},
+	mrclass = {49J20 (35K61 49J45 49K20 74N05 74N20)},
+	mrnumber = {4218112},
+	number = {2},
+	pages = {253--289},
+	title = {Optimal control problems governed by 1-{D} {K}obayashi-{W}arren-{C}arter type systems},
+	url = {https://doi.org/10.3934/mcrf.2020036},
+	volume = {11},
+	year = {2021},
+	Bdsk-Url-1 = {https://doi.org/10.3934/mcrf.2020036}}
+
+
+@article{HAntil_MWarma_2020a,
+	author = {Antil, Harbir and Warma, Mahamadi},
+	date-added = {2020-05-03 22:52:41 -0400},
+	date-modified = {2020-05-03 22:52:50 -0400},
+	doi = {10.1051/cocv/2019003},
+	fjournal = {ESAIM. Control, Optimisation and Calculus of Variations},
+	issn = {1292-8119},
+	journal = {ESAIM Control Optim. Calc. Var.},
+	mrclass = {49J20 (26A33 35R11 35S15 49K20 65N30 65R20)},
+	mrnumber = {4055455},
+	pages = {Paper No. 5, 30},
+	title = {Optimal control of fractional semilinear {PDE}s},
+	url = {https://doi.org/10.1051/cocv/2019003},
+	volume = {26},
+	year = {2020},
+	Bdsk-Url-1 = {https://doi.org/10.1051/cocv/2019003}}
+
+
+@article{HAntil_CNRautenberg_ASchikorra_2021a,
+	author = {Antil, Harbir and Rautenberg, Carlos N. and Schikorra, Armin},
+	date-added = {2021-07-05 10:00:29 -0400},
+	date-modified = {2021-07-05 10:00:45 -0400},
+	doi = {10.1137/20M1379873},
+	fjournal = {SIAM Journal on Mathematical Analysis},
+	issn = {0036-1410},
+	journal = {SIAM J. Math. Anal.},
+	mrclass = {35K20 (35R11 35S15 65K15)},
+	mrnumber = {4267486},
+	number = {3},
+	pages = {3158--3187},
+	title = {On a {F}ractional {V}ersion of a {M}urat {C}ompactness {R}esult and {A}pplications},
+	url = {https://doi.org/10.1137/20M1379873},
+	volume = {53},
+	year = {2021},
+	Bdsk-Url-1 = {https://doi.org/10.1137/20M1379873}}
+
+
+@inbook{HAntil_MHeinkenschloss_DCSorensen_2013a,
+	abstract = {Projection based methods lead to reduced order models (ROMs) with dramatically reduced numbers of equations and unknowns. However, for nonlinear or parametrically varying problems the cost of evaluating these ROMs still depends on the size of the full order model and therefore is still expensive. The Discrete Empirical Interpolation Method (DEIM) further approximates the nonlinearity in the projection based ROM. The resulting DEIM ROM nonlinearity depends only on a few components of the original nonlinearity. If each component of the original nonlinearity depends only on a few components of the argument, the resulting DEIM ROM can be evaluated efficiently at a cost that is independent of the size of the original problem. For systems obtained from finite difference approximations, the ith component of the original nonlinearity often depends only on the ith component of the argument. This is different for systems obtained using finite element methods, where the dependence is determined by the mesh and by the polynomial degree of the finite element subspaces. This paper describes two approaches of applying DEIM in the finite element context, one applied to the assembled and the other to the unassembled form of the nonlinearity. We carefully examine how the DEIM is applied in each case, and the substantial efficiency gains obtained by the DEIM. In addition, we demonstrate how to apply DEIM to obtain ROMs for a class of parameterized system that arises, e.g., in shape optimization. The evaluations of the DEIM ROMs are substantially faster than those of the standard projection based ROMs. Additional gains are obtained with the DEIM ROMs when one has to compute derivatives of the model with respect to the parameter.},
+	address = {Cham},
+	author = {Antil, Harbir and Heinkenschloss, Matthias and Sorensen, Danny C.},
+	booktitle = {Reduced Order Methods for Modeling and Computational Reduction},
+	date-added = {2021-06-14 20:25:08 -0400},
+	date-modified = {2021-06-14 20:25:08 -0400},
+	doi = {10.1007/978-3-319-02090-7_4},
+	editor = {Quarteroni, Alfio and Rozza, Gianluigi},
+	isbn = {978-3-319-02090-7},
+	pages = {101--136},
+	publisher = {Springer International Publishing},
+	title = {Application of the Discrete Empirical Interpolation Method to Reduced Order Modeling of Nonlinear and Parametric Systems},
+	url = {https://doi.org/10.1007/978-3-319-02090-7_4},
+	year = {2014},
+	Bdsk-Url-1 = {https://doi.org/10.1007/978-3-319-02090-7_4}}
+
+
+@article{HAntil_MHeinkenschloss_RHoppe_2010c,
+	author = {Antil, H. and Heinkenschloss, M. and Hoppe, R. H.W.},
+	doi = {10.1080/10556781003767904},
+	eprint = {http://www.tandfonline.com/doi/pdf/10.1080/10556781003767904},
+	journal = {Optimization Methods and Software},
+	number = {4-5},
+	pages = {643-669},
+	title = {Domain decomposition and balanced truncation model reduction for shape optimization of the Stokes system},
+	url = {http://www.tandfonline.com/doi/abs/10.1080/10556781003767904},
+	volume = {26},
+	year = {2011},
+	Bdsk-Url-1 = {http://www.tandfonline.com/doi/abs/10.1080/10556781003767904},
+	Bdsk-Url-2 = {http://dx.doi.org/10.1080/10556781003767904}}
+
+
+@article{HAntil_DPKouri_DRidzal_2021a,
+	author = {Antil, Harbir and Kouri, Drew P. and Ridzal, D.},
+	date-added = {2021-05-09 11:23:24 -0400},
+	date-modified = {2021-05-09 11:25:18 -0400},
+	journal = {Submitted to SIOPT},
+	title = {{ALESQP: A}n Augmented {L}agrangian Equality-constrained SQP Method for Optimization with General Constraints},
+	year = {2021}}
+
+@misc{skyborg,
+  title = {Skyborg},
+  howpublished = {\url{https://afresearchlab.com/technology/vanguards/successstories/skyborg}},
+  note = {Accessed: 2021-09-17}
+}
+
+@techreport{ridzal2017rapid,
+  title={Rapid Optimization Library.},
+  author={Ridzal, Denis and Kouri, Drew Philip and von Winckel, Gregory John},
+  year={2017},
+  institution={Sandia National Lab.(SNL-NM), Albuquerque, NM (United States)}
+}
+
+@article{chen2025rol,
+  author = {Baraldi, Robert J. and Chen, Brian and Javeed, Aurya and Kouri, Drew P. and Ridzal, Denis and von Winckel, Greg and Vuchkovk, Radoslav},
+  journal = {ACM TOMs - in preparation},
+  number = {},
+  title = {Rapid Optimization Library (ROL): Numerical Optimization made Practical},
+  volume = {},
+  year = {2025}
+}
+
+@article{bochev2012solving,
+  title={Solving {PDE}s with {I}ntrepid},
+  author={Bochev, Pavel and Edwards, H Carter and Kirby, Robert C and Peterson, Kara and Ridzal, Denis},
+  journal={Scientific Programming},
+  volume={20},
+  number={2},
+  pages={151--180},
+  year={2012},
+  publisher={IOS Press}
+}
+
+@article{themelis-stella-patrinos-2017,
+  author = {Themelis, Andreas and Stella, Lorenzo and Patrinos, Panagiotis},
+  title = {Forward-Backward Envelope for the Sum of Two Nonconvex Functions: Further Properties and Nonmonotone Linesearch Algorithms},
+  journal = {SIAM J. Optim.},
+  volume = {28},
+  number = {3},
+  pages = {2274--2303},
+  year = {2018},
+  doi = {10.1137/16M1080240},
+}
+@article{bot-csetnek-laszlo-2016,
+  author          = {Bo\c{t}, R. I. and Csetnek, E. R. and L\'{a}szl\'{o}, S.C.},
+  title           = {An inertial forward–backward algorithm for the minimization of the sum of two nonconvex functions},
+  journal         = {EURO J. Comput. Optim.},
+  volume          = {},
+  number          = {4},
+  pages           = {3--25},
+  year            = {2016},
+  doi             = {10.1007/s13675-015-0045-8},
+}
+@inproceedings{li-lin-2015,
+  author = {Li, Huan and Lin, Zhouchen},
+  title = {Accelerated Proximal Gradient Methods for Nonconvex Programming},
+  year = {2015},
+  publisher = {MIT Press},
+  address = {Cambridge, MA, USA},
+  abstract = {Nonconvex and nonsmooth problems have recently received considerable attention in signal/image processing, statistics and machine learning. However, solving the nonconvex and nonsmooth optimization problems remains a big challenge. Accelerated proximal gradient (APG) is an excellent method for convex programming. However, it is still unknown whether the usual APG can ensure the convergence to a critical point in nonconvex programming. In this paper, we extend APG for general nonconvex and nonsmooth programs by introducing a monitor that satisfies the sufficient descent property. Accordingly, we propose a monotone APG and a nonmonotone APG. The latter waives the requirement on monotonic reduction of the objective function and needs less computation in each iteration. To the best of our knowledge, we are the first to provide APG-type algorithms for general nonconvex and nonsmooth problems ensuring that every accumulation point is a critical point, and the convergence rates remain O(1/k2) when the problems are convex, in which k is the number of iterations. Numerical results testify to the advantage of our algorithms in speed.},
+  booktitle = {Proceedings of the 28th International Conference on Neural Information Processing Systems - Volume 1},
+  pages = {379--387},
+  numpages = {9},
+  location = {Montreal, Canada},
+  url             = {http://irc.cs.sdu.edu.cn/973project/result/download/2015/28.AcceleratedProximal.pdf},
+  series = {NIPS'15}
+}
+@INPROCEEDINGS{stella-themelis-sopasakis-patrinos-2017,
+  author={L. {Stella} and A. {Themelis} and P. {Sopasakis} and P. {Patrinos}},
+  booktitle={2017 IEEE 56th Annual Conference on Decision and Control (CDC)},
+  title={A simple and efficient algorithm for nonlinear model predictive control},
+  year={2017},
+  volume={},
+  number={},
+  pages={1939--1944},
+  doi={10.1109/CDC.2017.8263933},
+}
+@article{cartis-gould-toint-2011,
+  author = {Cartis, Coralia and Gould, Nicholas I. M. and Toint, {\relax Ph}. L.},
+  title = {On the Evaluation Complexity of Composite Function Minimization with Applications to Nonconvex Nonlinear Programming},
+  journal = {SIAM J. Optim.},
+  volume = {21},
+  number = {4},
+  pages = {1721--1739},
+  year = {2011},
+  doi = {10.1137/11082381X},
+}
+
+
+@article{kouri2021kkt,
+  title={{KKT} Preconditioners for {PDE}-Constrained Optimization with the {H}elmholtz Equation},
+  author={Kouri, Drew P and Ridzal, Denis and Tuminaro, Ray},
+  journal={SIAM Journal on Scientific Computing},
+  number={0},
+  pages={S225--S248},
+  year={2021},
+  publisher={SIAM}
+}
+
+@article{zahr2019efficient,
+  title={An efficient, globally convergent method for optimization under uncertainty using adaptive model reduction and sparse grids},
+  author={Zahr, Matthew J and Carlberg, Kevin T and Kouri, Drew P},
+  journal={SIAM/ASA Journal on Uncertainty Quantification},
+  volume={7},
+  number={3},
+  pages={877--912},
+  year={2019},
+  publisher={SIAM}
+}
+
+@article{zou2019adaptive,
+  title={An adaptive local reduced basis method for solving PDEs with uncertain inputs and evaluating risk},
+  author={Zou, Zilong and Kouri, Drew and Aquino, Wilkins},
+  journal={Computer Methods in Applied Mechanics and Engineering},
+  volume={345},
+  pages={302--322},
+  year={2019},
+  publisher={Elsevier}
+}
+
+@inproceedings{aquino2018locally,
+  title={A locally adapted reduced basis method for solving risk-averse PDE-constrained optimization problems},
+  author={Aquino, Wilkins and Kouri, Drew P and Zou, Zilong},
+  booktitle={2018 AIAA Non-Deterministic Approaches Conference},
+  pages={2174},
+  year={2018}
+}
+
+@article{carlberg2017galerkin,
+  title={Galerkin v. least-squares Petrov--Galerkin projection in nonlinear model reduction},
+  author={Carlberg, Kevin and Barone, Matthew and Antil, Harbir},
+  journal={Journal of Computational Physics},
+  volume={330},
+  pages={693--734},
+  year={2017},
+  publisher={Elsevier}
+}
+
+@article{HAntil_RHNochetto_PVenegas_2018a,
+	author = {Antil, H. and Nochetto, R.H. and Venegas, P.},
+	doi = {10.1007/s11081-018-9392-7},
+	fauthor = {Antil, Harbir and Nochetto, Ricardo H. and Venegas, Pablo},
+	fjournal = {Optimization and Engineering. International Multidisciplinary Journal to Promote Optimization Theory \& Applications in Engineering Sciences},
+	issn = {1389-4420},
+	journal = {Optim. Eng.},
+	mrclass = {49J20 (35Q35 35R35 65M60 78A25)},
+	mrnumber = {3843442},
+	number = {3},
+	pages = {559--589},
+	title = {Controlling the {K}elvin force: basic strategies and applications to magnetic drug targeting},
+	url = {https://doi.org/10.1007/s11081-018-9392-7},
+	volume = {19},
+	year = {2018},
+	Bdsk-Url-1 = {https://doi.org/10.1007/s11081-018-9392-7}}
+
+@article{apkarian2016nonsmooth,
+  title={Nonsmooth bundle trust-region algorithm with applications to robust stability},
+  author={Apkarian, Pierre and Noll, Dominikus and Ravanbod, Laleh},
+  journal={Set-Valued and variational analysis},
+  volume={24},
+  number={1},
+  pages={115--148},
+  year={2016},
+  publisher={Springer}
+}
+
+@article {MR2890262,
+    AUTHOR = {Weiser, Martin and G\"{o}tschel, Sebastian},
+     TITLE = {State trajectory compression for optimal control with
+              parabolic {PDE}s},
+   JOURNAL = {SIAM J. Sci. Comput.},
+  FJOURNAL = {SIAM Journal on Scientific Computing},
+    VOLUME = {34},
+      YEAR = {2012},
+    NUMBER = {1},
+     PAGES = {A161--A184},
+      ISSN = {1064-8275},
+   MRCLASS = {49M29 (65K10 65M60 94A29)},
+  MRNUMBER = {2890262},
+MRREVIEWER = {Carlos V\'{a}zquez Cend\'{o}n},
+       DOI = {10.1137/11082172X},
+       URL = {https://doi.org/10.1137/11082172X},
+}
+
+@article{rockafellar2002conditional,
+  title={Conditional value-at-risk for general loss distributions},
+  author={Rockafellar, R Tyrrell and Uryasev, Stanislav},
+  journal={Journal of banking \& finance},
+  volume={26},
+  number={7},
+  pages={1443--1471},
+  year={2002},
+  publisher={Elsevier}
+}
+@book{lohner2008applied,
+  title={Applied computational fluid dynamics techniques: an introduction based on finite element methods},
+  author={L{\"o}hner, Rainald},
+  year={2008},
+  publisher={John Wiley \& Sons}
+}
+
+@article{TRees_SHDollar_AJWathen_2010,
+author = {Rees, Tyrone and Dollar, H. Sue and Wathen, Andrew J.},
+title = {{Optimal Solvers for PDE-Constrained Optimization}},
+year = {2010},
+issue_date = {February 2010},
+publisher = {Society for Industrial and Applied Mathematics},
+address = {USA},
+volume = {32},
+number = {1},
+issn = {1064-8275},
+journal = {SIAM J. Sci. Comput.},
+month = feb,
+pages = {271–298},
+numpages = {28},
+keywords = {preconditioning, optimal control, linear systems, saddle-point problems, all-at-once methods, PDE-constrained optimization}
+}
+
+@mastersthesis{NKroeger_2020,
+  author  = {Kroeger, Nathaniel James},
+  title   = {{ADMM Based Methods for Time-Domain Decomposition Formulations of Optimal Control Problems}},
+  school  = {Rice University},
+  year    = {2020},
+  URL     = {https://hdl.handle.net/1911/109174}
+}
+
+@mastersthesis{SLin_2020,
+  author  = {Lin, Shengchao},
+  title   = {{Parareal-Based Preconditioners for Linear-Quadratic Optimal Control Problems}},
+  school  = {Rice University},
+  year    = {2020},
+  URL     = {https://hdl.handle.net/1911/107866}
+}
+
+@article{JWPearson_MStoll_AJWathen_2012,
+author = {Pearson, John W. and Stoll, Martin and Wathen, Andrew J.},
+title = {{Regularization-Robust Preconditioners for Time-Dependent PDE-Constrained Optimization Problems}},
+journal = {SIAM Journal on Matrix Analysis and Applications},
+volume = {33},
+number = {4},
+pages = {1126-1152},
+year = {2012},
+doi = {10.1137/110847949},
+URL = {https://doi.org/10.1137/110847949}
+}
+
+@article{XChen_ZNashed_LQi_2000,
+author = {Chen, Xiaojun and Nashed, Zuhair and Qi, Liqun},
+title = {Smoothing Methods and Semismooth Methods for Nondifferentiable Operator Equations},
+journal = {SIAM Journal on Numerical Analysis},
+volume = {38},
+number = {4},
+pages = {1200-1216},
+year = {2000},
+doi = {10.1137/S0036142999356719},
+URL = {https://doi.org/10.1137/S0036142999356719}
+}
+
+@book{elman2014finite,
+  title={Finite Elements and Fast Iterative Solvers: With Applications in Incompressible Fluid Dynamics},
+  author={Elman, H.C. and Silvester, D.J. and Wathen, A.J.},
+  isbn={9780199678792},
+  lccn={2013954065},
+  series={Numerical Mathematics and Scie},
+  url={https://books.google.com/books?id=qrgVDAAAQBAJ},
+  year={2014},
+  publisher={Oxford University Press}
+}
+
+@article {YWang_WYin_JZeng_2019,
+    AUTHOR = {Wang, Yu and Yin, Wotao and Zeng, Jinshan},
+     TITLE = {Global convergence of {ADMM} in nonconvex nonsmooth
+              optimization},
+   JOURNAL = {J. Sci. Comput.},
+  FJOURNAL = {Journal of Scientific Computing},
+    VOLUME = {78},
+      YEAR = {2019},
+    NUMBER = {1},
+     PAGES = {29--63},
+      ISSN = {0885-7474},
+   MRCLASS = {65K05 (90C26)},
+  MRNUMBER = {3902876},
+MRREVIEWER = {Minh N. Dao},
+       DOI = {10.1007/s10915-018-0757-z},
+       URL = {https://doi.org/10.1007/s10915-018-0757-z},
+}
+
+@article{yurtsever2021scalable,
+author = {Yurtsever, Alp and Tropp, Joel A. and Fercoq, Olivier and Udell, Madeleine and Cevher, Volkan},
+title = {Scalable Semidefinite Programming},
+journal = {SIAM Journal on Mathematics of Data Science},
+volume = {3},
+number = {1},
+pages = {171-200},
+year = {2021},
+doi = {10.1137/19M1305045},
+
+URL = {
+        https://doi.org/10.1137/19M1305045
+
+},
+eprint = {
+        https://doi.org/10.1137/19M1305045
+
+}
+}
+
+@article{atlantic,
+author = {Zinshteyn, Mikhail},
+year = {2017},
+title = {Rich Students Go to Graduate School to Get Richer},
+journal = {The Atlantic},
+url = {https://www.theatlantic.com/education/archive/2017/01/wealthier-graduate-students-earn-more-lucrative-degrees/512933/},
+urldate = {2017-01-12}
+}
+@online{wash,
+author = {},
+year = {2021},
+urldate = {2021-10-20},
+url = {https://artsci.washington.edu/news/2021-10/math-alliance-expands-diversity-stem-through-mentorship},
+title = {The Math Alliance Expands Diversity in STEM Through Mentorship },
+journal = {College of Arts and Sciences, University of Washington}
+}
+@online{pew,
+author = {Fry, Richard and Kennedy, Brian and Funk, Cary },
+year = {2021},
+url = {https://www.pewresearch.org/science/2021/04/01/stem-jobs-see-uneven-progress-in-increasing-gender-racial-and-ethnic-diversity/},
+urldate = {2021-04-01},
+title = {STEM Jobs See Uneven Progress in Increasing Gender, Racial and Ethnic Diversity},
+journal = {Pew Research Center}
+}
+@book{track,
+title = {Keeping track : how schools structure inequality},
+author = {Jeannie Oakes},
+publisher = {Yale University Press, New Haven},
+year = {1985},
+}
+
+
+@article{jadoon2025elasto,
+title = {Automated model discovery of finite strain elastoplasticity from uniaxial experiments},
+journal = {Computer Methods in Applied Mechanics and Engineering},
+volume = {435},
+pages = {117653},
+year = {2025},
+issn = {0045-7825},
+doi = {https://doi.org/10.1016/j.cma.2024.117653},
+}
