@@ -1,7 +1,7 @@
 ---
 title: "Research & CV"
 permalink: /research/
-layout: posts
+layout: archive
 author_profile: true
 tags: [inverse problems, trust-region methods, proximal methods, nonsmooth, nonconvex, uncertainty quantification]
 ---
