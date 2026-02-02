@@ -1,5 +1,5 @@
-pdflatex biblio.tex
-bibtex biblio
-pdflatex biblio.tex
-pdflatex biblio.tex
+xelatex biblio.tex
+biber biblio
+xelatex biblio.tex
+xelatex biblio.tex
 open biblio.pdf
