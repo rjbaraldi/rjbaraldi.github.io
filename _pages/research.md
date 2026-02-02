@@ -50,7 +50,7 @@ In the past, I've also worked on uncertainty quantification for biological model
 	1. [Mathematical Modeling of HCV Viral Kinetics](http://www.ncsu.edu/crsc/reports/ftp/pdf/crsc-tr13-07.pdf)
   -->
 
-<!-- [Here]({{ rjbaraldi.github.io }}/assets/websitefiles/Personal/website_tex/bibliography/biblio.pdf) is an unordered bibliography of work I've submitted/published/reported/talked. A more complete/detailed version is located in my [CV]({{ rjbaraldi.github.io }}/assets/websitefiles/Personal/website_tex/resume/cv.pdf). --> --> -->
+<!-- [Here]({{ rjbaraldi.github.io }}/assets/websitefiles/Personal/website_tex/bibliography/biblio.pdf) is an unordered bibliography of work I've submitted/published/reported/talked. A more complete/detailed version is located in my [CV]({{ rjbaraldi.github.io }}/assets/websitefiles/Personal/website_tex/resume/cv.pdf). -->
 <!-- <iframe src="https://drive.google.com/file/d/1YQtysu8fCMKaIWzEDTQFiZnu16VP_yGl/preview" width="640" height="480"></iframe> -->
 
 
