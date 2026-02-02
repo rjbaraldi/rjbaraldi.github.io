@@ -19,7 +19,7 @@ In the past, I've also worked on uncertainty quantification for biological model
   3. Adaptive Randomized Sketching for Dynamic Nonsmooth Optimization (with Drew Kouri and Harbir Antil - full journal submission).
   4. A Stochastic Trust-Region Method for Nonsmooth Optimization (with Aurya Javeed, Katya Scheinberg, and Drew Kouri).
   5. A Multifidelity Variational Inference Approach to Sea-Ice Inversion (with [Christian Glusa](https://dblp.org/pid/183/6209.html) and [John Jakeman](https://www.sandia.gov/ccr/staff/john-davis-jakeman/)).
-
+-->
 <!-- ### Ordered -- Unordered -- Ordered -->
 <!-- * 2023
   1. Local Convergence of an Inexact Trust-Region Method for Nonsmooth Optimization [[preprint](https://optimization-online.org/2023/11/local-convergence-analysis-of-an-inexact-trust-region-method-for-nonsmooth-optimization/)/[Optimization Letters](https://link.springer.com/article/10.1007/s11590-023-02092-8)]

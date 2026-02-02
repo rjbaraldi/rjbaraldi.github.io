@@ -46,7 +46,7 @@ I have been a part of many wonderful societies and groups. These include:
 * DOE
   * Computational Science Graduate Fellowship
 
-
+<!--
 ### Seminars
 
 * Robert Baraldi, Drew P. Kouri (2024),  "A Proximal Trust-Region Method for Nonsmooth Optimization with Inexact Function and Gradient Evaluations", Dept. of Mathematics Seminar, February 24, TU Dortmund, Germany..
@@ -57,6 +57,7 @@ I have been a part of many wonderful societies and groups. These include:
 * Robert Baraldi, Drew P. Kouri (2022), “An Inexact Trust-Region Algorithm for Nonsmooth Nonconvex Regularized Problems”, Center for Mathematics and Artificial Intelligence Colloquium, September 30 (Virtual).
 * “Moreau-Yoshida Regularization and First Order Methods with Firedrake”, Firedrake 2020, Seattle, WA; February 22.
 
+-->
 <!-- ### Relevant Coursework
 * University of Washington
 	* CSE 521 - Algorithms
